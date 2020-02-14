@@ -3,8 +3,12 @@ Venezuelan migration crisis in Columbia
 
 ### Goals
 Viz should be insightful and useful to USAID Columbia
+
 Uncover a story in the data” not just visualize the data. 
+
 How do we better understand the challenges and impact of Venezuelan migration into Colombia; and how do we use that information to better the lives of the communities hosting these migrants, and the migrants themselves?
+
+
 
 Design & Layout
 Data Storytelling
