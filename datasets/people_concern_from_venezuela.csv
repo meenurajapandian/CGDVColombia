@@ -1,0 +1,802 @@
+Year,Country / territory of asylum/residence,Origin,Population type,Value
+#date+year,#country+residence,#country+origin,#population+type,#affected
+1991,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1992,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+1993,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1993,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),130
+1993,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+1994,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),363
+1994,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1994,Peru,Venezuela (Bolivarian Republic of),Returned refugees,131
+1994,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1995,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),466
+1995,Guatemala,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+1995,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1996,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),546
+1996,Guatemala,Venezuela (Bolivarian Republic of),Returned refugees,3
+1996,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1996,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1996,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+1997,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),588
+1997,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1997,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1997,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1997,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),11
+1998,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),531
+1998,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1998,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1998,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1998,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),30
+1999,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),496
+1999,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1999,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+1999,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+1999,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),51
+2000,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),407
+2000,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,127
+2000,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2000,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2000,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),8
+2000,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),54
+2000,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,45
+2000,Uruguay,Venezuela (Bolivarian Republic of),Returned refugees,4
+2001,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2001,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),457
+2001,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,190
+2001,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2001,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2001,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2001,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,144
+2002,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2002,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),307
+2002,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,388
+2002,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2002,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),24
+2002,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2002,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2002,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2002,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2002,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2002,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),189
+2002,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,381
+2003,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2003,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2003,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),235
+2003,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,732
+2003,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2003,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2003,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),31
+2003,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2003,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2003,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2003,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2003,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2003,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2003,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2003,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),318
+2003,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,1257
+2003,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2004,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),219
+2004,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,274
+2004,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2004,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,13
+2004,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,26
+2004,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2004,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),29
+2004,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2004,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2004,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2004,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2004,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2004,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2004,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2004,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2004,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),984
+2004,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,2369
+2004,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2005,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2005,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2005,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),346
+2005,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,91
+2005,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2005,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2005,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2005,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,26
+2005,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2005,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2005,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2005,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2005,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2005,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2005,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2005,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2005,Netherlands,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2005,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2005,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2005,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2005,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2005,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2005,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2005,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2005,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2201
+2005,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,2687
+2005,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2006,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2006,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2006,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),456
+2006,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,99
+2006,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2006,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),14
+2006,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2006,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2006,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2006,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),134
+2006,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2006,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2006,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2006,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2006,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2006,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2006,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2006,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2006,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2006,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),20
+2006,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2006,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2006,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2006,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3186
+2006,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,2242
+2006,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2007,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2007,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2007,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),823
+2007,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,178
+2007,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2007,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2007,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Colombia,Venezuela (Bolivarian Republic of),Returned refugees,5
+2007,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),109
+2007,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2007,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,12
+2007,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2007,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2007,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),95
+2007,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2007,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2007,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2007,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2007,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2007,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2007,Poland,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),21
+2007,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2007,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2007,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2007,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3989
+2007,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,1531
+2007,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2008,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2008,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2008,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2008,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2008,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),764
+2008,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,294
+2008,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2008,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),19
+2008,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2008,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),153
+2008,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2008,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,17
+2008,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2008,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),8
+2008,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),86
+2008,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2008,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2008,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2008,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2008,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2008,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2008,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),10
+2008,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2008,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),22
+2008,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2008,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2008,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2008,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4718
+2008,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,1179
+2008,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2009,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2009,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2009,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2009,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2009,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2009,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2009,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),721
+2009,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,405
+2009,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),18
+2009,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2009,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),194
+2009,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2009,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2009,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2009,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,39
+2009,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2009,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2009,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),35
+2009,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2009,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2009,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2009,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2009,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2009,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2009,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2009,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),12
+2009,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2009,Romania,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2009,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),27
+2009,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2009,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2009,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2009,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5171
+2009,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,1093
+2010,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2010,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2010,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2010,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2010,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2010,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),680
+2010,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,354
+2010,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2010,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2010,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),217
+2010,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2010,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2010,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,60
+2010,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2010,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),24
+2010,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2010,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2010,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2010,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2010,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2010,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2010,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2010,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2010,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2010,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2010,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2010,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),13
+2010,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2010,Romania,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2010,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),31
+2010,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,21
+2010,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2010,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2010,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2010,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2010,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),8
+2010,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5675
+2010,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,135
+2011,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2011,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2011,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2011,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2011,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2011,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2011,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),742
+2011,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,252
+2011,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2011,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2011,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2011,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),221
+2011,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2011,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2011,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,11
+2011,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2011,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2011,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2011,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),24
+2011,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2011,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2011,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2011,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2011,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2011,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),10
+2011,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2011,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2011,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2011,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),11
+2011,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2011,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),16
+2011,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2011,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),44
+2011,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2011,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2011,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2011,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2011,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2011,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),12
+2011,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,10
+2011,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6441
+2011,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,241
+2012,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2012,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2012,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2012,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2012,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2012,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2012,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),797
+2012,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,175
+2012,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2012,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2012,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2012,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),220
+2012,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2012,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2012,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2012,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2012,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2012,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),30
+2012,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2012,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2012,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2012,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2012,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2012,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2012,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2012,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2012,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2012,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2012,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),18
+2012,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2012,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),13
+2012,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2012,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),44
+2012,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,20
+2012,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2012,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,11
+2012,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2012,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2012,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2012,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2012,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2012,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6995
+2012,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,223
+2012,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2013,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2013,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2013,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2013,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2013,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),14
+2013,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2013,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),837
+2013,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,105
+2013,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2013,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),15
+2013,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,16
+2013,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),221
+2013,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,16
+2013,Cura?,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2013,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2013,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2013,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),8
+2013,France,Venezuela (Bolivarian Republic of),Asylum-seekers,13
+2013,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2013,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,12
+2013,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2013,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2013,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2013,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2013,Jordan,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),10
+2013,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2013,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),18
+2013,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2013,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),14
+2013,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2013,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),45
+2013,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,18
+2013,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2013,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2013,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2013,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2013,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2013,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2013,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7156
+2013,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,904
+2013,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2014,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2014,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2014,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2014,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,11
+2014,Belgium,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2014,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2014,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2014,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),14
+2014,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,130
+2014,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),849
+2014,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,92
+2014,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2014,"China, Hong Kong SAR",Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),27
+2014,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,41
+2014,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),234
+2014,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,70
+2014,Cura?,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,Czech Rep.,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2014,Czech Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2014,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2014,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2014,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),12
+2014,France,Venezuela (Bolivarian Republic of),Asylum-seekers,23
+2014,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2014,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,17
+2014,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,Guatemala,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2014,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2014,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,20
+2014,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2014,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,14
+2014,Lebanon,Venezuela (Bolivarian Republic of),Others of concern,2
+2014,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),10
+2014,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,45
+2014,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2014,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),27
+2014,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,76
+2014,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2014,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,53
+2014,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),45
+2014,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,119
+2014,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2014,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,42
+2014,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2014,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2014,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),23
+2014,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,22
+2014,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6693
+2014,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,4017
+2014,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2015,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2015,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2015,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2015,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,27
+2015,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2015,Belgium,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2015,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,21
+2015,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2015,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2015,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,969
+2015,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),729
+2015,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,173
+2015,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,17
+2015,"China, Hong Kong SAR",Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),39
+2015,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,73
+2015,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),141
+2015,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,279
+2015,Cura?,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2015,Czech Rep.,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2015,Dominican Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2015,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2015,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),32
+2015,France,Venezuela (Bolivarian Republic of),Asylum-seekers,36
+2015,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2015,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,38
+2015,Guatemala,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2015,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),2
+2015,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,32
+2015,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),33
+2015,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,26
+2015,Lebanon,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,Lebanon,Venezuela (Bolivarian Republic of),Others of concern,2
+2015,Malta,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2015,Malta,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2015,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),37
+2015,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2015,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2015,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),28
+2015,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,310
+2015,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),83
+2015,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,112
+2015,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),43
+2015,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,1740
+2015,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2015,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,45
+2015,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2015,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2015,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2015,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),27
+2015,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,11
+2015,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6193
+2015,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,11145
+2015,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2015,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2016,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2016,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,58
+2016,Aruba,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2016,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),15
+2016,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,21
+2016,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,15
+2016,Belgium,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2016,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,51
+2016,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2016,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),30
+2016,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,4302
+2016,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),963
+2016,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,355
+2016,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,260
+2016,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),43
+2016,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,324
+2016,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),269
+2016,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,1188
+2016,Cura?,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2016,Cura?,Venezuela (Bolivarian Republic of),Asylum-seekers,13
+2016,Czech Rep.,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2016,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2016,Dominican Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,20
+2016,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2016,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2016,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),48
+2016,France,Venezuela (Bolivarian Republic of),Asylum-seekers,141
+2016,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),16
+2016,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,104
+2016,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2016,Guatemala,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2016,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2016,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2016,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,30
+2016,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),67
+2016,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,118
+2016,Lebanon,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Lebanon,Venezuela (Bolivarian Republic of),Others of concern,1
+2016,Luxembourg,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Malta,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2016,Malta,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2016,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),278
+2016,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,116
+2016,Morocco,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,15
+2016,New Zealand,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2016,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),30
+2016,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,695
+2016,Paraguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2016,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),147
+2016,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,3553
+2016,Portugal,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2016,Rep. of Korea,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2016,South Africa,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),29
+2016,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,4435
+2016,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2016,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,58
+2016,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2016,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,3
+2016,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1
+2016,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Asylum-seekers,34
+2016,Ukraine,Venezuela (Bolivarian Republic of),Asylum-seekers,1
+2016,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),29
+2016,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,26
+2016,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5519
+2016,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,29105
+2016,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2016,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2017,Albania,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2017,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,182
+2017,Argentina,Venezuela (Bolivarian Republic of),Others of concern,56621
+2017,Aruba,Venezuela (Bolivarian Republic of),Asylum-seekers,17
+2017,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),26
+2017,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,80
+2017,Austria,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,23
+2017,Belgium,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2017,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,220
+2017,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),30
+2017,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,22315
+2017,Brazil,Venezuela (Bolivarian Republic of),Others of concern,8470
+2017,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1345
+2017,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,1059
+2017,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,1586
+2017,Chile,Venezuela (Bolivarian Republic of),Others of concern,84479
+2017,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),61
+2017,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,469
+2017,Colombia,Venezuela (Bolivarian Republic of),Others of concern,68734
+2017,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),338
+2017,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,3438
+2017,Cura?,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),23
+2017,Cura?,Venezuela (Bolivarian Republic of),Asylum-seekers,655
+2017,Cyprus,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Czech Rep.,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,12
+2017,Dominican Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,50
+2017,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2017,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,862
+2017,Ecuador,Venezuela (Bolivarian Republic of),Others of concern,41000
+2017,Estonia,Venezuela (Bolivarian Republic of),Asylum-seekers,6
+2017,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2017,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,11
+2017,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),123
+2017,France,Venezuela (Bolivarian Republic of),Asylum-seekers,189
+2017,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),80
+2017,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,207
+2017,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,25
+2017,Guatemala,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),10
+2017,Guatemala,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2017,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2017,Honduras,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Iceland,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),11
+2017,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,42
+2017,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),177
+2017,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,915
+2017,Latvia,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Lebanon,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Malta,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4
+2017,Malta,Venezuela (Bolivarian Republic of),Asylum-seekers,33
+2017,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1185
+2017,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,3183
+2017,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,46
+2017,New Zealand,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2017,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),33
+2017,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,3687
+2017,Panama,Venezuela (Bolivarian Republic of),Others of concern,48900
+2017,Paraguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2017,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,13
+2017,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),249
+2017,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,36062
+2017,Peru,Venezuela (Bolivarian Republic of),Others of concern,31224
+2017,Poland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2017,Rep. of Korea,Venezuela (Bolivarian Republic of),Asylum-seekers,4
+2017,Romania,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Russian Federation,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),44
+2017,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,12465
+2017,Suriname,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2017,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2017,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,92
+2017,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2017,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,19
+2017,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),47
+2017,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Asylum-seekers,1109
+2017,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),31
+2017,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,23
+2017,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5402
+2017,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,58811
+2017,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2017,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,33
+2017,Uruguay,Venezuela (Bolivarian Republic of),Others of concern,6157
+2018,Aruba,Venezuela (Bolivarian Republic of),Asylum-seekers,398
+2018,Aruba,Venezuela (Bolivarian Republic of),Others of concern,15602
+2018,Albania,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Argentina,Venezuela (Bolivarian Republic of),Asylum-seekers,1014
+2018,Argentina,Venezuela (Bolivarian Republic of),Others of concern,127152
+2018,Argentina,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),16
+2018,Australia,Venezuela (Bolivarian Republic of),Asylum-seekers,153
+2018,Australia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),28
+2018,Austria,Venezuela (Bolivarian Republic of),Asylum-seekers,25
+2018,Austria,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Belgium,Venezuela (Bolivarian Republic of),Asylum-seekers,385
+2018,Belgium,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2018,Bulgaria,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Bolivia (Plurinational State of),Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Brazil,Venezuela (Bolivarian Republic of),Asylum-seekers,81001
+2018,Brazil,Venezuela (Bolivarian Republic of),Others of concern,39771
+2018,Brazil,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),35
+2018,Canada,Venezuela (Bolivarian Republic of),Asylum-seekers,1674
+2018,Canada,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),1876
+2018,Switzerland,Venezuela (Bolivarian Republic of),Asylum-seekers,39
+2018,Switzerland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2018,Chile,Venezuela (Bolivarian Republic of),Asylum-seekers,3102
+2018,Chile,Venezuela (Bolivarian Republic of),Others of concern,285122
+2018,Chile,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2018,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,2729
+2018,Colombia,Venezuela (Bolivarian Republic of),Others of concern,1171552
+2018,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),94
+2018,Costa Rica,Venezuela (Bolivarian Republic of),Asylum-seekers,5365
+2018,Costa Rica,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),344
+2018,Curaçao,Venezuela (Bolivarian Republic of),Asylum-seekers,279
+2018,Curaçao,Venezuela (Bolivarian Republic of),Others of concern,25686
+2018,Curaçao,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),35
+2018,Cyprus,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Czech Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Czech Rep.,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Germany,Venezuela (Bolivarian Republic of),Asylum-seekers,469
+2018,Germany,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),183
+2018,Denmark,Venezuela (Bolivarian Republic of),Asylum-seekers,21
+2018,Dominican Rep.,Venezuela (Bolivarian Republic of),Asylum-seekers,72
+2018,Dominican Rep.,Venezuela (Bolivarian Republic of),Others of concern,26428
+2018,Ecuador,Venezuela (Bolivarian Republic of),Asylum-seekers,6292
+2018,Ecuador,Venezuela (Bolivarian Republic of),Others of concern,256265
+2018,Ecuador,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),15
+2018,Spain,Venezuela (Bolivarian Republic of),Asylum-seekers,31620
+2018,Spain,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),72
+2018,Finland,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2018,Finland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,France,Venezuela (Bolivarian Republic of),Asylum-seekers,403
+2018,France,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),304
+2018,United Kingdom,Venezuela (Bolivarian Republic of),Asylum-seekers,21
+2018,United Kingdom,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),41
+2018,Greece,Venezuela (Bolivarian Republic of),Asylum-seekers,34
+2018,Greece,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2018,Guatemala,Venezuela (Bolivarian Republic of),Asylum-seekers,17
+2018,Guatemala,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2018,Guyana,Venezuela (Bolivarian Republic of),Others of concern,36400
+2018,Honduras,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2018,Ireland,Venezuela (Bolivarian Republic of),Asylum-seekers,61
+2018,Ireland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),29
+2018,Iceland,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2018,Iceland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2018,Israel,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Italy,Venezuela (Bolivarian Republic of),Asylum-seekers,1104
+2018,Italy,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),563
+2018,Rep. of Korea,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2018,Luxembourg,Venezuela (Bolivarian Republic of),Asylum-seekers,10
+2018,Morocco,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Mexico,Venezuela (Bolivarian Republic of),Asylum-seekers,5523
+2018,Mexico,Venezuela (Bolivarian Republic of),Others of concern,42104
+2018,Mexico,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),4721
+2018,Malta,Venezuela (Bolivarian Republic of),Asylum-seekers,61
+2018,Malta,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),5
+2018,Nicaragua,Venezuela (Bolivarian Republic of),Others of concern,*
+2018,Netherlands,Venezuela (Bolivarian Republic of),Asylum-seekers,128
+2018,Norway,Venezuela (Bolivarian Republic of),Asylum-seekers,23
+2018,Norway,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),7
+2018,New Zealand,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Panama,Venezuela (Bolivarian Republic of),Asylum-seekers,5068
+2018,Panama,Venezuela (Bolivarian Republic of),Others of concern,94400
+2018,Panama,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),46
+2018,Peru,Venezuela (Bolivarian Republic of),Asylum-seekers,227325
+2018,Peru,Venezuela (Bolivarian Republic of),Others of concern,428214
+2018,Peru,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),735
+2018,Poland,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Poland,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),*
+2018,Paraguay,Venezuela (Bolivarian Republic of),Asylum-seekers,79
+2018,Paraguay,Venezuela (Bolivarian Republic of),Others of concern,803
+2018,Paraguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),34
+2018,Romania,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Russian Federation,Venezuela (Bolivarian Republic of),Asylum-seekers,*
+2018,Suriname,Venezuela (Bolivarian Republic of),Asylum-seekers,34
+2018,Suriname,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),6
+2018,Sweden,Venezuela (Bolivarian Republic of),Asylum-seekers,146
+2018,Sweden,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),8
+2018,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Asylum-seekers,7660
+2018,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Others of concern,31843
+2018,Trinidad and Tobago,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),497
+2018,Uruguay,Venezuela (Bolivarian Republic of),Asylum-seekers,51
+2018,Uruguay,Venezuela (Bolivarian Republic of),Others of concern,11605
+2018,Uruguay,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2018,United States of America,Venezuela (Bolivarian Republic of),Asylum-seekers,81800
+2018,United States of America,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),11259
+2018,Venezuela (Bolivarian Republic of),Venezuela (Bolivarian Republic of),Returned refugees,*
