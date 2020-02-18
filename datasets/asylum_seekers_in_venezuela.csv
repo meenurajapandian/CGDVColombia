@@ -1,0 +1,461 @@
+Year,Country / territory of asylum/residence,Origin,RSD procedure type / level,Total persons pending start-year,of which UNHCR-assisted,Applied during year,statistics.filter.decisions_recognized,statistics.filter.decisions_other,Rejected,Otherwise closed,Total decisions,Total persons pending end-year,of which UNHCR-assisted
+#date+year,#country+asylum,#country+origin,#x_procedure+rsd,#x_applicants+start+total,#x_applicants+start+unhcr,#x_applicants+inyear,#x_decisions+recognized,#x_decisions+other,#x_decisions+negative+rejected,#x_decisions+closed,#x_decisions+total,#x_applicants+end+total,#x_applicants+end+unhcr
+2000,Venezuela (Bolivarian Republic of),Colombia,G / FI,1,1,95,14,0,0,10,24,72,35
+2000,Venezuela (Bolivarian Republic of),Cuba,G / FI,0,0,1,0,0,0,0,,1,0
+2000,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,0,0,1,0,0,0,0,,1,0
+2000,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,0,0,1,0,0,0,0,,1,0
+2000,Venezuela (Bolivarian Republic of),Uruguay,G / FI,0,0,4,4,0,0,0,4,0,0
+2001,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,0,0,2,0,0,0,0,,2,0
+2001,Venezuela (Bolivarian Republic of),Colombia,G / FI,98,98,205,0,0,0,0,,303,45
+2001,Venezuela (Bolivarian Republic of),Cuba,G / FI,1,0,0,0,0,0,1,1,0,0
+2001,Venezuela (Bolivarian Republic of),Ghana,G / FI,0,0,1,0,0,0,0,,1,0
+2001,Venezuela (Bolivarian Republic of),Nigeria,G / FI,0,0,1,0,0,0,0,,1,0
+2001,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,1,0,0,0,0,0,1,1,0,0
+2001,Venezuela (Bolivarian Republic of),Rwanda,G / FI,0,0,1,0,0,0,0,,1,0
+2001,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,1,0,1,0,0,0,0,,2,1
+2001,Venezuela (Bolivarian Republic of),Togo,G / FI,0,0,1,0,0,0,0,,1,0
+2002,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,2,0,0,0,0,0,0,,2,2
+2002,Venezuela (Bolivarian Republic of),Colombia,G / FI,303,45,705,0,0,0,0,,1008,863
+2002,Venezuela (Bolivarian Republic of),Ecuador,G / FI,0,0,1,0,0,0,0,,1,1
+2002,Venezuela (Bolivarian Republic of),Ghana,G / FI,1,0,0,0,0,0,0,,1,1
+2002,Venezuela (Bolivarian Republic of),Iraq,G / FI,0,0,2,0,0,0,0,,2,0
+2002,Venezuela (Bolivarian Republic of),Nigeria,G / FI,1,0,0,0,0,0,0,,1,0
+2002,Venezuela (Bolivarian Republic of),Rwanda,G / FI,1,0,0,0,0,0,0,,1,0
+2002,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,2,1,0,0,0,0,0,,2,0
+2002,Venezuela (Bolivarian Republic of),Togo,G / FI,1,0,0,0,0,0,0,,1,0
+2003,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,0,0,1,0,0,0,1,1,0,0
+2003,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,2,2,0,0,0,0,0,,2,0
+2003,Venezuela (Bolivarian Republic of),Colombia,G / FI,1008,863,1345,0,0,0,83,83,2270,0
+2003,Venezuela (Bolivarian Republic of),Ecuador,G / FI,1,1,0,0,0,0,0,,1,0
+2003,Venezuela (Bolivarian Republic of),Ghana,G / FI,1,1,0,0,0,0,0,,1,0
+2003,Venezuela (Bolivarian Republic of),Guyana,G / FI,0,0,2,0,0,0,0,,2,0
+2003,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,0,0,0,0,0,0,,2,0
+2003,Venezuela (Bolivarian Republic of),Libya,G / FI,0,0,7,0,0,0,0,,7,0
+2003,Venezuela (Bolivarian Republic of),Nigeria,G / FI,1,0,0,0,0,0,0,,1,0
+2003,Venezuela (Bolivarian Republic of),Rwanda,G / FI,1,0,0,0,0,0,0,,1,0
+2003,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,2,0,1,0,0,0,0,,3,0
+2003,Venezuela (Bolivarian Republic of),Togo,G / FI,1,0,0,0,0,0,0,,1,0
+2004,Venezuela (Bolivarian Republic of),Angola,G / FI,0,0,1,0,0,0,1,1,0,0
+2004,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,0,0,2,0,0,0,0,,2,2
+2004,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,2,0,0,1,0,0,0,1,1,1
+2004,Venezuela (Bolivarian Republic of),Congo,G / FI,0,0,3,2,0,0,0,2,1,1
+2004,Venezuela (Bolivarian Republic of),Colombia,G / FI,2270,0,2242,206,0,188,241,635,3877,3877
+2004,Venezuela (Bolivarian Republic of),Cuba,G / FI,0,0,6,0,0,2,0,2,4,4
+2004,Venezuela (Bolivarian Republic of),Ecuador,G / FI,1,0,3,0,0,0,0,,4,4
+2004,Venezuela (Bolivarian Republic of),Ghana,G / FI,1,0,0,0,0,1,0,1,0,0
+2004,Venezuela (Bolivarian Republic of),Guyana,G / FI,2,0,1,3,0,0,0,3,0,0
+2004,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,0,0,0,0,0,0,,2,2
+2004,Venezuela (Bolivarian Republic of),Liberia,G / FI,7,0,2,3,0,1,0,4,5,5
+2004,Venezuela (Bolivarian Republic of),Nigeria,G / FI,1,0,1,0,0,0,0,,2,2
+2004,Venezuela (Bolivarian Republic of),Rwanda,G / FI,1,0,1,1,0,0,0,1,1,1
+2004,Venezuela (Bolivarian Republic of),Sudan,G / FI,0,0,1,0,0,0,0,,1,1
+2004,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,0,1,0,0,0,0,,4,4
+2004,Venezuela (Bolivarian Republic of),Togo,G / FI,1,0,0,1,0,0,0,1,0,0
+2005,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,2,2,0,0,0,0,0,,2,2
+2005,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,1,1,1,0,0,0,0,,2,1
+2005,Venezuela (Bolivarian Republic of),Congo,G / FI,1,1,0,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Colombia,G / FI,4665,4665,1632,195,0,240,0,435,5862,5862
+2005,Venezuela (Bolivarian Republic of),Cuba,G / FI,4,4,2,0,0,0,0,,6,4
+2005,Venezuela (Bolivarian Republic of),Ecuador,G / FI,4,4,1,0,0,0,0,,5,4
+2005,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Haiti,G / FI,5,5,3,5,0,0,0,5,3,3
+2005,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,0,0,1,0,0,1,0,1,0,0
+2005,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,2,2,2,0,0,0,2,2,2
+2005,Venezuela (Bolivarian Republic of),Liberia,G / FI,5,5,0,0,0,0,0,,5,5
+2005,Venezuela (Bolivarian Republic of),Nigeria,G / FI,2,2,6,0,0,0,0,,8,2
+2005,Venezuela (Bolivarian Republic of),Netherlands,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Peru,G / FI,0,0,3,0,0,0,0,,3,3
+2005,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Rwanda,G / FI,1,1,0,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Sudan,G / FI,1,1,0,0,0,0,0,,1,1
+2005,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,4,4,0,0,0,0,0,,4,4
+2005,Venezuela (Bolivarian Republic of),Somalia,G / FI,0,0,3,0,0,0,0,,3,3
+2005,Venezuela (Bolivarian Republic of),United States of America,G / FI,0,0,1,0,0,0,0,,1,1
+2006,Venezuela (Bolivarian Republic of),Albania,G / FI,0,0,1,0,0,0,0,,1,1
+2006,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,2,2,2,0,0,0,0,,4,0
+2006,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,2,2,1,0,0,0,0,,3,1
+2006,Venezuela (Bolivarian Republic of),Congo,G / FI,1,1,0,0,0,0,0,,1,0
+2006,Venezuela (Bolivarian Republic of),Colombia,G / FI,5862,5862,2173,326,0,49,0,375,7660,4974
+2006,Venezuela (Bolivarian Republic of),Cuba,G / FI,6,6,8,0,0,2,0,2,12,0
+2006,Venezuela (Bolivarian Republic of),Ecuador,G / FI,5,5,9,1,0,0,0,1,13,2
+2006,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,1,1,2,0,0,0,0,,3,2
+2006,Venezuela (Bolivarian Republic of),Gambia,G / FI,0,0,7,0,0,0,0,,7,7
+2006,Venezuela (Bolivarian Republic of),Haiti,G / FI,3,3,4,3,0,0,0,3,4,3
+2006,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,0,0,4,0,0,0,0,,4,1
+2006,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,2,0,0,0,0,0,,2,0
+2006,Venezuela (Bolivarian Republic of),Lebanon,G / FI,0,0,1,0,0,0,0,,1,0
+2006,Venezuela (Bolivarian Republic of),Liberia,G / FI,5,5,0,1,0,0,0,1,4,1
+2006,Venezuela (Bolivarian Republic of),Nigeria,G / FI,8,8,1,2,0,0,0,2,7,1
+2006,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,0,0,1,0,0,0,0,,1,0
+2006,Venezuela (Bolivarian Republic of),Netherlands,G / FI,1,1,0,0,0,1,0,1,0,0
+2006,Venezuela (Bolivarian Republic of),Peru,G / FI,3,3,11,3,0,0,0,3,11,0
+2006,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,1,1,1,0,0,0,0,,2,0
+2006,Venezuela (Bolivarian Republic of),Rwanda,G / FI,1,1,0,0,0,0,1,1,0,0
+2006,Venezuela (Bolivarian Republic of),Sudan,G / FI,1,1,1,0,0,0,0,,2,0
+2006,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,4,4,0,0,0,0,2,2,2,0
+2006,Venezuela (Bolivarian Republic of),El Salvador,G / FI,0,0,1,0,0,0,0,,1,0
+2006,Venezuela (Bolivarian Republic of),Somalia,G / FI,3,3,1,0,0,0,0,,4,2
+2006,Venezuela (Bolivarian Republic of),United States of America,G / FI,1,1,0,1,0,0,0,1,0,0
+2006,Venezuela (Bolivarian Republic of),Stateless,G / FI,0,0,5,0,0,0,0,,5,0
+2007,Venezuela (Bolivarian Republic of),Albania,G / FI,1,0,0,0,0,0,0,,1,1
+2007,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,4,2,0,0,0,0,0,,4,0
+2007,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,3,0,0,0,0,0,0,,3,1
+2007,Venezuela (Bolivarian Republic of),Congo,G / FI,1,1,0,0,0,0,0,,1,0
+2007,Venezuela (Bolivarian Republic of),Colombia,G / FI,7660,4974,2335,218,0,287,0,505,9490,4974
+2007,Venezuela (Bolivarian Republic of),Cuba,G / FI,12,0,0,0,0,0,0,,12,0
+2007,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,0,0,1,0,0,0,0,,1,1
+2007,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,0,1,1,0,0,0,1,13,2
+2007,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,3,0,1,0,0,0,0,,4,2
+2007,Venezuela (Bolivarian Republic of),Ghana,G / FI,0,0,1,1,0,0,0,1,0,0
+2007,Venezuela (Bolivarian Republic of),Guinea,G / FI,0,0,1,0,0,0,0,,1,1
+2007,Venezuela (Bolivarian Republic of),Gambia,G / FI,7,0,0,1,0,0,0,1,6,7
+2007,Venezuela (Bolivarian Republic of),Haiti,G / FI,4,0,0,0,0,0,0,,4,3
+2007,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,4,0,0,0,0,0,0,,4,1
+2007,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,0,4,4,0,0,0,4,2,0
+2007,Venezuela (Bolivarian Republic of),Lebanon,G / FI,1,0,0,0,0,0,0,,1,0
+2007,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,0,0,0,0,0,0,,4,1
+2007,Venezuela (Bolivarian Republic of),Mauritania,G / FI,0,0,1,0,0,0,0,,1,1
+2007,Venezuela (Bolivarian Republic of),Nigeria,G / FI,7,0,3,3,0,0,0,3,7,1
+2007,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,1,0,0,0,0,0,0,,1,0
+2007,Venezuela (Bolivarian Republic of),Pakistan,G / FI,0,0,2,0,0,0,0,,2,2
+2007,Venezuela (Bolivarian Republic of),Peru,G / FI,11,0,7,0,0,2,0,2,16,0
+2007,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,0,0,0,0,0,0,,2,0
+2007,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,0,0,0,0,0,0,,2,0
+2007,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,2,0,0,0,0,0,0,,2,0
+2007,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,0,0,0,0,0,0,,1,0
+2007,Venezuela (Bolivarian Republic of),Somalia,G / FI,4,0,5,0,0,0,0,,9,2
+2007,Venezuela (Bolivarian Republic of),Togo,G / FI,0,0,1,0,0,0,0,,1,1
+2007,Venezuela (Bolivarian Republic of),United States of America,G / FI,0,0,2,0,0,0,0,,2,0
+2007,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,0,0,0,0,0,0,,5,0
+2008,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Burundi,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,4,0,0,0,0,0,0,,4,0
+2008,Venezuela (Bolivarian Republic of),China,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,3,1,1,0,0,0,0,,4,4
+2008,Venezuela (Bolivarian Republic of),Congo,G / FI,1,0,1,0,0,0,0,,2,2
+2008,Venezuela (Bolivarian Republic of),Colombia,G / FI,9490,4974,2920,287,0,324,0,611,11799,7894
+2008,Venezuela (Bolivarian Republic of),Cuba,G / FI,12,1,1,0,0,0,0,,13,2
+2008,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,2,0,2,0,1,0,3,10,0
+2008,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,2,0,0,0,0,0,,4,2
+2008,Venezuela (Bolivarian Republic of),Ghana,G / FI,0,0,4,1,0,0,0,1,3,4
+2008,Venezuela (Bolivarian Republic of),Guinea,G / FI,1,1,0,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Gambia,G / FI,6,7,0,1,0,1,0,2,4,4
+2008,Venezuela (Bolivarian Republic of),Haiti,G / FI,4,3,4,1,0,0,0,1,7,7
+2008,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,4,1,0,0,0,0,0,,4,4
+2008,Venezuela (Bolivarian Republic of),Iraq,G / FI,2,0,7,0,0,0,0,,9,9
+2008,Venezuela (Bolivarian Republic of),Lebanon,G / FI,1,0,0,0,0,0,0,,1,0
+2008,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2008,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2008,Venezuela (Bolivarian Republic of),Nigeria,G / FI,7,1,3,0,0,0,0,,10,4
+2008,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,1,0,0,0,0,0,0,,1,0
+2008,Venezuela (Bolivarian Republic of),Pakistan,G / FI,2,2,0,0,0,0,0,,2,2
+2008,Venezuela (Bolivarian Republic of),Peru,G / FI,16,0,0,0,0,0,0,,16,16
+2008,Venezuela (Bolivarian Republic of),Palestinian,G / FI,0,0,8,1,0,2,0,3,5,8
+2008,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,0,0,0,0,0,0,,2,2
+2008,Venezuela (Bolivarian Republic of),Rwanda,G / FI,0,0,2,2,0,0,0,2,0,2
+2008,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,0,0,0,0,0,0,,2,2
+2008,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,2,0,1,0,0,0,0,,3,1
+2008,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,0,1,0,0,1,0,1,1,1
+2008,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,2,0,0,0,0,0,,9,9
+2008,Venezuela (Bolivarian Republic of),Togo,G / FI,1,1,1,0,0,2,0,2,0,2
+2008,Venezuela (Bolivarian Republic of),Turkey,G / FI,0,0,4,0,0,0,0,,4,4
+2008,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,0,0,0,0,0,0,,2,0
+2008,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,0,0,0,0,0,0,,5,5
+2009,Venezuela (Bolivarian Republic of),Albania,G / FA,1,1,0,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Argentina,G / FA,0,0,2,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Burundi,G / FA,1,1,0,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FA,4,0,0,0,0,0,0,,4,0
+2009,Venezuela (Bolivarian Republic of),China,G / FA,1,1,1,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FA,4,4,0,0,0,0,0,,4,4
+2009,Venezuela (Bolivarian Republic of),Congo,G / FA,2,2,0,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Colombia,G / FA,11799,7894,2860,210,0,226,0,436,14223,10754
+2009,Venezuela (Bolivarian Republic of),Cuba,G / FA,13,2,0,0,0,0,0,,13,2
+2009,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FA,1,1,0,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Ecuador,G / FA,10,0,0,0,0,0,0,,10,0
+2009,Venezuela (Bolivarian Republic of),Ethiopia,G / FA,5,2,0,1,0,0,0,1,4,2
+2009,Venezuela (Bolivarian Republic of),Ghana,G / FA,3,3,1,0,0,0,0,,4,4
+2009,Venezuela (Bolivarian Republic of),Guinea,G / FA,1,1,1,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Gambia,G / FA,4,4,0,0,0,0,0,,4,4
+2009,Venezuela (Bolivarian Republic of),Haiti,G / FA,7,7,1,0,0,0,0,,8,8
+2009,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FA,8,4,0,3,0,0,0,3,5,1
+2009,Venezuela (Bolivarian Republic of),Iraq,G / FA,9,9,0,0,0,0,0,,9,9
+2009,Venezuela (Bolivarian Republic of),Kenya,G / FA,0,0,1,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Lebanon,G / FA,1,0,0,0,0,0,0,,1,0
+2009,Venezuela (Bolivarian Republic of),Liberia,G / FA,4,1,0,0,0,0,0,,4,1
+2009,Venezuela (Bolivarian Republic of),Mexico,G / FA,0,0,1,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Mauritania,G / FA,1,1,0,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Nigeria,G / FA,10,9,5,0,0,0,0,,15,14
+2009,Venezuela (Bolivarian Republic of),Nicaragua,G / FA,1,0,0,0,0,0,0,,1,0
+2009,Venezuela (Bolivarian Republic of),Pakistan,G / FA,2,2,0,1,0,0,0,1,1,1
+2009,Venezuela (Bolivarian Republic of),Peru,G / FA,15,15,0,0,0,0,0,,15,15
+2009,Venezuela (Bolivarian Republic of),Palestinian,G / FA,5,5,0,0,0,0,0,,5,5
+2009,Venezuela (Bolivarian Republic of),Russian Federation,G / FA,2,2,0,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Sudan,G / FA,2,2,0,0,0,0,0,,2,2
+2009,Venezuela (Bolivarian Republic of),Sierra Leone,G / FA,3,1,0,0,0,0,0,,3,1
+2009,Venezuela (Bolivarian Republic of),El Salvador,G / FA,1,1,0,0,0,0,0,,1,1
+2009,Venezuela (Bolivarian Republic of),Somalia,G / FA,9,9,0,0,0,0,0,,9,9
+2009,Venezuela (Bolivarian Republic of),Turkey,G / FA,4,4,0,0,0,0,0,,4,4
+2009,Venezuela (Bolivarian Republic of),United States of America,G / FA,2,0,0,0,0,0,0,,2,0
+2009,Venezuela (Bolivarian Republic of),Stateless,G / FA,5,5,0,0,0,0,0,,5,5
+2010,Venezuela (Bolivarian Republic of),Afghanistan,G / FI,0,0,5,4,0,0,0,4,1,5
+2010,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2010,Venezuela (Bolivarian Republic of),Burundi,G / FI,1,1,1,2,0,0,0,2,0,0
+2010,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,4,0,1,0,0,0,0,,5,0
+2010,Venezuela (Bolivarian Republic of),China,G / FI,2,2,1,0,0,0,0,,3,3
+2010,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,0,0,0,0,0,,4,4
+2010,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2010,Venezuela (Bolivarian Republic of),Colombia,G / FI,14223,10754,3426,255,0,1700,0,1955,15694,14037
+2010,Venezuela (Bolivarian Republic of),Cuba,G / FI,13,2,1,0,0,0,0,,14,3
+2010,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Ecuador,G / FI,10,0,3,0,0,0,0,,13,3
+2010,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,2,0,0,0,0,0,,4,2
+2010,Venezuela (Bolivarian Republic of),Ghana,G / FI,4,4,0,0,0,0,0,,4,4
+2010,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2010,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2010,Venezuela (Bolivarian Republic of),Honduras,G / FI,0,0,1,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,0,0,0,0,0,,8,8
+2010,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,5,1,7,0,0,0,0,,12,8
+2010,Venezuela (Bolivarian Republic of),Iraq,G / FI,9,9,0,1,0,0,0,1,8,8
+2010,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Lebanon,G / FI,1,0,0,0,0,0,0,,1,0
+2010,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2010,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,14,0,0,0,0,0,,15,14
+2010,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,1,0,1,0,0,0,0,,2,1
+2010,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Peru,G / FI,15,15,1,1,0,0,0,1,15,15
+2010,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2010,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2010,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2010,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,0,0,0,0,0,,3,1
+2010,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,9,0,0,0,0,0,,9,9
+2010,Venezuela (Bolivarian Republic of),Turkey,G / FI,4,4,2,0,0,0,0,,6,6
+2010,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,0,0,0,0,0,0,,2,1
+2010,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2011,Venezuela (Bolivarian Republic of),Afghanistan,G / FI,0,0,1,1,0,0,0,1,0,0
+2011,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,0,0,0,0,0,0,,5,0
+2011,Venezuela (Bolivarian Republic of),China,G / FI,3,3,0,0,0,0,0,,3,3
+2011,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,1,0,0,0,0,,5,5
+2011,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Colombia,G / FI,15694,14037,3155,490,0,1165,2,1657,17192,17192
+2011,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,0,0,0,0,0,,14,3
+2011,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,3,1,0,0,0,0,,14,4
+2011,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,5,0,0,0,0,,9,9
+2011,Venezuela (Bolivarian Republic of),Ghana,G / FI,4,4,0,0,0,0,0,,4,4
+2011,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2011,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,1,0,0,0,0,,9,9
+2011,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,12,8,5,1,0,0,0,1,16,13
+2011,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,8,1,1,0,0,0,1,8,8
+2011,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Lebanon,G / FI,1,0,1,0,0,0,0,,2,1
+2011,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2011,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,1,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,14,1,0,0,0,0,,16,15
+2011,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,0,0,0,0,0,,2,1
+2011,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Peru,G / FI,15,15,0,0,0,0,1,1,14,14
+2011,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2011,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2011,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,2,2,0,0,0,2,3,0
+2011,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,9,0,0,0,0,0,,9,9
+2011,Venezuela (Bolivarian Republic of),Turkey,G / FI,6,6,0,2,0,0,0,2,4,4
+2011,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,1,1,0,0,0,0,,3,2
+2011,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2012,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,5,0,0,0,0,0,,5,5
+2012,Venezuela (Bolivarian Republic of),China,G / FI,3,3,1,0,0,0,0,,4,4
+2012,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,0,0,0,0,0,,4,4
+2012,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Colombia,G / FI,17192,17192,2002,1182,0,9856,7406,18444,750,750
+2012,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,0,0,0,0,0,,14,3
+2012,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,3,0,0,0,0,0,,13,4
+2012,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,0,0,0,0,0,,4,4
+2012,Venezuela (Bolivarian Republic of),Ghana,G / FI,4,4,1,0,0,0,0,,5,5
+2012,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2012,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,0,0,0,0,0,,8,8
+2012,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,12,8,0,0,0,0,0,,12,12
+2012,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,8,0,0,0,0,0,,8,7
+2012,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Lebanon,G / FI,1,0,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2012,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,14,0,0,0,0,0,,15,15
+2012,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,0,0,0,0,0,,2,1
+2012,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Peru,G / FI,15,15,0,0,0,0,0,,15,14
+2012,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2012,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,0,0,0,0,0,,3,1
+2012,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,9,0,0,0,0,0,,9,9
+2012,Venezuela (Bolivarian Republic of),Turkey,G / FI,6,6,0,0,0,0,0,,6,4
+2012,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,1,0,0,0,0,0,,2,2
+2012,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2013,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,5,0,0,0,0,0,,5,5
+2013,Venezuela (Bolivarian Republic of),China,G / FI,4,4,0,0,0,0,0,,4,4
+2013,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,0,0,0,0,0,,4,4
+2013,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Colombia,G / FI,750,750,3497,725,0,2613,0,3338,909,909
+2013,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,0,0,0,0,0,,14,3
+2013,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,4,0,0,0,0,0,,13,4
+2013,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,0,0,0,0,0,,4,4
+2013,Venezuela (Bolivarian Republic of),Ghana,G / FI,5,5,0,0,0,0,0,,5,5
+2013,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2013,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,0,0,0,0,0,,8,8
+2013,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,12,12,0,0,0,0,0,,12,12
+2013,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,7,0,0,0,0,0,,8,7
+2013,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Lebanon,G / FI,2,1,0,0,0,0,0,,2,1
+2013,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2013,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,15,0,0,0,0,0,,15,15
+2013,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,0,0,0,0,0,,2,1
+2013,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Peru,G / FI,14,14,0,0,0,0,0,,14,14
+2013,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2013,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,0,0,0,0,0,,3,1
+2013,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2013,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,9,0,0,0,0,0,,9,9
+2013,Venezuela (Bolivarian Republic of),Turkey,G / FI,4,4,0,0,0,0,0,,4,4
+2013,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,2,0,0,0,0,0,,2,2
+2013,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2014,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,5,0,0,0,0,0,,5,5
+2014,Venezuela (Bolivarian Republic of),Chile,G / FI,4,4,0,0,0,0,0,,4,4
+2014,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,0,0,0,0,0,,4,4
+2014,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Colombia,G / FI,909,909,2468,724,0,2402,0,3126,251,239
+2014,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,0,0,0,0,0,,14,3
+2014,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,4,0,0,0,0,0,,13,4
+2014,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,0,0,0,0,0,,4,4
+2014,Venezuela (Bolivarian Republic of),Ghana,G / FI,5,5,0,0,0,0,0,,5,5
+2014,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2014,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,0,0,0,0,0,,8,8
+2014,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,12,12,5,0,0,0,0,,17,17
+2014,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,7,0,0,0,0,0,,8,7
+2014,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Lebanon,G / FI,2,1,0,0,0,0,0,,2,1
+2014,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2014,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,15,0,0,0,0,0,,15,15
+2014,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,0,0,0,0,0,,2,1
+2014,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Peru,G / FI,14,14,0,0,0,0,0,,14,14
+2014,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2014,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,0,0,0,0,0,,3,1
+2014,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Somalia,G / FI,9,9,6,0,0,0,0,,15,15
+2014,Venezuela (Bolivarian Republic of),Syrian Arab Rep.,G / FI,0,0,1,0,0,0,0,,1,1
+2014,Venezuela (Bolivarian Republic of),Turkey,G / FI,4,4,0,0,0,0,0,,4,4
+2014,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,2,0,0,0,0,0,,2,2
+2014,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2015,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,5,0,0,0,0,0,,5,5
+2015,Venezuela (Bolivarian Republic of),Chile,G / FI,4,4,0,0,0,0,0,,4,4
+2015,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,0,0,0,0,0,,4,4
+2015,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Colombia,G / FI,251,239,1486,1211,0,469,0,1680,57,45
+2015,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,0,0,0,0,0,,14,3
+2015,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,4,0,0,0,0,0,,13,4
+2015,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,0,0,0,0,0,,4,4
+2015,Venezuela (Bolivarian Republic of),Ghana,G / FI,5,5,0,0,0,0,0,,5,5
+2015,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,0,0,0,0,0,,4,4
+2015,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,0,0,0,0,0,,8,8
+2015,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,17,17,1,0,0,0,0,,18,18
+2015,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,7,0,0,0,0,0,,8,7
+2015,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Lebanon,G / FI,2,1,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,0,0,0,0,0,,4,1
+2015,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,15,0,0,0,0,0,,15,15
+2015,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,0,0,0,0,0,,2,1
+2015,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Peru,G / FI,14,14,0,0,0,0,0,,14,14
+2015,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,0,0,0,0,0,,5,5
+2015,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,0,0,0,0,0,,3,1
+2015,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,0,0,0,0,0,,1,1
+2015,Venezuela (Bolivarian Republic of),Somalia,G / FI,15,15,0,0,0,0,0,,15,15
+2015,Venezuela (Bolivarian Republic of),Syrian Arab Rep.,G / FI,1,1,1,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Turkey,G / FI,4,4,0,0,0,0,0,,4,4
+2015,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,2,0,0,0,0,0,,2,2
+2015,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,0,0,0,0,0,,5,5
+2016,Venezuela (Bolivarian Republic of),Albania,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Argentina,G / FI,2,2,,,,,2,2,0,0
+2016,Venezuela (Bolivarian Republic of),Bolivia (Plurinational State of),G / FI,5,5,,,,,5,5,0,0
+2016,Venezuela (Bolivarian Republic of),Chile,G / FI,4,4,,4,,,,4,0,0
+2016,Venezuela (Bolivarian Republic of),Côte d'Ivoire,G / FI,4,4,,,,,4,4,0,0
+2016,Venezuela (Bolivarian Republic of),Congo,G / FI,2,2,,2,,,,2,0,0
+2016,Venezuela (Bolivarian Republic of),Colombia,G / FI,57,45,2868,1270,,773,,2043,882,706
+2016,Venezuela (Bolivarian Republic of),Cuba,G / FI,14,3,,,,,14,14,0,0
+2016,Venezuela (Bolivarian Republic of),Germany,G / FI,,,2,,,,,,2,1
+2016,Venezuela (Bolivarian Republic of),Dominican Rep.,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Ecuador,G / FI,13,4,,,,,13,13,0,0
+2016,Venezuela (Bolivarian Republic of),Ethiopia,G / FI,4,4,,,,,4,4,0,0
+2016,Venezuela (Bolivarian Republic of),Ghana,G / FI,5,5,,1,,,4,5,0,0
+2016,Venezuela (Bolivarian Republic of),Guinea,G / FI,2,2,,,,,2,2,0,0
+2016,Venezuela (Bolivarian Republic of),Gambia,G / FI,4,4,,,,,4,4,0,0
+2016,Venezuela (Bolivarian Republic of),Honduras,G / FI,1,1,,1,,,,1,0,0
+2016,Venezuela (Bolivarian Republic of),Haiti,G / FI,8,8,,,,,8,8,0,0
+2016,Venezuela (Bolivarian Republic of),Iran (Islamic Rep. of),G / FI,18,18,,,,,18,18,0,0
+2016,Venezuela (Bolivarian Republic of),Iraq,G / FI,8,7,,8,,,,8,0,0
+2016,Venezuela (Bolivarian Republic of),Kenya,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Lebanon,G / FI,2,2,,2,,,,2,0,0
+2016,Venezuela (Bolivarian Republic of),Liberia,G / FI,4,1,,4,,,,4,0,0
+2016,Venezuela (Bolivarian Republic of),Mexico,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Mauritania,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Nigeria,G / FI,15,15,,3,,,12,15,0,0
+2016,Venezuela (Bolivarian Republic of),Nicaragua,G / FI,2,1,,,,,2,2,0,0
+2016,Venezuela (Bolivarian Republic of),Pakistan,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Peru,G / FI,14,14,2,,,,14,14,2,1
+2016,Venezuela (Bolivarian Republic of),Palestinian,G / FI,5,5,,5,,,,5,0,0
+2016,Venezuela (Bolivarian Republic of),Russian Federation,G / FI,2,2,,,,,2,2,0,0
+2016,Venezuela (Bolivarian Republic of),Sudan,G / FI,2,2,,,,,2,2,0,0
+2016,Venezuela (Bolivarian Republic of),Sierra Leone,G / FI,3,1,,1,,,2,3,0,0
+2016,Venezuela (Bolivarian Republic of),El Salvador,G / FI,1,1,,,,,1,1,0,0
+2016,Venezuela (Bolivarian Republic of),Somalia,G / FI,15,15,,,,,15,15,0,0
+2016,Venezuela (Bolivarian Republic of),Syrian Arab Rep.,G / FI,2,2,18,2,,,,2,18,14
+2016,Venezuela (Bolivarian Republic of),Turkey,G / FI,4,4,,4,,,,4,0,0
+2016,Venezuela (Bolivarian Republic of),United States of America,G / FI,2,2,,1,,,1,2,0,0
+2016,Venezuela (Bolivarian Republic of),Stateless,G / FI,5,5,,,,,5,5,0,0
+2017,Venezuela (Bolivarian Republic of),Colombia,G / FI,904,722,105,15,0,80,10,105,904,510
+2018,Venezuela (Bolivarian Republic of),Colombia,G / FI,1284,724,959,615,0,1400,86,2101,142,52

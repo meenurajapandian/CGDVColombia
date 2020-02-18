@@ -1,0 +1,74 @@
+Year,Country / territory of asylum/residence,Location Name,Female 0-4,Female 5-11,Female 5-17,Female 12-17,Female 18-59,Female 60+,F: Unknown,F: Total,Male 0-4,Male 5-11,Male 5-17,Male 12-17,Male 18-59,Male 60+,M: Unknown,M: Total,Overall total
+#date+year,#country+residence,#loc+name,#affected+f+children+age0_4,#affected+f+children+age5_11,#affected+f+children+age5_17,#affected+f+adolescents+age12_17,#affected+f+adults+age18_59,#affected+f+elderly+age60plus,#affected+f+other,#affected+f+total,#affected+m+children+age0_4,#affected+m+children+age5_11,#affected+m+children+age5_17,#affected+m+adolescents+age12_17,#affected+m+adults+age18_59,#affected+m+elderly+age60plus,#affected+m+other,#affected+m+total,#affected+all+total
+2005,Venezuela (Bolivarian Republic of),Zulia,89,,201,,265,12,0,567,96,,188,,307,28,0,619,1186
+2005,Venezuela (Bolivarian Republic of),Tachira,154,,341,,499,38,0,1032,168,,371,,576,49,0,1164,2196
+2005,Venezuela (Bolivarian Republic of),Caracas,31,,94,,229,12,0,366,41,,90,,374,30,0,535,901
+2005,Venezuela (Bolivarian Republic of),Apure,155,,361,,437,26,0,979,182,,383,,474,44,0,1083,2062
+2006,Venezuela (Bolivarian Republic of),Zulia,129,159,298,139,383,16,,1124,144,142,288,146,484,35,,1239,1777
+2006,Venezuela (Bolivarian Republic of),Tachira,164,194,375,181,568,28,,1510,165,212,417,205,657,34,,1690,2408
+2006,Venezuela (Bolivarian Republic of),Caracas,17,36,68,32,197,13,,363,23,38,75,37,334,22,,529,749
+2006,Venezuela (Bolivarian Republic of),Apure,167,271,528,257,644,39,,1906,197,274,523,249,661,61,,1965,2820
+2007,Venezuela (Bolivarian Republic of),Zulia,179,202,381,179,526,34,0,1501,207,220,415,195,724,50,0,1811,2516
+2007,Venezuela (Bolivarian Republic of),Tachira,207,260,494,234,758,36,0,1989,230,300,563,263,886,42,0,2284,3216
+2007,Venezuela (Bolivarian Republic of),Caracas,22,40,79,39,194,15,0,389,34,53,93,40,397,26,0,643,860
+2007,Venezuela (Bolivarian Republic of),Apure,175,290,558,268,685,49,0,2025,215,290,556,266,708,64,0,2099,3010
+2008,Venezuela (Bolivarian Republic of),Zulia,227,285,509,224,721,36,26686,28688,253,279,506,227,935,59,29961,32220,59893
+2008,Venezuela (Bolivarian Republic of),Tachira,251,314,576,262,945,43,20116,22507,274,356,667,311,1117,52,21561,24338,45602
+2008,Venezuela (Bolivarian Republic of),Caracas,34,41,99,58,293,11,,536,46,57,120,63,517,28,,831,1148
+2008,Venezuela (Bolivarian Republic of),Apure,236,344,626,282,810,60,7359,9717,270,340,625,285,855,82,7915,10372,18838
+2008,Venezuela (Bolivarian Republic of),Amazonas,1,5,10,5,12,1,1704,1738,0,6,15,9,14,0,1816,1860,3573
+2009,Venezuela (Bolivarian Republic of),Zulia,291,370,627,257,925,43,26686,29199,335,358,626,268,1146,75,29961,32769,60715
+2009,Venezuela (Bolivarian Republic of),Tachira,315,382,695,313,1116,52,20116,22989,341,419,813,394,1333,65,21561,24926,46407
+2009,Venezuela (Bolivarian Republic of),Caracas,42,57,127,70,367,12,,675,55,68,149,81,651,32,,1036,1435
+2009,Venezuela (Bolivarian Republic of),Apure,263,382,705,323,912,63,7359,10007,312,378,700,322,965,89,7915,10681,19283
+2010,Venezuela (Bolivarian Republic of),Zulia : Point,321,320,,439,951,60,26686,28777,398,477,,360,1029,95,29961,32320,61097
+2010,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,33,88,,122,449,16,39740,40448,48,97,,114,552,26,43142,43979,84427
+2010,Venezuela (Bolivarian Republic of),Tachira : Point,481,549,,541,1006,92,20116,22785,462,597,,542,1401,85,21561,24648,47433
+2010,Venezuela (Bolivarian Republic of),Caracas : Point,42,62,,73,463,14,0,654,59,77,,92,705,46,0,979,1633
+2010,Venezuela (Bolivarian Republic of),Apure : Point,269,394,,347,787,68,7359,9224,332,400,,341,854,100,7915,9942,19166
+2010,Venezuela (Bolivarian Republic of),Amazonas : Estado - State,1,5,,5,53,1,1704,1769,0,6,,9,50,0,1816,1881,3650
+2011,Venezuela (Bolivarian Republic of),Zulia : Point,321,345,,465,1092,52,26686,28961,419,501,,399,1197,98,29961,32575,61536
+2011,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,47,109,,167,589,26,39740,40678,58,133,,176,680,37,43142,44226,84904
+2011,Venezuela (Bolivarian Republic of),Tachira : Point,512,589,,601,1184,100,20116,23102,510,653,,670,1571,95,21561,25060,48162
+2011,Venezuela (Bolivarian Republic of),Caracas : Point,48,69,,81,525,14,,737,70,98,,103,805,33,,1109,1846
+2011,Venezuela (Bolivarian Republic of),Apure : Point,275,401,,355,810,71,7359,9271,345,403,,342,912,105,7915,10022,19293
+2012,Venezuela (Bolivarian Republic of),Zulia : Point,15,15,,20,47,2,26686,26785,18,22,,17,58,4,29961,30080,56865
+2012,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,86,200,,306,1077,48,39740,41457,106,240,,319,1197,65,43142,45069,86526
+2012,Venezuela (Bolivarian Republic of),Tachira : Point,28,26,,27,52,4,20116,20253,22,31,,31,75,4,21561,21724,41977
+2012,Venezuela (Bolivarian Republic of),Caracas : Point,7,4,,5,47,1,,64,9,5,,5,131,3,,153,217
+2012,Venezuela (Bolivarian Republic of),Apure : Point,12,18,,16,34,3,7359,7442,15,18,,15,39,5,7915,8007,15449
+2013,Venezuela (Bolivarian Republic of),Zulia : Point,21,23,,30,72,3,26686,26835,27,32,,26,84,6,29961,30136,56971
+2013,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,102,235,,367,1283,56,39740,41783,124,286,,381,1429,77,43142,45439,87222
+2013,Venezuela (Bolivarian Republic of),Tachira : Point,32,32,,33,68,5,20116,20286,27,38,,38,94,5,21561,21763,42049
+2013,Venezuela (Bolivarian Republic of),Caracas : Point,7,7,,5,51,1,,71,9,6,,5,121,4,,145,216
+2013,Venezuela (Bolivarian Republic of),Apure : Point,11,16,,14,33,3,7359,7436,14,16,,14,36,4,7915,7999,15435
+2014,Venezuela (Bolivarian Republic of),Apure : Point,2,1,,3,13,2,0,21,3,2,,6,21,2,0,34
+2014,Venezuela (Bolivarian Republic of),Caracas : Point,8,5,,6,66,2,0,87,6,6,,12,128,2,0,154
+2014,Venezuela (Bolivarian Republic of),Tachira : Point,4,2,,1,13,0,0,20,2,2,,2,22,1,0,29
+2014,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,99,272,,395,1549,42,0,2357,149,336,,480,1629,101,0,2695
+2014,Venezuela (Bolivarian Republic of),Zulia : Point,2,2,,5,25,0,0,34,3,3,,1,38,2,0,47
+2015,Venezuela (Bolivarian Republic of),Amazonas : Estado - State,,,,,,,,0,,,,,,,,0
+2015,Venezuela (Bolivarian Republic of),Apure : Point,,,,,1,,,1,,,,,1,0,,1
+2015,Venezuela (Bolivarian Republic of),Bolivar,,,,,,,,0,,,,,,,,0
+2015,Venezuela (Bolivarian Republic of),Caracas : Point,5,4,,5,25,,,39,3,1,,,95,1,,100
+2015,Venezuela (Bolivarian Republic of),Tachira : Point,3,,,5,5,,,13,,1,,2,20,,,23
+2015,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,159,334,,565,1939,122,,3119,198,435,,732,2038,169,,3572
+2015,Venezuela (Bolivarian Republic of),Zulia : Point,1,1,,4,6,1,,13,2,3,,2,16,2,,25
+2016,Venezuela (Bolivarian Republic of),Bolivar,1,3,,5,12,,,21,2,6,,4,9,2,,23
+2016,Venezuela (Bolivarian Republic of),Caracas : Point,,2,,2,14,,,18,1,1,,3,17,,,22
+2016,Venezuela (Bolivarian Republic of),Zulia : Point,25,45,,35,60,,,165,22,12,,47,95,3,,179
+2016,Venezuela (Bolivarian Republic of),Apure : Point,8,8,,15,29,3,,63,2,12,,16,34,5,,69
+2016,Venezuela (Bolivarian Republic of),Tachira : Point,8,27,,33,96,5,,169,15,25,,29,106,10,,185
+2016,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,498,724,,1024,1360,153,,3759,125,166,,264,3440,951,,4946
+2017,Venezuela (Bolivarian Republic of),Bolivar,*,*,,5,12,0,,22,*,6,,*,9,*,,23
+2017,Venezuela (Bolivarian Republic of),Apure : Point,8,8,,15,29,*,,63,*,12,,16,34,5,,69
+2017,Venezuela (Bolivarian Republic of),Caracas : Point,0,*,,0,5,7,,15,*,*,,*,5,7,,15
+2017,Venezuela (Bolivarian Republic of),Tachira : Point,8,27,,33,96,5,,169,15,25,,29,105,10,,184
+2017,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,558,743,,929,1301,186,,3717,604,805,,1007,1409,201,,4026
+2017,Venezuela (Bolivarian Republic of),Zulia : Point,25,45,,35,60,0,,165,22,12,,47,95,*,,179
+2018,Venezuela (Bolivarian Republic of),Apure : Point,925,1233,,1540,2158,308,,6164,1002,1336,,1670,2337,334,,6679
+2018,Venezuela (Bolivarian Republic of),Caracas : Point,713,954,,1190,1678,238,,4773,772,1030,,1293,1822,257,,5174
+2018,Venezuela (Bolivarian Republic of),Pto. Ordaz (Bolivar),778,1040,,1299,1820,260,,5197,845,1127,,1407,1972,283,,5634
+2018,Venezuela (Bolivarian Republic of),Tachira : Point,1153,1539,,1923,2693,385,,7693,1250,1667,,2084,2918,417,,8336
+2018,Venezuela (Bolivarian Republic of),Venezuela : Dispersed in the country / territory,0,19,,15,73,12,,119,0,13,,17,76,*,,110
+2018,Venezuela (Bolivarian Republic of),Zulia : Point,1264,1684,,2106,2948,421,,8423,1369,1827,,2283,3194,456,,9129
