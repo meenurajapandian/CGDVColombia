@@ -25,6 +25,8 @@ https://data.humdata.org/organization/unhcr?page=1#datasets-section
 ###### Coordination Platform for Refugee and Migrants from Venezuela
 
 Data on the sum of refugees and asylum seekers from Venezuela as reported by host countries
+Only Summarised data available in this.
+
 https://r4v.info/en/situations/platform
 
 ######  Migration Data Portal
