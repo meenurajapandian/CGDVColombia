@@ -1,0 +1,423 @@
+Year,Country / territory of asylum/residence,Origin,RSD procedure type / level,Total persons pending start-year,of which UNHCR-assisted,Applied during year,statistics.filter.decisions_recognized,statistics.filter.decisions_other,Rejected,Otherwise closed,Total decisions,Total persons pending end-year,of which UNHCR-assisted
+#date+year,#country+asylum,#country+origin,#x_procedure+rsd,#x_applicants+start+total,#x_applicants+start+unhcr,#x_applicants+inyear,#x_decisions+recognized,#x_decisions+other,#x_decisions+negative+rejected,#x_decisions+closed,#x_decisions+total,#x_applicants+end+total,#x_applicants+end+unhcr
+2000,Colombia,Cuba,U / FI,0,0,3,0,0,0,0,,3,3
+2000,Colombia,Ecuador,U / FI,0,0,1,0,0,0,0,,1,1
+2000,Colombia,Iran (Islamic Rep. of),U / FI,4,4,3,0,0,0,0,,7,7
+2000,Colombia,Peru,U / FI,0,0,1,0,0,0,0,,1,1
+2000,Colombia,Venezuela (Bolivarian Republic of),U / FI,1,0,0,0,0,0,1,1,0,0
+2001,Colombia,Cuba,U / FI,3,3,3,0,0,0,0,,6,0
+2001,Colombia,Ecuador,U / FI,1,1,0,0,0,0,1,1,0,0
+2001,Colombia,Haiti,U / FI,0,0,1,0,0,0,1,1,0,0
+2001,Colombia,Iran (Islamic Rep. of),U / FI,7,7,0,0,0,0,0,,7,7
+2001,Colombia,Iraq,U / FI,0,0,3,0,0,0,0,,3,3
+2001,Colombia,Peru,U / FI,1,1,0,0,0,0,1,1,0,0
+2001,Colombia,Sierra Leone,U / FI,0,0,1,0,0,0,0,,1,1
+2002,Colombia,Cuba,U / FI,6,0,3,0,0,3,5,8,1,1
+2002,Colombia,Ecuador,U / FI,0,0,1,1,0,0,0,1,0,0
+2002,Colombia,Haiti,U / FI,0,0,0,0,0,0,1,1,0,0
+2002,Colombia,Iran (Islamic Rep. of),U / FI,7,7,0,0,0,0,0,,7,7
+2002,Colombia,Iraq,U / FI,3,3,1,0,0,0,3,3,1,0
+2002,Colombia,Liberia,U / FI,0,0,2,0,0,0,0,,2,2
+2002,Colombia,Peru,U / FI,0,0,0,0,0,0,1,1,0,0
+2002,Colombia,Sierra Leone,U / FI,1,1,0,0,0,0,0,,1,0
+2003,Colombia,Bolivia (Plurinational State of),G / FI,0,0,1,0,0,0,1,1,0,0
+2003,Colombia,Cuba,G / FI,1,1,4,0,0,2,0,2,3,0
+2003,Colombia,Iran (Islamic Rep. of),U / FI,7,7,0,6,0,0,1,7,0,0
+2003,Colombia,Iran (Islamic Rep. of),G / FI,7,7,0,0,0,6,1,7,0,0
+2003,Colombia,Iran (Islamic Rep. of),U / AR,1,0,1,0,0,1,0,1,0,0
+2003,Colombia,Iraq,G / FI,1,0,0,0,0,1,0,1,0,0
+2003,Colombia,Liberia,G / FI,2,2,0,2,0,0,0,2,0,0
+2003,Colombia,Peru,G / FI,0,0,1,0,0,0,0,,1,1
+2003,Colombia,Sierra Leone,G / FI,1,0,0,0,0,0,0,,1,0
+2003,Colombia,Uzbekistan,G / FI,0,0,3,0,0,0,0,,3,3
+2003,Colombia,Venezuela (Bolivarian Republic of),G / FI,0,0,9,3,0,1,0,4,5,5
+2004,Colombia,Benin,G / FI,0,0,1,0,0,0,0,,1,1
+2004,Colombia,Bolivia (Plurinational State of),G / FI,0,0,2,1,0,0,0,1,1,1
+2004,Colombia,Congo,G / FI,0,0,1,0,0,0,0,,1,1
+2004,Colombia,Cuba,G / AR,0,0,2,0,0,0,0,,2,2
+2004,Colombia,Cuba,G / FI,3,0,17,7,0,2,1,10,10,10
+2004,Colombia,Iran (Islamic Rep. of),G / FI,0,0,0,0,0,0,0,,0,0
+2004,Colombia,Liberia,G / FI,0,0,2,0,0,2,0,2,0,0
+2004,Colombia,Peru,G / AR,0,0,4,0,0,0,0,,4,4
+2004,Colombia,Peru,G / FI,1,1,4,0,0,4,0,4,1,1
+2004,Colombia,Sudan,G / FI,0,0,1,0,0,0,0,,1,1
+2004,Colombia,Sierra Leone,G / FI,1,0,0,0,0,0,0,,1,0
+2004,Colombia,Uzbekistan,G / FI,3,3,0,3,0,0,0,3,0,0
+2004,Colombia,Venezuela (Bolivarian Republic of),G / FI,5,5,10,2,0,0,0,2,13,8
+2004,Colombia,Stateless,G / FI,0,0,1,0,0,0,1,1,0,0
+2004,Colombia,Zimbabwe,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Colombia,Benin,G / FI,1,1,0,1,0,0,0,1,0,0
+2005,Colombia,Bolivia (Plurinational State of),G / FI,1,1,0,0,0,1,0,1,0,0
+2005,Colombia,Côte d'Ivoire,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Colombia,Congo,G / FI,1,1,0,1,0,0,0,1,0,0
+2005,Colombia,Cuba,G / AR,2,0,3,0,0,3,0,3,2,2
+2005,Colombia,Cuba,G / FI,10,10,45,24,0,8,0,32,23,11
+2005,Colombia,Ecuador,G / FI,0,0,10,1,0,8,0,9,1,0
+2005,Colombia,Ecuador,U / FI,0,0,8,8,0,0,0,8,0,0
+2005,Colombia,Egypt,G / FI,0,0,1,0,0,0,0,,1,0
+2005,Colombia,Guinea-Bissau,G / FI,0,0,3,0,0,0,0,,3,3
+2005,Colombia,Guyana,G / FI,0,0,1,0,0,0,1,1,0,0
+2005,Colombia,Iraq,G / FI,0,0,1,0,0,0,0,,1,1
+2005,Colombia,Liberia,G / FI,0,0,0,0,0,0,0,,0,0
+2005,Colombia,Peru,G / AR,4,0,2,0,0,6,0,6,0,0
+2005,Colombia,Peru,G / FI,1,1,2,0,0,3,0,3,0,0
+2005,Colombia,Sudan,G / FI,1,1,0,1,0,0,0,1,0,0
+2005,Colombia,Sierra Leone,G / FI,1,0,0,0,0,0,0,,1,0
+2005,Colombia,Uzbekistan,G / FI,0,0,0,0,0,0,0,,0,0
+2005,Colombia,Venezuela (Bolivarian Republic of),U / FI,0,0,5,5,0,0,0,5,0,0
+2005,Colombia,Venezuela (Bolivarian Republic of),G / FI,13,8,9,4,0,11,0,15,7,2
+2005,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,5,0,0,4,0,4,1,1
+2005,Colombia,Stateless,G / FI,0,0,0,0,0,0,0,,0,0
+2005,Colombia,Zimbabwe,G / FI,1,1,0,0,0,1,0,1,0,0
+2006,Colombia,Côte d'Ivoire,G / FI,1,1,0,0,0,0,0,,1,1
+2006,Colombia,Cuba,G / AR,2,2,11,0,0,13,0,13,0,0
+2006,Colombia,Cuba,G / FI,23,11,56,1,0,15,1,17,62,48
+2006,Colombia,Ecuador,G / FI,1,0,1,0,0,1,1,2,0,0
+2006,Colombia,Egypt,G / FI,1,0,0,0,0,0,0,,1,1
+2006,Colombia,Ethiopia,G / FI,0,0,5,0,0,0,0,,5,5
+2006,Colombia,Guinea-Bissau,G / FI,3,3,0,0,0,3,0,3,0,0
+2006,Colombia,Guinea-Bissau,G / AR,0,0,3,0,0,3,0,3,0,0
+2006,Colombia,Iraq,G / FI,1,1,1,0,0,0,0,,2,1
+2006,Colombia,Liberia,G / FI,0,0,1,0,0,0,1,1,0,0
+2006,Colombia,Mauritania,G / FI,0,0,1,0,0,0,0,,1,1
+2006,Colombia,Sierra Leone,G / FI,1,0,0,0,0,0,1,1,0,0
+2006,Colombia,Somalia,G / FI,0,0,1,0,0,0,1,1,0,0
+2006,Colombia,Venezuela (Bolivarian Republic of),G / FI,7,2,4,0,0,1,5,6,5,4
+2006,Colombia,Venezuela (Bolivarian Republic of),G / AR,1,1,0,0,0,1,0,1,0,0
+2007,Colombia,Brazil,G / FI,0,0,1,0,0,1,0,1,0,0
+2007,Colombia,Côte d'Ivoire,G / FI,1,1,0,1,0,0,0,1,0,0
+2007,Colombia,Cuba,G / AR,0,0,1,0,0,1,0,1,0,0
+2007,Colombia,Cuba,G / FI,62,48,74,10,0,75,1,86,50,40
+2007,Colombia,Egypt,G / FI,1,1,0,0,0,0,0,,1,0
+2007,Colombia,Eritrea,G / FI,0,0,5,0,0,0,0,,5,5
+2007,Colombia,Ethiopia,G / FI,5,5,8,3,0,2,0,5,8,8
+2007,Colombia,Guinea,G / FI,0,0,1,0,0,0,0,,1,0
+2007,Colombia,Iran (Islamic Rep. of),G / FI,0,0,3,0,0,3,0,3,0,0
+2007,Colombia,Iraq,G / FI,2,1,0,1,0,1,0,2,0,0
+2007,Colombia,Jamaica,G / FI,0,0,1,0,0,1,0,1,0,0
+2007,Colombia,Sri Lanka,G / FI,0,0,1,0,0,0,0,,1,0
+2007,Colombia,Mauritania,G / FI,1,1,0,1,0,0,0,1,0,0
+2007,Colombia,Nepal,G / FI,0,0,2,0,0,0,0,,2,2
+2007,Colombia,Palestinian,G / FI,0,0,1,1,0,0,0,1,0,0
+2007,Colombia,Somalia,G / FI,0,0,16,1,0,0,0,1,15,14
+2007,Colombia,Venezuela (Bolivarian Republic of),G / FI,5,4,11,8,0,3,0,11,5,2
+2008,Colombia,Cuba,G / AR,0,0,10,0,0,8,0,8,2,0
+2008,Colombia,Cuba,G / FI,50,40,32,0,0,66,0,66,16,16
+2008,Colombia,Ecuador,G / FI,0,0,5,0,0,5,0,5,0,0
+2008,Colombia,Egypt,G / FI,1,0,0,0,0,1,0,1,0,0
+2008,Colombia,Eritrea,G / FI,5,5,13,0,0,0,1,1,17,17
+2008,Colombia,Ethiopia,G / FI,8,8,7,0,0,0,0,,15,15
+2008,Colombia,Ghana,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Colombia,Guinea,G / FI,1,0,0,0,0,0,0,,1,1
+2008,Colombia,Iraq,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Colombia,Sri Lanka,G / FI,1,0,0,0,0,0,0,,1,1
+2008,Colombia,Nepal,G / FI,2,2,2,0,0,2,0,2,2,2
+2008,Colombia,Sudan,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Colombia,Somalia,G / FI,15,14,18,0,0,18,0,18,15,15
+2008,Colombia,Turkey,G / FI,0,0,1,0,0,0,0,,1,1
+2008,Colombia,Venezuela (Bolivarian Republic of),G / FI,5,2,8,4,0,1,0,5,8,8
+2008,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,1,0,0,0,0,,1,0
+2009,Colombia,Bolivia (Plurinational State of),G / FI,0,0,3,0,0,0,0,,3,3
+2009,Colombia,Côte d'Ivoire,G / FI,0,0,1,0,0,1,0,1,0,0
+2009,Colombia,Cuba,G / FI,16,16,32,1,0,18,0,19,29,29
+2009,Colombia,Cuba,G / AR,2,0,1,0,0,3,0,3,0,0
+2009,Colombia,Eritrea,G / FI,17,17,132,3,0,118,0,121,28,28
+2009,Colombia,Eritrea,G / AR,0,0,4,0,0,4,0,4,0,0
+2009,Colombia,Ethiopia,G / FI,15,15,39,11,0,39,0,50,4,4
+2009,Colombia,Ethiopia,G / AR,0,0,7,0,0,7,0,7,0,0
+2009,Colombia,Ghana,G / FI,1,1,5,1,0,5,0,6,0,0
+2009,Colombia,Ghana,G / AR,0,0,1,0,0,1,0,1,0,0
+2009,Colombia,Guinea,G / FI,1,1,0,0,0,0,0,,1,1
+2009,Colombia,Iraq,G / FI,1,1,0,1,0,0,0,1,0,0
+2009,Colombia,Sri Lanka,G / FI,1,1,6,2,0,2,0,4,3,3
+2009,Colombia,Nepal,G / FI,2,2,10,2,0,4,0,6,6,6
+2009,Colombia,Sudan,G / FI,1,1,0,0,0,1,0,1,0,0
+2009,Colombia,Sierra Leone,G / FI,0,0,1,0,0,1,0,1,0,0
+2009,Colombia,El Salvador,G / FI,0,0,7,0,0,0,0,,7,7
+2009,Colombia,Somalia,G / FI,15,15,111,10,0,83,0,93,33,33
+2009,Colombia,Turkey,G / FI,1,1,0,1,0,0,0,1,0,0
+2009,Colombia,Venezuela (Bolivarian Republic of),G / AR,1,0,4,0,0,5,0,5,0,0
+2009,Colombia,Venezuela (Bolivarian Republic of),G / FI,8,8,7,0,0,13,0,13,2,2
+2009,Colombia,Zimbabwe,G / FI,0,0,1,0,0,1,0,1,0,0
+2010,Colombia,Afghanistan,G / FI,0,0,5,0,0,0,0,,5,5
+2010,Colombia,Bangladesh,G / FI,0,0,3,0,0,0,3,3,0,0
+2010,Colombia,Bolivia (Plurinational State of),G / FI,3,3,0,0,0,3,0,3,0,0
+2010,Colombia,Dem. Rep. of the Congo,G / FI,0,0,3,0,0,3,0,3,0,0
+2010,Colombia,Cuba,G / FI,29,29,61,0,0,11,11,22,68,68
+2010,Colombia,Cuba,G / AR,0,0,1,0,0,1,0,1,0,0
+2010,Colombia,Ecuador,G / FI,0,0,1,0,0,0,1,1,0,0
+2010,Colombia,Eritrea,G / FI,28,28,32,1,0,0,28,29,31,31
+2010,Colombia,Ethiopia,G / FI,4,4,10,0,0,0,9,9,5,5
+2010,Colombia,Ethiopia,G / AR,0,0,1,0,0,1,0,1,0,0
+2010,Colombia,Guinea,G / FI,1,1,0,0,0,0,0,,1,1
+2010,Colombia,Iraq,G / FI,0,0,2,0,0,0,2,2,0,0
+2010,Colombia,Sri Lanka,G / FI,3,3,2,0,0,0,0,,5,5
+2010,Colombia,Nepal,G / FI,6,6,0,0,0,0,0,,6,6
+2010,Colombia,Pakistan,G / FI,0,0,1,0,0,1,0,1,0,0
+2010,Colombia,Peru,G / FI,0,0,5,0,0,0,0,,5,5
+2010,Colombia,El Salvador,G / FI,7,7,0,7,0,0,0,7,0,0
+2010,Colombia,Somalia,G / FI,33,33,29,0,0,2,27,29,33,33
+2010,Colombia,United States of America,G / FI,0,0,1,0,0,0,0,,1,1
+2010,Colombia,Venezuela (Bolivarian Republic of),G / FI,2,2,6,0,0,0,1,1,7,7
+2011,Colombia,Afghanistan,G / FI,5,5,2,0,0,0,0,,7,7
+2011,Colombia,Bolivia (Plurinational State of),G / FI,0,0,2,2,0,0,0,2,0,0
+2011,Colombia,Chile,G / FI,0,0,1,0,0,0,1,1,0,0
+2011,Colombia,Côte d'Ivoire,G / FI,0,0,1,0,0,0,0,,1,1
+2011,Colombia,Cuba,G / AR,0,0,7,0,0,7,0,7,0,0
+2011,Colombia,Cuba,G / JR,0,0,1,0,0,0,0,,1,1
+2011,Colombia,Cuba,G / FI,68,68,54,1,0,30,47,78,44,44
+2011,Colombia,Dominican Rep.,G / FI,0,0,1,1,0,0,0,1,0,0
+2011,Colombia,Ecuador,G / FI,0,0,3,0,0,0,0,,3,3
+2011,Colombia,Egypt,G / AR,0,0,1,0,0,1,0,1,0,0
+2011,Colombia,Egypt,G / FI,0,0,1,0,0,1,0,1,0,0
+2011,Colombia,Eritrea,G / AR,0,0,1,0,0,1,0,1,0,0
+2011,Colombia,Eritrea,G / FI,31,31,7,0,0,3,4,7,31,31
+2011,Colombia,Ethiopia,G / FI,5,5,1,0,0,0,0,,6,6
+2011,Colombia,Guinea,G / FI,1,1,0,0,0,0,1,1,0,0
+2011,Colombia,Haiti,G / AR,0,0,1,0,0,1,0,1,0,0
+2011,Colombia,Haiti,G / FI,0,0,2,1,0,1,0,2,0,0
+2011,Colombia,Sri Lanka,G / FI,5,5,0,0,0,3,0,3,2,2
+2011,Colombia,Mozambique,G / FI,0,0,1,0,0,0,0,,1,1
+2011,Colombia,Nepal,G / FI,6,6,0,0,0,0,0,,6,6
+2011,Colombia,Peru,G / FI,5,5,0,0,0,5,0,5,0,0
+2011,Colombia,Peru,G / AR,0,0,5,0,0,5,0,5,0,0
+2011,Colombia,Russian Federation,G / FI,0,0,3,3,0,0,0,3,0,0
+2011,Colombia,Somalia,G / FI,33,33,2,0,0,0,24,24,11,11
+2011,Colombia,United States of America,G / FI,1,1,0,0,0,0,0,,1,1
+2011,Colombia,United States of America,G / JR,0,0,1,0,0,0,0,,1,1
+2011,Colombia,Venezuela (Bolivarian Republic of),G / FI,7,7,3,0,0,7,0,7,3,3
+2011,Colombia,Venezuela (Bolivarian Republic of),G / JR,0,0,2,0,0,0,0,,2,2
+2011,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,6,0,0,6,0,6,0,0
+2012,Colombia,Afghanistan,G / FI,7,7,0,2,0,0,5,7,0,0
+2012,Colombia,Albania,G / FI,0,0,1,0,0,0,1,1,0,0
+2012,Colombia,China,G / FI,0,0,1,0,0,0,0,,1,1
+2012,Colombia,Côte d'Ivoire,G / FI,1,1,1,0,0,0,0,,2,2
+2012,Colombia,Dem. Rep. of the Congo,G / FI,0,0,1,0,0,1,0,1,0,0
+2012,Colombia,Costa Rica,G / FI,0,0,1,0,0,1,0,1,0,0
+2012,Colombia,Cuba,G / AR,0,0,7,1,0,6,0,7,0,0
+2012,Colombia,Cuba,G / JR,1,1,0,0,0,1,0,1,0,0
+2012,Colombia,Cuba,G / FI,44,44,66,1,0,43,10,54,56,55
+2012,Colombia,Ecuador,G / FI,3,3,3,3,0,0,0,3,3,3
+2012,Colombia,Egypt,G / FI,0,0,1,0,0,0,0,,1,1
+2012,Colombia,Eritrea,G / FI,31,31,0,0,0,2,29,31,0,0
+2012,Colombia,Ethiopia,G / FI,6,6,0,0,0,0,6,6,0,0
+2012,Colombia,Sri Lanka,G / FI,2,2,2,0,0,2,2,4,0,0
+2012,Colombia,Morocco,G / FI,0,0,1,0,0,0,0,,1,1
+2012,Colombia,Mozambique,G / FI,1,1,0,0,0,0,0,,1,1
+2012,Colombia,Nepal,G / FI,6,6,0,0,0,0,6,6,0,0
+2012,Colombia,Pakistan,G / FI,0,0,1,0,0,0,0,,1,1
+2012,Colombia,Peru,G / AR,0,0,5,0,0,5,0,5,0,0
+2012,Colombia,Peru,G / FI,0,0,5,0,0,5,0,5,0,0
+2012,Colombia,Somalia,G / FI,11,11,2,0,0,2,11,13,0,0
+2012,Colombia,Syrian Arab Rep.,G / FI,0,0,3,1,0,0,0,1,2,2
+2012,Colombia,United States of America,G / FI,1,1,0,0,0,1,0,1,0,0
+2012,Colombia,United States of America,G / JR,1,1,0,0,0,1,0,1,0,0
+2012,Colombia,Venezuela (Bolivarian Republic of),G / JR,2,2,0,0,0,2,0,2,0,0
+2012,Colombia,Venezuela (Bolivarian Republic of),G / FI,3,3,10,0,0,4,0,4,9,9
+2013,Colombia,Bangladesh,G / AR,0,0,1,0,0,1,0,1,0,0
+2013,Colombia,Bangladesh,G / FI,0,0,44,0,0,0,42,42,2,2
+2013,Colombia,Bolivia (Plurinational State of),G / AR,0,0,1,0,0,1,0,1,0,0
+2013,Colombia,Bolivia (Plurinational State of),G / FI,0,0,3,0,0,1,0,1,2,2
+2013,Colombia,Bolivia (Plurinational State of),G / JR,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Brazil,G / FI,0,0,1,0,0,1,0,1,0,0
+2013,Colombia,China,G / FI,1,1,0,0,0,0,1,1,0,0
+2013,Colombia,Côte d'Ivoire,G / FI,2,2,1,0,0,0,3,3,0,0
+2013,Colombia,Cuba,G / FI,56,56,64,0,0,60,30,90,30,30
+2013,Colombia,Cuba,G / AR,0,0,21,0,0,14,0,14,7,7
+2013,Colombia,Ecuador,G / FI,3,3,6,3,0,3,0,6,3,3
+2013,Colombia,Ecuador,G / AR,0,0,3,0,0,1,0,1,2,2
+2013,Colombia,Egypt,G / AR,0,0,1,0,0,1,0,1,0,0
+2013,Colombia,Egypt,G / FI,1,1,0,0,0,1,0,1,0,0
+2013,Colombia,Ghana,G / FI,0,0,10,0,0,0,10,10,0,0
+2013,Colombia,Honduras,G / FI,0,0,5,0,0,5,0,5,0,0
+2013,Colombia,Haiti,G / FI,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Morocco,G / FI,1,1,0,0,0,0,1,1,0,0
+2013,Colombia,Mali,G / FI,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Mozambique,G / FI,1,1,0,0,0,0,1,1,0,0
+2013,Colombia,Nigeria,G / FI,0,0,3,0,0,0,3,3,0,0
+2013,Colombia,Nepal,G / FI,0,0,7,0,0,6,1,7,0,0
+2013,Colombia,Pakistan,G / FI,1,1,1,1,0,0,0,1,1,1
+2013,Colombia,Paraguay,G / FI,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Russian Federation,G / FI,0,0,2,0,0,1,0,1,1,1
+2013,Colombia,Sierra Leone,G / FI,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Somalia,G / FI,0,0,47,0,0,8,39,47,0,0
+2013,Colombia,Syrian Arab Rep.,G / FI,2,2,9,0,0,3,7,10,1,1
+2013,Colombia,Syrian Arab Rep.,G / AR,0,0,1,1,0,0,0,1,0,0
+2013,Colombia,United States of America,G / FI,0,0,1,0,0,0,0,,1,1
+2013,Colombia,Venezuela (Bolivarian Republic of),G / FI,9,9,21,1,0,7,6,14,16,16
+2013,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,3,0,0,3,0,3,0,0
+2014,Colombia,Afghanistan,G / FI,0,0,1,0,0,0,1,1,0,0
+2014,Colombia,Angola,G / FI,0,0,1,0,0,0,1,1,0,0
+2014,Colombia,Bangladesh,G / FI,2,2,28,0,0,1,29,30,0,0
+2014,Colombia,Bolivia (Plurinational State of),G / JR,1,1,1,0,0,1,0,1,1,1
+2014,Colombia,Bolivia (Plurinational State of),G / FI,2,2,1,2,0,1,0,3,0,0
+2014,Colombia,Brazil,G / FI,0,0,1,0,0,0,1,1,0,0
+2014,Colombia,Bhutan,G / FI,0,0,6,0,0,0,6,6,0,0
+2014,Colombia,Cuba,G / AR,7,7,16,0,0,14,0,14,9,9
+2014,Colombia,Cuba,G / FI,30,30,430,0,0,30,355,385,75,20
+2014,Colombia,Ecuador,G / AR,2,2,0,0,0,2,0,2,0,0
+2014,Colombia,Ecuador,G / FI,3,3,0,0,0,3,0,3,0,0
+2014,Colombia,Eritrea,G / FI,0,0,12,0,0,1,4,5,7,0
+2014,Colombia,Ethiopia,G / FI,0,0,1,0,0,0,0,,1,1
+2014,Colombia,Ghana,G / FI,0,0,5,0,0,0,4,4,1,0
+2014,Colombia,Honduras,G / FI,0,0,1,0,0,0,0,,1,1
+2014,Colombia,Haiti,G / AR,0,0,1,0,0,1,0,1,0,0
+2014,Colombia,Haiti,G / FI,1,1,0,0,0,1,0,1,0,0
+2014,Colombia,India,G / FI,0,0,8,0,0,0,7,7,1,0
+2014,Colombia,Sri Lanka,G / FI,0,0,2,0,0,0,0,,2,0
+2014,Colombia,Mali,G / AR,0,0,1,0,0,1,0,1,0,0
+2014,Colombia,Mali,G / FI,1,1,0,0,0,1,0,1,0,0
+2014,Colombia,Nigeria,G / FI,0,0,1,0,0,0,0,,1,0
+2014,Colombia,Nicaragua,G / FI,0,0,1,0,0,0,1,1,0,0
+2014,Colombia,Nepal,G / FI,0,0,94,0,0,0,84,84,10,0
+2014,Colombia,Pakistan,G / FI,1,1,13,0,0,1,3,4,10,1
+2014,Colombia,Paraguay,G / AR,0,0,1,0,0,1,0,1,0,0
+2014,Colombia,Paraguay,G / FI,1,1,0,0,0,0,1,1,0,0
+2014,Colombia,Russian Federation,G / FI,1,1,1,0,0,0,1,1,1,0
+2014,Colombia,Rwanda,G / FI,0,0,1,0,0,0,0,,1,0
+2014,Colombia,Sudan,G / FI,0,0,1,0,0,0,0,,1,0
+2014,Colombia,Sierra Leone,G / FI,1,1,0,0,0,1,0,1,0,0
+2014,Colombia,Sierra Leone,G / AR,0,0,1,0,0,1,0,1,0,0
+2014,Colombia,Somalia,G / FI,0,0,49,0,0,0,47,47,2,0
+2014,Colombia,Syrian Arab Rep.,G / FI,1,1,8,2,0,0,5,7,2,1
+2014,Colombia,Tibetan,G / FI,0,0,3,0,0,0,2,2,1,0
+2014,Colombia,United States of America,G / FI,1,1,0,0,0,1,0,1,0,0
+2014,Colombia,United States of America,G / AR,0,0,1,0,0,0,0,,1,0
+2014,Colombia,Venezuela (Bolivarian Republic of),G / FI,16,16,47,12,0,10,3,25,38,14
+2014,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,3,0,0,0,0,,3,3
+2014,Colombia,Stateless,G / FI,0,0,4,0,0,3,0,3,1,0
+2015,Colombia,Afghanistan,G / FI,0,0,6,1,0,0,0,1,5,5
+2015,Colombia,Bangladesh,G / FI,0,0,10,0,0,0,10,10,0,0
+2015,Colombia,Bolivia (Plurinational State of),G / JR,1,1,0,0,0,1,0,1,0,0
+2015,Colombia,Bolivia (Plurinational State of),G / FI,0,0,1,0,0,0,0,,1,1
+2015,Colombia,Cuba,G / FI,75,20,227,0,0,58,233,291,11,11
+2015,Colombia,Cuba,G / AR,9,9,4,0,0,11,0,11,2,2
+2015,Colombia,Ecuador,G / FI,0,0,2,0,0,0,1,1,1,0
+2015,Colombia,Eritrea,G / FI,7,0,0,0,0,0,7,7,0,0
+2015,Colombia,Spain,G / FI,0,0,2,0,0,0,1,1,1,1
+2015,Colombia,Ethiopia,G / FI,1,1,3,1,0,0,3,4,0,0
+2015,Colombia,Ghana,G / FI,1,0,1,0,0,0,1,1,1,1
+2015,Colombia,Gambia,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,Guinea-Bissau,G / FI,0,0,1,0,0,0,0,,1,1
+2015,Colombia,Honduras,G / FI,1,1,4,0,0,1,0,1,4,4
+2015,Colombia,Honduras,G / AR,0,0,1,0,0,1,0,1,0,0
+2015,Colombia,Haiti,G / FI,0,0,4,0,0,0,4,4,0,0
+2015,Colombia,India,G / FI,1,0,6,0,0,0,7,7,0,0
+2015,Colombia,Iraq,G / FI,0,0,6,0,0,0,0,,6,5
+2015,Colombia,Liberia,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,Sri Lanka,G / FI,2,0,0,0,0,0,2,2,0,0
+2015,Colombia,Lithuania,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,Mexico,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,Nigeria,G / FI,1,0,2,0,0,0,3,3,0,0
+2015,Colombia,Nigeria,G / AR,0,0,2,0,0,2,0,2,0,0
+2015,Colombia,Nepal,G / FI,10,0,2,0,0,0,10,10,2,0
+2015,Colombia,Pakistan,G / FI,10,1,0,0,0,1,9,10,0,0
+2015,Colombia,Panama,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,Palestinian,G / FI,0,0,1,0,0,0,0,,1,1
+2015,Colombia,Russian Federation,G / FI,1,0,0,0,0,0,1,1,0,0
+2015,Colombia,Rwanda,G / FI,1,0,0,1,0,0,0,1,0,0
+2015,Colombia,Sudan,G / FI,1,0,1,0,0,0,2,2,0,0
+2015,Colombia,Sierra Leone,G / FI,0,0,1,0,0,0,1,1,0,0
+2015,Colombia,El Salvador,G / FI,0,0,5,0,0,0,0,,5,4
+2015,Colombia,Somalia,G / FI,2,0,2,0,0,0,4,4,0,0
+2015,Colombia,Syrian Arab Rep.,G / FI,2,1,7,3,0,0,6,9,0,0
+2015,Colombia,Tibetan,G / FI,1,0,0,0,0,0,1,1,0,0
+2015,Colombia,Ukraine,G / FI,0,0,1,0,0,0,0,,1,0
+2015,Colombia,United States of America,G / FI,0,0,4,0,0,0,4,4,0,0
+2015,Colombia,United States of America,G / AR,1,0,0,0,0,1,0,1,0,0
+2015,Colombia,Venezuela (Bolivarian Republic of),G / FI,38,14,119,7,0,15,67,89,68,22
+2015,Colombia,Venezuela (Bolivarian Republic of),G / AR,3,3,19,5,0,12,0,17,5,2
+2015,Colombia,Stateless,G / FI,1,0,0,0,0,0,1,1,0,0
+2016,Colombia,Afghanistan,G / FI,5,5,0,5,,,,5,0,0
+2016,Colombia,Bangladesh,G / FI,0,0,1,,,,1,1,0,0
+2016,Colombia,Bolivia (Plurinational State of),G / JR,1,0,0,,,,,,1,0
+2016,Colombia,Bolivia (Plurinational State of),G / FI,1,1,0,,,,,,1,0
+2016,Colombia,Bolivia (Plurinational State of),G / FI,0,0,1,,,,,,1,0
+2016,Colombia,Brazil,G / FI,0,0,1,,,,,,1,0
+2016,Colombia,Cuba,G / AR,2,2,0,,,2,,2,0,0
+2016,Colombia,Cuba,G / FI,11,11,54,9,,,41,50,15,9
+2016,Colombia,Ecuador,G / FI,1,0,3,,,,2,2,2,0
+2016,Colombia,Egypt,G / FI,0,0,1,,,,,,1,1
+2016,Colombia,Spain,G / FI,1,1,1,,,,,,2,0
+2016,Colombia,Ghana,G / FI,1,1,1,,,,,,2,0
+2016,Colombia,Guinea-Bissau,G / FI,1,1,0,,,,,,1,0
+2016,Colombia,Honduras,G / FI,4,4,0,3,,,1,4,0,0
+2016,Colombia,Iraq,G / FI,6,5,0,5,,,,5,1,0
+2016,Colombia,Nepal,G / FI,2,0,0,,,,,,2,0
+2016,Colombia,Pakistan,G / FI,0,0,5,,,,,,5,5
+2016,Colombia,Peru,G / FI,0,0,1,,,,,,1,0
+2016,Colombia,Palestinian,G / FI,1,1,0,1,,,,1,0,0
+2016,Colombia,El Salvador,G / FI,5,4,0,4,,,,4,1,0
+2016,Colombia,Syrian Arab Rep.,G / FI,0,0,5,1,,,,1,4,0
+2016,Colombia,Turkey,G / FI,0,0,19,,,,,,19,3
+2016,Colombia,Ukraine,G / FI,1,0,0,,,,,,1,0
+2016,Colombia,Venezuela (Bolivarian Republic of),G / FI,68,22,316,4,,2,54,60,324,68
+2016,Colombia,Venezuela (Bolivarian Republic of),G / AR,5,2,0,,,5,,5,0,0
+2016,Colombia,Yemen,G / FI,0,0,1,,,,,,1,1
+2017,Colombia,Afghanistan,G / FI,0,0,*,0,0,0,0,,*,0
+2017,Colombia,Bolivia (Plurinational State of),G / FI,*,0,0,0,0,0,*,*,*,0
+2017,Colombia,Brazil,G / FI,*,0,0,0,0,0,*,*,0,0
+2017,Colombia,Cameroon,G / FI,0,0,*,0,0,0,0,,*,0
+2017,Colombia,Cuba,G / FI,15,9,24,0,0,0,14,14,25,*
+2017,Colombia,Ecuador,G / FI,*,0,0,0,0,0,*,*,*,*
+2017,Colombia,Egypt,G / FI,*,*,*,0,0,0,*,*,*,*
+2017,Colombia,Spain,G / FI,*,0,0,0,0,0,*,*,*,0
+2017,Colombia,Ghana,G / FI,*,0,0,0,0,0,*,*,0,0
+2017,Colombia,Gambia,G / FI,0,0,*,0,0,0,0,,*,*
+2017,Colombia,Guinea-Bissau,G / FI,*,0,0,0,0,0,*,*,0,0
+2017,Colombia,Iran (Islamic Rep. of),G / FI,0,0,*,0,0,0,0,,*,0
+2017,Colombia,Iraq,G / FI,*,0,*,*,0,0,0,*,*,*
+2017,Colombia,Libya,G / FI,0,0,*,0,0,0,0,,*,*
+2017,Colombia,Nepal,G / FI,*,0,0,0,0,0,*,*,0,0
+2017,Colombia,Pakistan,G / FI,5,5,0,0,0,0,0,,5,5
+2017,Colombia,Peru,G / FI,*,0,0,0,0,0,0,,*,0
+2017,Colombia,Palestinian,G / FI,0,0,*,0,0,0,0,,*,0
+2017,Colombia,El Salvador,G / FI,*,0,0,0,0,0,0,,*,0
+2017,Colombia,Syrian Arab Rep.,G / FI,*,0,*,0,0,0,*,*,*,*
+2017,Colombia,Turkey,G / FI,19,*,7,0,0,0,12,12,14,8
+2017,Colombia,Ukraine,G / FI,*,0,0,0,0,0,0,,*,0
+2017,Colombia,United States of America,G / FI,0,0,*,0,0,0,*,*,0,0
+2017,Colombia,Venezuela (Bolivarian Republic of),G / FI,324,68,575,18,0,7,412,437,462,462
+2017,Colombia,Venezuela (Bolivarian Republic of),G / AR,0,0,7,0,0,0,0,,7,0
+2017,Colombia,Yemen,G / FI,*,*,6,0,0,0,0,,7,6
+2018,Colombia,Afghanistan,G / FI,*,0,0,*,0,0,0,*,*,*
+2018,Colombia,Bolivia (Plurinational State of),G / FI,*,0,0,0,0,*,0,*,0,0
+2018,Colombia,Brazil,G / FI,0,0,*,0,0,0,*,*,0,0
+2018,Colombia,Chile,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Cameroon,G / FI,*,0,*,0,0,0,0,,*,0
+2018,Colombia,Dem. Rep. of the Congo,G / FI,0,0,5,0,0,0,5,5,0,0
+2018,Colombia,Costa Rica,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Cuba,G / FI,25,*,41,*,0,0,*,5,61,20
+2018,Colombia,Germany,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Ecuador,G / FI,*,*,*,0,0,0,*,*,*,*
+2018,Colombia,Egypt,G / FI,*,*,0,0,0,0,*,*,0,0
+2018,Colombia,Spain,G / FI,*,0,*,0,0,0,*,*,*,0
+2018,Colombia,Ghana,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Gambia,G / FI,*,*,0,0,0,0,*,*,0,0
+2018,Colombia,Greece,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Honduras,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Iran (Islamic Rep. of),G / FI,*,0,0,0,0,0,0,,*,0
+2018,Colombia,Iraq,G / FI,*,*,0,0,0,0,0,,*,*
+2018,Colombia,Rep. of Korea,G / FI,0,0,*,0,0,0,*,*,0,0
+2018,Colombia,Liberia,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Libya,G / FI,*,*,0,0,0,0,0,,*,*
+2018,Colombia,Mexico,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Nigeria,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Nicaragua,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Pakistan,G / FI,5,5,0,0,0,0,5,5,0,0
+2018,Colombia,Peru,G / FI,*,0,*,0,0,0,*,*,*,0
+2018,Colombia,Poland,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Portugal,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Palestinian,G / FI,*,0,*,0,0,0,0,,5,0
+2018,Colombia,Russian Federation,G / FI,0,0,*,0,0,0,0,,*,0
+2018,Colombia,Saudi Arabia,G / FI,0,0,*,0,0,0,*,*,0,0
+2018,Colombia,El Salvador,G / FI,*,0,*,0,0,0,0,,*,0
+2018,Colombia,Somalia,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Syrian Arab Rep.,G / FI,*,*,6,0,0,0,*,*,8,0
+2018,Colombia,Turkey,G / FI,14,8,27,0,0,0,5,5,36,7
+2018,Colombia,Uganda,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Ukraine,G / FI,*,0,0,0,0,0,0,,*,0
+2018,Colombia,Uruguay,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Venezuela (Bolivarian Republic of),G / FI,462,462,2592,33,0,*,289,325,2729,683
+2018,Colombia,Stateless,G / FI,0,0,*,0,0,0,0,,*,*
+2018,Colombia,Yemen,G / FI,7,6,*,0,0,0,*,*,7,6
