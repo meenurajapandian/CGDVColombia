@@ -1,0 +1,942 @@
+Year,Country / territory of asylum/residence,Origin,Population type,Value
+#date+year,#country+residence,#country+origin,#population+type,#affected
+1970,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1500
+1971,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1400
+1972,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1350
+1973,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1450
+1974,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1200
+1977,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1800
+1978,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1500
+1979,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),2000
+1980,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),2000
+1981,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),1800
+1982,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),150
+1983,Colombia,Nicaragua,Refugees (incl. refugee-like situations),60
+1983,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),150
+1984,Colombia,Nicaragua,Refugees (incl. refugee-like situations),70
+1984,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),260
+1985,Colombia,Chile,Refugees (incl. refugee-like situations),90
+1985,Colombia,Nicaragua,Refugees (incl. refugee-like situations),80
+1985,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),230
+1986,Colombia,Chile,Refugees (incl. refugee-like situations),50
+1986,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),190
+1987,Colombia,Chile,Refugees (incl. refugee-like situations),180
+1987,Colombia,Nicaragua,Refugees (incl. refugee-like situations),70
+1987,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),430
+1988,Colombia,Chile,Refugees (incl. refugee-like situations),180
+1988,Colombia,Nicaragua,Refugees (incl. refugee-like situations),90
+1988,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),450
+1989,Colombia,Chile,Refugees (incl. refugee-like situations),180
+1989,Colombia,Nicaragua,Refugees (incl. refugee-like situations),90
+1989,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),430
+1990,Colombia,Chile,Refugees (incl. refugee-like situations),80
+1990,Colombia,Nicaragua,Refugees (incl. refugee-like situations),90
+1990,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),290
+1990,Colombia,Various/Unknown,Returned refugees,110
+1991,Colombia,Chile,Refugees (incl. refugee-like situations),70
+1991,Colombia,Nicaragua,Refugees (incl. refugee-like situations),90
+1991,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),290
+1991,Colombia,Various/Unknown,Returned refugees,60
+1992,Colombia,Chile,Refugees (incl. refugee-like situations),60
+1992,Colombia,Nicaragua,Refugees (incl. refugee-like situations),90
+1992,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),328
+1993,Colombia,Chile,Refugees (incl. refugee-like situations),56
+1993,Colombia,Chile,Returned refugees,4
+1993,Colombia,China,Refugees (incl. refugee-like situations),4
+1993,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1993,Colombia,El Salvador,Refugees (incl. refugee-like situations),4
+1993,Colombia,Guyana,Refugees (incl. refugee-like situations),1
+1993,Colombia,Haiti,Refugees (incl. refugee-like situations),10
+1993,Colombia,Hungary,Refugees (incl. refugee-like situations),55
+1993,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),12
+1993,Colombia,Iraq,Refugees (incl. refugee-like situations),1
+1993,Colombia,Nicaragua,Refugees (incl. refugee-like situations),86
+1993,Colombia,Nicaragua,Returned refugees,8
+1993,Colombia,Peru,Refugees (incl. refugee-like situations),6
+1993,Colombia,Poland,Refugees (incl. refugee-like situations),2
+1993,Colombia,Romania,Refugees (incl. refugee-like situations),10
+1993,Colombia,South Africa,Refugees (incl. refugee-like situations),1
+1993,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+1993,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),3
+1993,Colombia,Viet Nam,Refugees (incl. refugee-like situations),34
+1994,Colombia,Angola,Refugees (incl. refugee-like situations),1
+1994,Colombia,Chile,Refugees (incl. refugee-like situations),48
+1994,Colombia,Chile,Returned refugees,16
+1994,Colombia,China,Refugees (incl. refugee-like situations),5
+1994,Colombia,Croatia,Refugees (incl. refugee-like situations),1
+1994,Colombia,Cuba,Refugees (incl. refugee-like situations),15
+1994,Colombia,El Salvador,Refugees (incl. refugee-like situations),4
+1994,Colombia,Haiti,Refugees (incl. refugee-like situations),11
+1994,Colombia,Haiti,Returned refugees,1
+1994,Colombia,Hungary,Refugees (incl. refugee-like situations),55
+1994,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),11
+1994,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+1994,Colombia,Nicaragua,Refugees (incl. refugee-like situations),92
+1994,Colombia,Peru,Refugees (incl. refugee-like situations),21
+1994,Colombia,Poland,Refugees (incl. refugee-like situations),1
+1994,Colombia,Romania,Refugees (incl. refugee-like situations),10
+1994,Colombia,South Africa,Refugees (incl. refugee-like situations),1
+1994,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+1994,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),3
+1994,Colombia,Viet Nam,Refugees (incl. refugee-like situations),34
+1995,Colombia,Chile,Refugees (incl. refugee-like situations),35
+1995,Colombia,Chile,Returned refugees,1
+1995,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1995,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+1995,Colombia,Haiti,Returned refugees,4
+1995,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+1995,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+1995,Colombia,Nicaragua,Refugees (incl. refugee-like situations),74
+1995,Colombia,Nicaragua,Returned refugees,1
+1995,Colombia,Peru,Refugees (incl. refugee-like situations),15
+1995,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+1995,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+1995,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),22
+1996,Colombia,Chile,Refugees (incl. refugee-like situations),35
+1996,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1996,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+1996,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+1996,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+1996,Colombia,Nicaragua,Refugees (incl. refugee-like situations),74
+1996,Colombia,Peru,Refugees (incl. refugee-like situations),16
+1996,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+1996,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+1996,Colombia,Various/Unknown,Refugees (incl. refugee-like situations),23
+1997,Colombia,Angola,Refugees (incl. refugee-like situations),1
+1997,Colombia,Chile,Refugees (incl. refugee-like situations),35
+1997,Colombia,China,Refugees (incl. refugee-like situations),5
+1997,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1997,Colombia,El Salvador,Refugees (incl. refugee-like situations),4
+1997,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+1997,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+1997,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+1997,Colombia,Iraq,Refugees (incl. refugee-like situations),1
+1997,Colombia,Liberia,Refugees (incl. refugee-like situations),5
+1997,Colombia,Nicaragua,Refugees (incl. refugee-like situations),74
+1997,Colombia,Peru,Refugees (incl. refugee-like situations),17
+1997,Colombia,Romania,Refugees (incl. refugee-like situations),8
+1997,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+1997,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+1997,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+1998,Colombia,Angola,Refugees (incl. refugee-like situations),1
+1998,Colombia,Chile,Refugees (incl. refugee-like situations),35
+1998,Colombia,China,Refugees (incl. refugee-like situations),5
+1998,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1998,Colombia,El Salvador,Refugees (incl. refugee-like situations),4
+1998,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+1998,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+1998,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+1998,Colombia,Iraq,Refugees (incl. refugee-like situations),1
+1998,Colombia,Liberia,Refugees (incl. refugee-like situations),5
+1998,Colombia,Nicaragua,Refugees (incl. refugee-like situations),74
+1998,Colombia,Peru,Refugees (incl. refugee-like situations),20
+1998,Colombia,Romania,Refugees (incl. refugee-like situations),8
+1998,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+1998,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+1998,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+1999,Colombia,Angola,Refugees (incl. refugee-like situations),4
+1999,Colombia,Chile,Refugees (incl. refugee-like situations),36
+1999,Colombia,China,Refugees (incl. refugee-like situations),5
+1999,Colombia,Cuba,Refugees (incl. refugee-like situations),12
+1999,Colombia,El Salvador,Refugees (incl. refugee-like situations),1
+1999,Colombia,El Salvador,Returned refugees,3
+1999,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+1999,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+1999,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+1999,Colombia,Iraq,Refugees (incl. refugee-like situations),1
+1999,Colombia,Liberia,Refugees (incl. refugee-like situations),5
+1999,Colombia,Nicaragua,Refugees (incl. refugee-like situations),74
+1999,Colombia,Peru,Refugees (incl. refugee-like situations),20
+1999,Colombia,Romania,Refugees (incl. refugee-like situations),8
+1999,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+1999,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),3
+1999,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+1999,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+2000,Colombia,Angola,Refugees (incl. refugee-like situations),3
+2000,Colombia,Chile,Refugees (incl. refugee-like situations),30
+2000,Colombia,Chile,Returned refugees,6
+2000,Colombia,China,Refugees (incl. refugee-like situations),5
+2000,Colombia,Colombia,Internally displaced persons,525000
+2000,Colombia,Cuba,Refugees (incl. refugee-like situations),18
+2000,Colombia,Cuba,Asylum-seekers,3
+2000,Colombia,Ecuador,Asylum-seekers,1
+2000,Colombia,El Salvador,Refugees (incl. refugee-like situations),1
+2000,Colombia,Guatemala,Returned refugees,2
+2000,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+2000,Colombia,Hungary,Refugees (incl. refugee-like situations),30
+2000,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),13
+2000,Colombia,Iran (Islamic Rep. of),Asylum-seekers,7
+2000,Colombia,Iran (Islamic Rep. of),Returned refugees,1
+2000,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2000,Colombia,Liberia,Refugees (incl. refugee-like situations),4
+2000,Colombia,Nicaragua,Refugees (incl. refugee-like situations),80
+2000,Colombia,Nicaragua,Returned refugees,1
+2000,Colombia,Panama,Returned refugees,253
+2000,Colombia,Peru,Refugees (incl. refugee-like situations),19
+2000,Colombia,Peru,Asylum-seekers,1
+2000,Colombia,Peru,Returned refugees,1
+2000,Colombia,Romania,Refugees (incl. refugee-like situations),6
+2000,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),10
+2000,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),3
+2000,Colombia,South Africa,Refugees (incl. refugee-like situations),3
+2000,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2000,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+2000,Colombia,Uruguay,Returned refugees,1
+2001,Colombia,Angola,Refugees (incl. refugee-like situations),3
+2001,Colombia,Chile,Returned refugees,4
+2001,Colombia,China,Refugees (incl. refugee-like situations),5
+2001,Colombia,Colombia,Internally displaced persons,720000
+2001,Colombia,Cuba,Refugees (incl. refugee-like situations),21
+2001,Colombia,Cuba,Asylum-seekers,6
+2001,Colombia,El Salvador,Refugees (incl. refugee-like situations),1
+2001,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+2001,Colombia,Hungary,Refugees (incl. refugee-like situations),29
+2001,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),14
+2001,Colombia,Iran (Islamic Rep. of),Asylum-seekers,7
+2001,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2001,Colombia,Iraq,Asylum-seekers,3
+2001,Colombia,Liberia,Refugees (incl. refugee-like situations),4
+2001,Colombia,Nicaragua,Refugees (incl. refugee-like situations),79
+2001,Colombia,Peru,Refugees (incl. refugee-like situations),16
+2001,Colombia,Peru,Returned refugees,7
+2001,Colombia,Romania,Refugees (incl. refugee-like situations),6
+2001,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),10
+2001,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2001,Colombia,Sierra Leone,Asylum-seekers,1
+2001,Colombia,South Africa,Refugees (incl. refugee-like situations),3
+2001,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2001,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+2002,Colombia,Angola,Refugees (incl. refugee-like situations),3
+2002,Colombia,China,Refugees (incl. refugee-like situations),5
+2002,Colombia,Colombia,Internally displaced persons,950000
+2002,Colombia,Cuba,Refugees (incl. refugee-like situations),21
+2002,Colombia,Cuba,Asylum-seekers,1
+2002,Colombia,Ecuador,Refugees (incl. refugee-like situations),1
+2002,Colombia,Haiti,Refugees (incl. refugee-like situations),8
+2002,Colombia,Hungary,Refugees (incl. refugee-like situations),28
+2002,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),12
+2002,Colombia,Iran (Islamic Rep. of),Asylum-seekers,7
+2002,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2002,Colombia,Iraq,Asylum-seekers,1
+2002,Colombia,Liberia,Refugees (incl. refugee-like situations),4
+2002,Colombia,Liberia,Asylum-seekers,2
+2002,Colombia,Nicaragua,Refugees (incl. refugee-like situations),78
+2002,Colombia,Nicaragua,Returned refugees,1
+2002,Colombia,Peru,Refugees (incl. refugee-like situations),16
+2002,Colombia,Romania,Refugees (incl. refugee-like situations),6
+2002,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),9
+2002,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2002,Colombia,Sierra Leone,Asylum-seekers,1
+2002,Colombia,South Africa,Refugees (incl. refugee-like situations),3
+2002,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2002,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+2003,Colombia,Angola,Refugees (incl. refugee-like situations),3
+2003,Colombia,China,Refugees (incl. refugee-like situations),1
+2003,Colombia,Colombia,Internally displaced persons,1244072
+2003,Colombia,Cuba,Refugees (incl. refugee-like situations),13
+2003,Colombia,Cuba,Asylum-seekers,3
+2003,Colombia,Ecuador,Refugees (incl. refugee-like situations),1
+2003,Colombia,Hungary,Refugees (incl. refugee-like situations),28
+2003,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),10
+2003,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2003,Colombia,Liberia,Refugees (incl. refugee-like situations),5
+2003,Colombia,Nicaragua,Refugees (incl. refugee-like situations),78
+2003,Colombia,Panama,Returned refugees,120
+2003,Colombia,Peru,Refugees (incl. refugee-like situations),16
+2003,Colombia,Peru,Asylum-seekers,1
+2003,Colombia,Romania,Refugees (incl. refugee-like situations),6
+2003,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),8
+2003,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2003,Colombia,Sierra Leone,Asylum-seekers,1
+2003,Colombia,South Africa,Refugees (incl. refugee-like situations),3
+2003,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2003,Colombia,Ukraine,Refugees (incl. refugee-like situations),1
+2003,Colombia,Uzbekistan,Asylum-seekers,3
+2003,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),3
+2003,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2004,Colombia,Angola,Refugees (incl. refugee-like situations),3
+2004,Colombia,Benin,Asylum-seekers,1
+2004,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2004,Colombia,Bolivia (Plurinational State of),Asylum-seekers,1
+2004,Colombia,China,Refugees (incl. refugee-like situations),1
+2004,Colombia,Colombia,Internally displaced persons,2000000
+2004,Colombia,Congo,Asylum-seekers,1
+2004,Colombia,Cuba,Refugees (incl. refugee-like situations),23
+2004,Colombia,Cuba,Asylum-seekers,12
+2004,Colombia,Ecuador,Refugees (incl. refugee-like situations),1
+2004,Colombia,Hungary,Refugees (incl. refugee-like situations),23
+2004,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),3
+2004,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2004,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2004,Colombia,Nicaragua,Refugees (incl. refugee-like situations),31
+2004,Colombia,Peru,Refugees (incl. refugee-like situations),17
+2004,Colombia,Peru,Asylum-seekers,5
+2004,Colombia,Romania,Refugees (incl. refugee-like situations),6
+2004,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2004,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2004,Colombia,Sierra Leone,Asylum-seekers,1
+2004,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2004,Colombia,Sudan,Asylum-seekers,1
+2004,Colombia,Uzbekistan,Refugees (incl. refugee-like situations),3
+2004,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),9
+2004,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,13
+2004,Colombia,Zimbabwe,Asylum-seekers,1
+2005,Colombia,Angola,Refugees (incl. refugee-like situations),4
+2005,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2005,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2005,Colombia,China,Refugees (incl. refugee-like situations),1
+2005,Colombia,Colombia,Internally displaced persons,2000000
+2005,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2005,Colombia,Cote d'Ivoire,Asylum-seekers,1
+2005,Colombia,Cuba,Refugees (incl. refugee-like situations),38
+2005,Colombia,Cuba,Asylum-seekers,25
+2005,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2005,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2005,Colombia,Ecuador,Asylum-seekers,1
+2005,Colombia,Egypt,Asylum-seekers,1
+2005,Colombia,Guinea-Bissau,Asylum-seekers,3
+2005,Colombia,Hungary,Refugees (incl. refugee-like situations),10
+2005,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),4
+2005,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2005,Colombia,Iraq,Asylum-seekers,1
+2005,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2005,Colombia,Nicaragua,Refugees (incl. refugee-like situations),29
+2005,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2005,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2005,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2005,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2005,Colombia,Sierra Leone,Asylum-seekers,1
+2005,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2005,Colombia,Stateless,Stateless persons,9
+2005,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2005,Colombia,Uzbekistan,Refugees (incl. refugee-like situations),3
+2005,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2005,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,8
+2006,Colombia,Angola,Refugees (incl. refugee-like situations),4
+2006,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2006,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2006,Colombia,China,Refugees (incl. refugee-like situations),1
+2006,Colombia,Colombia,Internally displaced persons,3000000
+2006,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2006,Colombia,Cote d'Ivoire,Asylum-seekers,1
+2006,Colombia,Cuba,Refugees (incl. refugee-like situations),40
+2006,Colombia,Cuba,Asylum-seekers,62
+2006,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2006,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2006,Colombia,Egypt,Asylum-seekers,1
+2006,Colombia,Ethiopia,Asylum-seekers,5
+2006,Colombia,Hungary,Refugees (incl. refugee-like situations),10
+2006,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2006,Colombia,Iraq,Refugees (incl. refugee-like situations),2
+2006,Colombia,Iraq,Asylum-seekers,2
+2006,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2006,Colombia,Mauritania,Asylum-seekers,1
+2006,Colombia,Nicaragua,Refugees (incl. refugee-like situations),20
+2006,Colombia,Nicaragua,Returned refugees,6
+2006,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2006,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2006,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2006,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2006,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2006,Colombia,Stateless,Stateless persons,9
+2006,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2006,Colombia,Uzbekistan,Refugees (incl. refugee-like situations),3
+2006,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),14
+2006,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Colombia,Angola,Refugees (incl. refugee-like situations),4
+2007,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2007,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2007,Colombia,Bosnia and Herzegovina,Returned refugees,1
+2007,Colombia,China,Refugees (incl. refugee-like situations),1
+2007,Colombia,Colombia,Internally displaced persons,3000000
+2007,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2007,Colombia,Cote d'Ivoire,Refugees (incl. refugee-like situations),1
+2007,Colombia,Cuba,Refugees (incl. refugee-like situations),50
+2007,Colombia,Cuba,Asylum-seekers,50
+2007,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2007,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2007,Colombia,Egypt,Asylum-seekers,1
+2007,Colombia,Eritrea,Asylum-seekers,5
+2007,Colombia,Ethiopia,Refugees (incl. refugee-like situations),3
+2007,Colombia,Ethiopia,Asylum-seekers,8
+2007,Colombia,Guinea,Asylum-seekers,1
+2007,Colombia,Hungary,Refugees (incl. refugee-like situations),10
+2007,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2007,Colombia,Iraq,Refugees (incl. refugee-like situations),3
+2007,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2007,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2007,Colombia,Nepal,Asylum-seekers,2
+2007,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2007,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2007,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2007,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2007,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2007,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2007,Colombia,Somalia,Refugees (incl. refugee-like situations),1
+2007,Colombia,Somalia,Asylum-seekers,15
+2007,Colombia,Sri Lanka,Asylum-seekers,1
+2007,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2007,Colombia,Stateless,Stateless persons,11
+2007,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2007,Colombia,Uzbekistan,Refugees (incl. refugee-like situations),3
+2007,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2007,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2007,Colombia,Venezuela (Bolivarian Republic of),Returned refugees,5
+2008,Colombia,Angola,Refugees (incl. refugee-like situations),4
+2008,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2008,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2008,Colombia,China,Refugees (incl. refugee-like situations),1
+2008,Colombia,Colombia,Internally displaced persons,3000000
+2008,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2008,Colombia,Cuba,Refugees (incl. refugee-like situations),50
+2008,Colombia,Cuba,Asylum-seekers,18
+2008,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2008,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2008,Colombia,Eritrea,Asylum-seekers,17
+2008,Colombia,Ethiopia,Refugees (incl. refugee-like situations),5
+2008,Colombia,Ethiopia,Asylum-seekers,15
+2008,Colombia,Ghana,Asylum-seekers,1
+2008,Colombia,Guinea,Asylum-seekers,1
+2008,Colombia,Hungary,Refugees (incl. refugee-like situations),9
+2008,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2008,Colombia,Iraq,Refugees (incl. refugee-like situations),3
+2008,Colombia,Iraq,Asylum-seekers,1
+2008,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2008,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2008,Colombia,Nepal,Asylum-seekers,2
+2008,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2008,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2008,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2008,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2008,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2008,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2008,Colombia,Somalia,Refugees (incl. refugee-like situations),1
+2008,Colombia,Somalia,Asylum-seekers,15
+2008,Colombia,Sri Lanka,Asylum-seekers,1
+2008,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2008,Colombia,Stateless,Stateless persons,11
+2008,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2008,Colombia,Sudan,Asylum-seekers,1
+2008,Colombia,Turkey,Asylum-seekers,1
+2008,Colombia,Uzbekistan,Refugees (incl. refugee-like situations),3
+2008,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),19
+2008,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2009,Colombia,Angola,Refugees (incl. refugee-like situations),5
+2009,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2009,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2009,Colombia,Bolivia (Plurinational State of),Asylum-seekers,3
+2009,Colombia,China,Refugees (incl. refugee-like situations),1
+2009,Colombia,Colombia,Internally displaced persons,3303979
+2009,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2009,Colombia,Cuba,Refugees (incl. refugee-like situations),50
+2009,Colombia,Cuba,Asylum-seekers,29
+2009,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2009,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2009,Colombia,El Salvador,Asylum-seekers,7
+2009,Colombia,Eritrea,Refugees (incl. refugee-like situations),3
+2009,Colombia,Eritrea,Asylum-seekers,28
+2009,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2009,Colombia,Ethiopia,Asylum-seekers,4
+2009,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2009,Colombia,Guinea,Asylum-seekers,1
+2009,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2009,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2009,Colombia,Iraq,Refugees (incl. refugee-like situations),4
+2009,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2009,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2009,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2009,Colombia,Nepal,Asylum-seekers,6
+2009,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2009,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2009,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2009,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2009,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2009,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2009,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2009,Colombia,Somalia,Asylum-seekers,33
+2009,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2009,Colombia,Sri Lanka,Asylum-seekers,3
+2009,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2009,Colombia,Stateless,Stateless persons,11
+2009,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2009,Colombia,Turkey,Refugees (incl. refugee-like situations),1
+2009,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),18
+2009,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,2
+2010,Colombia,Afghanistan,Asylum-seekers,5
+2010,Colombia,Angola,Refugees (incl. refugee-like situations),5
+2010,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2010,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2010,Colombia,China,Refugees (incl. refugee-like situations),1
+2010,Colombia,Colombia,Internally displaced persons,3672054
+2010,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2010,Colombia,Cuba,Refugees (incl. refugee-like situations),58
+2010,Colombia,Cuba,Asylum-seekers,68
+2010,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2010,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2010,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2010,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2010,Colombia,Eritrea,Asylum-seekers,31
+2010,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2010,Colombia,Ethiopia,Asylum-seekers,5
+2010,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2010,Colombia,Guinea,Asylum-seekers,1
+2010,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2010,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2010,Colombia,Iraq,Refugees (incl. refugee-like situations),4
+2010,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2010,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2010,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2010,Colombia,Nepal,Asylum-seekers,6
+2010,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2010,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2010,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2010,Colombia,Peru,Asylum-seekers,5
+2010,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2010,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2010,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2010,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2010,Colombia,Somalia,Asylum-seekers,33
+2010,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2010,Colombia,Sri Lanka,Asylum-seekers,5
+2010,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2010,Colombia,Stateless,Stateless persons,11
+2010,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2010,Colombia,Turkey,Refugees (incl. refugee-like situations),2
+2010,Colombia,United States of America,Asylum-seekers,1
+2010,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2010,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,7
+2011,Colombia,Afghanistan,Asylum-seekers,7
+2011,Colombia,Angola,Refugees (incl. refugee-like situations),5
+2011,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2011,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),3
+2011,Colombia,China,Refugees (incl. refugee-like situations),1
+2011,Colombia,Colombia,Internally displaced persons,3888309
+2011,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2011,Colombia,Cote d'Ivoire,Asylum-seekers,1
+2011,Colombia,Cuba,Refugees (incl. refugee-like situations),58
+2011,Colombia,Cuba,Asylum-seekers,45
+2011,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2011,Colombia,Dominican Rep.,Refugees (incl. refugee-like situations),1
+2011,Colombia,Ecuador,Refugees (incl. refugee-like situations),2
+2011,Colombia,Ecuador,Asylum-seekers,3
+2011,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2011,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2011,Colombia,Eritrea,Asylum-seekers,31
+2011,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2011,Colombia,Ethiopia,Asylum-seekers,6
+2011,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2011,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2011,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2011,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2011,Colombia,Iraq,Refugees (incl. refugee-like situations),4
+2011,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2011,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2011,Colombia,Mozambique,Asylum-seekers,1
+2011,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2011,Colombia,Nepal,Asylum-seekers,6
+2011,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2011,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2011,Colombia,Peru,Refugees (incl. refugee-like situations),14
+2011,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2011,Colombia,Russian Federation,Refugees (incl. refugee-like situations),3
+2011,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2011,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2011,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2011,Colombia,Somalia,Asylum-seekers,11
+2011,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2011,Colombia,Sri Lanka,Asylum-seekers,2
+2011,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2011,Colombia,Stateless,Stateless persons,12
+2011,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2011,Colombia,Turkey,Refugees (incl. refugee-like situations),2
+2011,Colombia,United States of America,Asylum-seekers,2
+2011,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2011,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,5
+2012,Colombia,Afghanistan,Refugees (incl. refugee-like situations),2
+2012,Colombia,Angola,Refugees (incl. refugee-like situations),5
+2012,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2012,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2012,Colombia,China,Refugees (incl. refugee-like situations),1
+2012,Colombia,China,Asylum-seekers,1
+2012,Colombia,Colombia,Internally displaced persons,3943509
+2012,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2012,Colombia,Cote d'Ivoire,Asylum-seekers,2
+2012,Colombia,Cuba,Refugees (incl. refugee-like situations),60
+2012,Colombia,Cuba,Asylum-seekers,56
+2012,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2012,Colombia,Dominican Rep.,Refugees (incl. refugee-like situations),1
+2012,Colombia,Ecuador,Refugees (incl. refugee-like situations),5
+2012,Colombia,Ecuador,Asylum-seekers,3
+2012,Colombia,Egypt,Asylum-seekers,1
+2012,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2012,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2012,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2012,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2012,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2012,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2012,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2012,Colombia,Iraq,Refugees (incl. refugee-like situations),4
+2012,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2012,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2012,Colombia,Morocco,Asylum-seekers,1
+2012,Colombia,Mozambique,Asylum-seekers,1
+2012,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2012,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2012,Colombia,Pakistan,Asylum-seekers,1
+2012,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2012,Colombia,Peru,Refugees (incl. refugee-like situations),8
+2012,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2012,Colombia,Russian Federation,Refugees (incl. refugee-like situations),3
+2012,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2012,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2012,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2012,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2012,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2012,Colombia,Stateless,Stateless persons,12
+2012,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2012,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),1
+2012,Colombia,Syrian Arab Rep.,Asylum-seekers,2
+2012,Colombia,Turkey,Refugees (incl. refugee-like situations),2
+2012,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),17
+2012,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,9
+2013,Colombia,Afghanistan,Refugees (incl. refugee-like situations),2
+2013,Colombia,Angola,Refugees (incl. refugee-like situations),5
+2013,Colombia,Bangladesh,Asylum-seekers,2
+2013,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2013,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),1
+2013,Colombia,Bolivia (Plurinational State of),Asylum-seekers,3
+2013,Colombia,China,Refugees (incl. refugee-like situations),1
+2013,Colombia,Colombia,Internally displaced persons,5368138
+2013,Colombia,Congo,Refugees (incl. refugee-like situations),2
+2013,Colombia,Cuba,Refugees (incl. refugee-like situations),62
+2013,Colombia,Cuba,Asylum-seekers,37
+2013,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),1
+2013,Colombia,Dominican Rep.,Refugees (incl. refugee-like situations),1
+2013,Colombia,Ecuador,Refugees (incl. refugee-like situations),8
+2013,Colombia,Ecuador,Asylum-seekers,5
+2013,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2013,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2013,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2013,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2013,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2013,Colombia,Haiti,Asylum-seekers,1
+2013,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2013,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),2
+2013,Colombia,Iraq,Refugees (incl. refugee-like situations),4
+2013,Colombia,Liberia,Refugees (incl. refugee-like situations),3
+2013,Colombia,Mali,Asylum-seekers,1
+2013,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2013,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2013,Colombia,Nicaragua,Refugees (incl. refugee-like situations),24
+2013,Colombia,Pakistan,Refugees (incl. refugee-like situations),1
+2013,Colombia,Pakistan,Asylum-seekers,1
+2013,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2013,Colombia,Paraguay,Asylum-seekers,1
+2013,Colombia,Peru,Refugees (incl. refugee-like situations),8
+2013,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2013,Colombia,Russian Federation,Refugees (incl. refugee-like situations),3
+2013,Colombia,Russian Federation,Asylum-seekers,1
+2013,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2013,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),5
+2013,Colombia,Sierra Leone,Asylum-seekers,1
+2013,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2013,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2013,Colombia,Stateless,Refugees (incl. refugee-like situations),3
+2013,Colombia,Stateless,Stateless persons,12
+2013,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2013,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),2
+2013,Colombia,Syrian Arab Rep.,Asylum-seekers,1
+2013,Colombia,Turkey,Refugees (incl. refugee-like situations),2
+2013,Colombia,United States of America,Asylum-seekers,1
+2013,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),15
+2013,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,16
+2014,Colombia,Afghanistan,Refugees (incl. refugee-like situations),2
+2014,Colombia,Angola,Refugees (incl. refugee-like situations),2
+2014,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2014,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),3
+2014,Colombia,Bolivia (Plurinational State of),Asylum-seekers,1
+2014,Colombia,China,Refugees (incl. refugee-like situations),1
+2014,Colombia,Colombia,Internally displaced persons,6044151
+2014,Colombia,Congo,Refugees (incl. refugee-like situations),1
+2014,Colombia,Cuba,Refugees (incl. refugee-like situations),62
+2014,Colombia,Cuba,Asylum-seekers,84
+2014,Colombia,Ecuador,Refugees (incl. refugee-like situations),9
+2014,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2014,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2014,Colombia,Eritrea,Asylum-seekers,7
+2014,Colombia,Ethiopia,Refugees (incl. refugee-like situations),16
+2014,Colombia,Ethiopia,Asylum-seekers,1
+2014,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2014,Colombia,Ghana,Asylum-seekers,1
+2014,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2014,Colombia,Honduras,Asylum-seekers,1
+2014,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2014,Colombia,India,Asylum-seekers,1
+2014,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),1
+2014,Colombia,Iraq,Refugees (incl. refugee-like situations),3
+2014,Colombia,Liberia,Refugees (incl. refugee-like situations),2
+2014,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2014,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2014,Colombia,Nepal,Asylum-seekers,10
+2014,Colombia,Nicaragua,Refugees (incl. refugee-like situations),14
+2014,Colombia,Nigeria,Asylum-seekers,1
+2014,Colombia,Pakistan,Refugees (incl. refugee-like situations),1
+2014,Colombia,Pakistan,Asylum-seekers,10
+2014,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2014,Colombia,Peru,Refugees (incl. refugee-like situations),6
+2014,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2014,Colombia,Russian Federation,Asylum-seekers,1
+2014,Colombia,Rwanda,Asylum-seekers,1
+2014,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2014,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),3
+2014,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2014,Colombia,Somalia,Asylum-seekers,2
+2014,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2014,Colombia,Sri Lanka,Asylum-seekers,2
+2014,Colombia,Stateless,Refugees (incl. refugee-like situations),2
+2014,Colombia,Stateless,Asylum-seekers,1
+2014,Colombia,Stateless,Stateless persons,12
+2014,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2014,Colombia,Sudan,Asylum-seekers,1
+2014,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),4
+2014,Colombia,Syrian Arab Rep.,Asylum-seekers,2
+2014,Colombia,Tibetan,Asylum-seekers,1
+2014,Colombia,Turkey,Refugees (incl. refugee-like situations),1
+2014,Colombia,United States of America,Asylum-seekers,1
+2014,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),27
+2014,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,41
+2015,Colombia,Afghanistan,Refugees (incl. refugee-like situations),3
+2015,Colombia,Afghanistan,Asylum-seekers,5
+2015,Colombia,Angola,Refugees (incl. refugee-like situations),2
+2015,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2015,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),3
+2015,Colombia,Bolivia (Plurinational State of),Asylum-seekers,1
+2015,Colombia,China,Refugees (incl. refugee-like situations),1
+2015,Colombia,Colombia,Internally displaced persons,6939067
+2015,Colombia,Congo,Refugees (incl. refugee-like situations),1
+2015,Colombia,Cuba,Refugees (incl. refugee-like situations),62
+2015,Colombia,Cuba,Asylum-seekers,13
+2015,Colombia,Ecuador,Refugees (incl. refugee-like situations),9
+2015,Colombia,Ecuador,Asylum-seekers,1
+2015,Colombia,El Salvador,Refugees (incl. refugee-like situations),7
+2015,Colombia,El Salvador,Asylum-seekers,5
+2015,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2015,Colombia,Ethiopia,Refugees (incl. refugee-like situations),17
+2015,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2015,Colombia,Ghana,Asylum-seekers,1
+2015,Colombia,Guinea-Bissau,Asylum-seekers,1
+2015,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2015,Colombia,Honduras,Asylum-seekers,4
+2015,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2015,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),1
+2015,Colombia,Iraq,Refugees (incl. refugee-like situations),3
+2015,Colombia,Iraq,Asylum-seekers,6
+2015,Colombia,Liberia,Refugees (incl. refugee-like situations),2
+2015,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2015,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2015,Colombia,Nepal,Asylum-seekers,2
+2015,Colombia,Nicaragua,Refugees (incl. refugee-like situations),14
+2015,Colombia,Pakistan,Refugees (incl. refugee-like situations),1
+2015,Colombia,Palestinian,Refugees (incl. refugee-like situations),1
+2015,Colombia,Palestinian,Asylum-seekers,1
+2015,Colombia,Peru,Refugees (incl. refugee-like situations),1
+2015,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2015,Colombia,Rwanda,Refugees (incl. refugee-like situations),1
+2015,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2015,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),3
+2015,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2015,Colombia,Spain,Asylum-seekers,1
+2015,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2015,Colombia,Stateless,Refugees (incl. refugee-like situations),2
+2015,Colombia,Stateless,Stateless persons,12
+2015,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2015,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),7
+2015,Colombia,Turkey,Refugees (incl. refugee-like situations),1
+2015,Colombia,Ukraine,Asylum-seekers,1
+2015,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),39
+2015,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,73
+2016,Colombia,Afghanistan,Refugees (incl. refugee-like situations),8
+2016,Colombia,Angola,Refugees (incl. refugee-like situations),2
+2016,Colombia,Benin,Refugees (incl. refugee-like situations),1
+2016,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),3
+2016,Colombia,Bolivia (Plurinational State of),Asylum-seekers,3
+2016,Colombia,Brazil,Asylum-seekers,1
+2016,Colombia,China,Refugees (incl. refugee-like situations),1
+2016,Colombia,Colombia,Internally displaced persons,7410816
+2016,Colombia,Congo,Refugees (incl. refugee-like situations),1
+2016,Colombia,Cuba,Refugees (incl. refugee-like situations),71
+2016,Colombia,Cuba,Asylum-seekers,15
+2016,Colombia,Ecuador,Refugees (incl. refugee-like situations),9
+2016,Colombia,Ecuador,Asylum-seekers,2
+2016,Colombia,Egypt,Asylum-seekers,1
+2016,Colombia,El Salvador,Refugees (incl. refugee-like situations),11
+2016,Colombia,El Salvador,Asylum-seekers,1
+2016,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2016,Colombia,Ethiopia,Refugees (incl. refugee-like situations),17
+2016,Colombia,Ghana,Refugees (incl. refugee-like situations),1
+2016,Colombia,Ghana,Asylum-seekers,2
+2016,Colombia,Guinea-Bissau,Asylum-seekers,1
+2016,Colombia,Haiti,Refugees (incl. refugee-like situations),1
+2016,Colombia,Honduras,Refugees (incl. refugee-like situations),3
+2016,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2016,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),1
+2016,Colombia,Iraq,Refugees (incl. refugee-like situations),8
+2016,Colombia,Iraq,Asylum-seekers,1
+2016,Colombia,Liberia,Refugees (incl. refugee-like situations),2
+2016,Colombia,Mauritania,Refugees (incl. refugee-like situations),1
+2016,Colombia,Nepal,Refugees (incl. refugee-like situations),2
+2016,Colombia,Nepal,Asylum-seekers,2
+2016,Colombia,Nicaragua,Refugees (incl. refugee-like situations),14
+2016,Colombia,Pakistan,Refugees (incl. refugee-like situations),1
+2016,Colombia,Pakistan,Asylum-seekers,5
+2016,Colombia,Palestinian,Refugees (incl. refugee-like situations),2
+2016,Colombia,Peru,Refugees (incl. refugee-like situations),1
+2016,Colombia,Peru,Asylum-seekers,1
+2016,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2016,Colombia,Rwanda,Refugees (incl. refugee-like situations),1
+2016,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2016,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),3
+2016,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2016,Colombia,Spain,Asylum-seekers,2
+2016,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),2
+2016,Colombia,Stateless,Refugees (incl. refugee-like situations),2
+2016,Colombia,Stateless,Stateless persons,11
+2016,Colombia,Sudan,Refugees (incl. refugee-like situations),1
+2016,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),8
+2016,Colombia,Syrian Arab Rep.,Asylum-seekers,4
+2016,Colombia,Turkey,Refugees (incl. refugee-like situations),1
+2016,Colombia,Turkey,Asylum-seekers,19
+2016,Colombia,Ukraine,Asylum-seekers,1
+2016,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),43
+2016,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,324
+2016,Colombia,Yemen,Asylum-seekers,1
+2017,Colombia,Afghanistan,Refugees (incl. refugee-like situations),8
+2017,Colombia,Afghanistan,Asylum-seekers,*
+2017,Colombia,Angola,Refugees (incl. refugee-like situations),*
+2017,Colombia,Benin,Refugees (incl. refugee-like situations),*
+2017,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),*
+2017,Colombia,Bolivia (Plurinational State of),Asylum-seekers,*
+2017,Colombia,Cameroon,Asylum-seekers,*
+2017,Colombia,China,Refugees (incl. refugee-like situations),*
+2017,Colombia,Colombia,Returned refugees,194
+2017,Colombia,Colombia,Internally displaced persons,7677609
+2017,Colombia,Congo,Refugees (incl. refugee-like situations),*
+2017,Colombia,Cuba,Refugees (incl. refugee-like situations),71
+2017,Colombia,Cuba,Asylum-seekers,25
+2017,Colombia,Ecuador,Refugees (incl. refugee-like situations),9
+2017,Colombia,Ecuador,Asylum-seekers,*
+2017,Colombia,Egypt,Asylum-seekers,*
+2017,Colombia,El Salvador,Refugees (incl. refugee-like situations),11
+2017,Colombia,El Salvador,Asylum-seekers,*
+2017,Colombia,Eritrea,Refugees (incl. refugee-like situations),4
+2017,Colombia,Ethiopia,Refugees (incl. refugee-like situations),17
+2017,Colombia,Gambia,Asylum-seekers,*
+2017,Colombia,Ghana,Refugees (incl. refugee-like situations),*
+2017,Colombia,Haiti,Refugees (incl. refugee-like situations),*
+2017,Colombia,Honduras,Refugees (incl. refugee-like situations),*
+2017,Colombia,Hungary,Refugees (incl. refugee-like situations),7
+2017,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),*
+2017,Colombia,Iran (Islamic Rep. of),Asylum-seekers,*
+2017,Colombia,Iraq,Refugees (incl. refugee-like situations),9
+2017,Colombia,Iraq,Asylum-seekers,*
+2017,Colombia,Liberia,Refugees (incl. refugee-like situations),*
+2017,Colombia,Libya,Asylum-seekers,*
+2017,Colombia,Mauritania,Refugees (incl. refugee-like situations),*
+2017,Colombia,Nepal,Refugees (incl. refugee-like situations),*
+2017,Colombia,Nicaragua,Refugees (incl. refugee-like situations),14
+2017,Colombia,Pakistan,Refugees (incl. refugee-like situations),*
+2017,Colombia,Pakistan,Asylum-seekers,5
+2017,Colombia,Palestinian,Refugees (incl. refugee-like situations),*
+2017,Colombia,Palestinian,Asylum-seekers,*
+2017,Colombia,Peru,Refugees (incl. refugee-like situations),*
+2017,Colombia,Peru,Asylum-seekers,*
+2017,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2017,Colombia,Rwanda,Refugees (incl. refugee-like situations),*
+2017,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2017,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),*
+2017,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2017,Colombia,Spain,Asylum-seekers,*
+2017,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),*
+2017,Colombia,Stateless,Refugees (incl. refugee-like situations),*
+2017,Colombia,Stateless,Stateless persons,11
+2017,Colombia,Sudan,Refugees (incl. refugee-like situations),*
+2017,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),8
+2017,Colombia,Syrian Arab Rep.,Asylum-seekers,4
+2017,Colombia,Turkey,Refugees (incl. refugee-like situations),*
+2017,Colombia,Turkey,Asylum-seekers,14
+2017,Colombia,Ukraine,Asylum-seekers,*
+2017,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),61
+2017,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,469
+2017,Colombia,Venezuela (Bolivarian Republic of),Others of concern,68734
+2017,Colombia,Yemen,Asylum-seekers,7
+2018,Colombia,Afghanistan,Asylum-seekers,*
+2018,Colombia,Afghanistan,Refugees (incl. refugee-like situations),9
+2018,Colombia,Angola,Refugees (incl. refugee-like situations),*
+2018,Colombia,Benin,Refugees (incl. refugee-like situations),*
+2018,Colombia,Bolivia (Plurinational State of),Refugees (incl. refugee-like situations),*
+2018,Colombia,Chile,Asylum-seekers,*
+2018,Colombia,China,Refugees (incl. refugee-like situations),*
+2018,Colombia,Cameroon,Asylum-seekers,*
+2018,Colombia,Dem. Rep. of the Congo,Refugees (incl. refugee-like situations),*
+2018,Colombia,Colombia,Internally displaced persons,7816472
+2018,Colombia,Colombia,Returned refugees,23897
+2018,Colombia,Costa Rica,Asylum-seekers,*
+2018,Colombia,Cuba,Asylum-seekers,61
+2018,Colombia,Cuba,Refugees (incl. refugee-like situations),73
+2018,Colombia,Germany,Asylum-seekers,*
+2018,Colombia,Ecuador,Asylum-seekers,*
+2018,Colombia,Ecuador,Refugees (incl. refugee-like situations),8
+2018,Colombia,Eritrea,Refugees (incl. refugee-like situations),*
+2018,Colombia,Spain,Asylum-seekers,*
+2018,Colombia,Ethiopia,Refugees (incl. refugee-like situations),17
+2018,Colombia,Ghana,Asylum-seekers,*
+2018,Colombia,Ghana,Refugees (incl. refugee-like situations),*
+2018,Colombia,Greece,Asylum-seekers,*
+2018,Colombia,Honduras,Asylum-seekers,*
+2018,Colombia,Honduras,Refugees (incl. refugee-like situations),*
+2018,Colombia,Haiti,Refugees (incl. refugee-like situations),*
+2018,Colombia,Hungary,Refugees (incl. refugee-like situations),6
+2018,Colombia,Iran (Islamic Rep. of),Asylum-seekers,*
+2018,Colombia,Iran (Islamic Rep. of),Refugees (incl. refugee-like situations),*
+2018,Colombia,Iraq,Asylum-seekers,*
+2018,Colombia,Iraq,Refugees (incl. refugee-like situations),9
+2018,Colombia,Liberia,Asylum-seekers,*
+2018,Colombia,Liberia,Refugees (incl. refugee-like situations),*
+2018,Colombia,Libya,Asylum-seekers,*
+2018,Colombia,Sri Lanka,Refugees (incl. refugee-like situations),*
+2018,Colombia,Mexico,Asylum-seekers,*
+2018,Colombia,Mauritania,Refugees (incl. refugee-like situations),*
+2018,Colombia,Nigeria,Asylum-seekers,*
+2018,Colombia,Nicaragua,Asylum-seekers,*
+2018,Colombia,Nicaragua,Refugees (incl. refugee-like situations),14
+2018,Colombia,Nepal,Refugees (incl. refugee-like situations),*
+2018,Colombia,Pakistan,Refugees (incl. refugee-like situations),*
+2018,Colombia,Peru,Asylum-seekers,*
+2018,Colombia,Peru,Refugees (incl. refugee-like situations),*
+2018,Colombia,Poland,Asylum-seekers,*
+2018,Colombia,Portugal,Asylum-seekers,*
+2018,Colombia,Palestinian,Asylum-seekers,5
+2018,Colombia,Palestinian,Refugees (incl. refugee-like situations),*
+2018,Colombia,Romania,Refugees (incl. refugee-like situations),7
+2018,Colombia,Russian Federation,Asylum-seekers,*
+2018,Colombia,Rwanda,Refugees (incl. refugee-like situations),*
+2018,Colombia,Sudan,Refugees (incl. refugee-like situations),*
+2018,Colombia,Sierra Leone,Refugees (incl. refugee-like situations),*
+2018,Colombia,El Salvador,Asylum-seekers,*
+2018,Colombia,El Salvador,Refugees (incl. refugee-like situations),11
+2018,Colombia,Somalia,Asylum-seekers,*
+2018,Colombia,Somalia,Refugees (incl. refugee-like situations),11
+2018,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),Refugees (incl. refugee-like situations),7
+2018,Colombia,Syrian Arab Rep.,Asylum-seekers,8
+2018,Colombia,Syrian Arab Rep.,Refugees (incl. refugee-like situations),8
+2018,Colombia,Turkey,Asylum-seekers,36
+2018,Colombia,Uganda,Asylum-seekers,*
+2018,Colombia,Ukraine,Asylum-seekers,*
+2018,Colombia,Uruguay,Asylum-seekers,*
+2018,Colombia,Venezuela (Bolivarian Republic of),Asylum-seekers,2729
+2018,Colombia,Venezuela (Bolivarian Republic of),Others of concern,1171552
+2018,Colombia,Venezuela (Bolivarian Republic of),Refugees (incl. refugee-like situations),94
+2018,Colombia,Stateless,Asylum-seekers,*
+2018,Colombia,Stateless,Refugees (incl. refugee-like situations),*
+2018,Colombia,Stateless,Stateless persons,11
+2018,Colombia,Yemen,Asylum-seekers,7

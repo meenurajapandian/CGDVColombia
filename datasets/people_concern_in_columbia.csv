@@ -1,0 +1,794 @@
+Year,Country / territory of asylum/residence,Origin,Refugees (incl. refugee-like situations),Asylum-seekers (pending cases),Returned refugees,Internally displaced persons (IDPs),Returned IDPs,Stateless persons,Others of concern,Total Population
+#date+year,#country+residence,#country+origin,#affected+refugees,#affected+asylum,#affected+returned_refugees,#affected+idps,#affected+returned_idps,#affected+stateless,#affected+others,#affected+total
+1970,Colombia,Various/Unknown,1500,,,,,,,1500
+1971,Colombia,Various/Unknown,1400,,,,,,,1400
+1972,Colombia,Various/Unknown,1350,,,,,,,1350
+1973,Colombia,Various/Unknown,1450,,,,,,,1450
+1974,Colombia,Various/Unknown,1200,,,,,,,1200
+1977,Colombia,Various/Unknown,1800,,,,,,,1800
+1978,Colombia,Various/Unknown,1500,,,,,,,1500
+1979,Colombia,Various/Unknown,2000,,,,,,,2000
+1980,Colombia,Various/Unknown,2000,,,,,,,2000
+1981,Colombia,Various/Unknown,1800,,,,,,,1800
+1982,Colombia,Various/Unknown,150,,,,,,,150
+1983,Colombia,Nicaragua,60,,,,,,,60
+1983,Colombia,Various/Unknown,150,,,,,,,150
+1984,Colombia,Nicaragua,70,,,,,,,70
+1984,Colombia,Various/Unknown,260,,,,,,,260
+1985,Colombia,Chile,90,,,,,,,90
+1985,Colombia,Nicaragua,80,,,,,,,80
+1985,Colombia,Various/Unknown,230,,,,,,,230
+1986,Colombia,Chile,50,,,,,,,50
+1986,Colombia,Various/Unknown,190,,,,,,,190
+1987,Colombia,Chile,180,,,,,,,180
+1987,Colombia,Nicaragua,70,,,,,,,70
+1987,Colombia,Various/Unknown,430,,,,,,,430
+1988,Colombia,Chile,180,,,,,,,180
+1988,Colombia,Nicaragua,90,,,,,,,90
+1988,Colombia,Various/Unknown,450,,,,,,,450
+1989,Colombia,Chile,180,,,,,,,180
+1989,Colombia,Nicaragua,90,,,,,,,90
+1989,Colombia,Various/Unknown,430,,,,,,,430
+1990,Colombia,Chile,80,,,,,,,80
+1990,Colombia,Nicaragua,90,,,,,,,90
+1990,Colombia,Various/Unknown,290,,110,,,,,400
+1990,Colombia,Various/Unknown,,,,,,,,0
+1991,Colombia,Chile,70,,,,,,,70
+1991,Colombia,Nicaragua,90,,,,,,,90
+1991,Colombia,Various/Unknown,,,,,,,,0
+1991,Colombia,Various/Unknown,290,,60,,,,,350
+1992,Colombia,Chile,60,,,,,,,60
+1992,Colombia,Nicaragua,90,,,,,,,90
+1992,Colombia,Various/Unknown,328,,,,,,,328
+1993,Colombia,Chile,56,,4,,,,,60
+1993,Colombia,China,4,,,,,,,4
+1993,Colombia,Cuba,12,,,,,,,12
+1993,Colombia,El Salvador,4,,,,,,,4
+1993,Colombia,Guyana,1,,,,,,,1
+1993,Colombia,Haiti,10,,,,,,,10
+1993,Colombia,Hungary,55,,,,,,,55
+1993,Colombia,Iran (Islamic Rep. of),12,,,,,,,12
+1993,Colombia,Iraq,1,,,,,,,1
+1993,Colombia,Nicaragua,86,,8,,,,,94
+1993,Colombia,Peru,6,,,,,,,6
+1993,Colombia,Poland,2,,,,,,,2
+1993,Colombia,Romania,10,,,,,,,10
+1993,Colombia,South Africa,1,,,,,,,1
+1993,Colombia,Ukraine,1,,,,,,,1
+1993,Colombia,Various/Unknown,3,,,,,,,3
+1993,Colombia,Viet Nam,34,,,,,,,34
+1994,Colombia,Angola,1,,,,,,,1
+1994,Colombia,Chile,48,,16,,,,,64
+1994,Colombia,China,5,,,,,,,5
+1994,Colombia,Croatia,1,,,,,,,1
+1994,Colombia,Cuba,15,,,,,,,15
+1994,Colombia,El Salvador,4,,,,,,,4
+1994,Colombia,Haiti,11,,1,,,,,12
+1994,Colombia,Hungary,55,,,,,,,55
+1994,Colombia,Iran (Islamic Rep. of),11,,,,,,,11
+1994,Colombia,Iraq,2,,,,,,,2
+1994,Colombia,Nicaragua,92,,,,,,,92
+1994,Colombia,Peru,21,,,,,,,21
+1994,Colombia,Poland,1,,,,,,,1
+1994,Colombia,Romania,10,,,,,,,10
+1994,Colombia,South Africa,1,,,,,,,1
+1994,Colombia,Ukraine,1,,,,,,,1
+1994,Colombia,Various/Unknown,3,,,,,,,3
+1994,Colombia,Viet Nam,34,,,,,,,34
+1995,Colombia,Chile,35,,1,,,,,36
+1995,Colombia,Cuba,12,,,,,,,12
+1995,Colombia,Haiti,8,,4,,,,,12
+1995,Colombia,Hungary,30,,,,,,,30
+1995,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+1995,Colombia,Nicaragua,74,,1,,,,,75
+1995,Colombia,Peru,15,,,,,,,15
+1995,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+1995,Colombia,Stateless,3,,,,,,,3
+1995,Colombia,Various/Unknown,22,,,,,,,22
+1996,Colombia,Chile,35,,,,,,,35
+1996,Colombia,Cuba,12,,,,,,,12
+1996,Colombia,Haiti,8,,,,,,,8
+1996,Colombia,Hungary,30,,,,,,,30
+1996,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+1996,Colombia,Nicaragua,74,,,,,,,74
+1996,Colombia,Peru,16,,,,,,,16
+1996,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+1996,Colombia,Stateless,3,,,,,,,3
+1996,Colombia,Various/Unknown,23,,,,,,,23
+1997,Colombia,Angola,1,,,,,,,1
+1997,Colombia,Chile,35,,,,,,,35
+1997,Colombia,China,5,,,,,,,5
+1997,Colombia,Cuba,12,,,,,,,12
+1997,Colombia,El Salvador,4,,,,,,,4
+1997,Colombia,Haiti,8,,,,,,,8
+1997,Colombia,Hungary,30,,,,,,,30
+1997,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+1997,Colombia,Iraq,1,,,,,,,1
+1997,Colombia,Liberia,5,,,,,,,5
+1997,Colombia,Nicaragua,74,,,,,,,74
+1997,Colombia,Peru,17,,,,,,,17
+1997,Colombia,Romania,8,,,,,,,8
+1997,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+1997,Colombia,Stateless,3,,,,,,,3
+1997,Colombia,Ukraine,1,,,,,,,1
+1998,Colombia,Angola,1,,,,,,,1
+1998,Colombia,Chile,35,,,,,,,35
+1998,Colombia,China,5,,,,,,,5
+1998,Colombia,Cuba,12,,,,,,,12
+1998,Colombia,El Salvador,4,,,,,,,4
+1998,Colombia,Haiti,8,,,,,,,8
+1998,Colombia,Hungary,30,,,,,,,30
+1998,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+1998,Colombia,Iraq,1,,,,,,,1
+1998,Colombia,Liberia,5,,,,,,,5
+1998,Colombia,Nicaragua,74,,,,,,,74
+1998,Colombia,Peru,20,,,,,,,20
+1998,Colombia,Romania,8,,,,,,,8
+1998,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+1998,Colombia,Stateless,3,,,,,,,3
+1998,Colombia,Ukraine,1,,,,,,,1
+1999,Colombia,Angola,4,,,,,,,4
+1999,Colombia,Chile,36,,,,,,,36
+1999,Colombia,China,5,,,,,,,5
+1999,Colombia,Cuba,12,,,,,,,12
+1999,Colombia,El Salvador,1,,3,,,,,4
+1999,Colombia,Haiti,8,,,,,,,8
+1999,Colombia,Hungary,30,,,,,,,30
+1999,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+1999,Colombia,Iraq,1,,,,,,,1
+1999,Colombia,Liberia,5,,,,,,,5
+1999,Colombia,Nicaragua,74,,,,,,,74
+1999,Colombia,Peru,20,,,,,,,20
+1999,Colombia,Romania,8,,,,,,,8
+1999,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+1999,Colombia,Sierra Leone,3,,,,,,,3
+1999,Colombia,Stateless,3,,,,,,,3
+1999,Colombia,Ukraine,1,,,,,,,1
+2000,Colombia,Angola,3,,,,,,,3
+2000,Colombia,Chile,30,,6,,,,,36
+2000,Colombia,China,5,,,,,,,5
+2000,Colombia,Colombia,,,,525000,,,,525000
+2000,Colombia,Cuba,18,3,,,,,,21
+2000,Colombia,Ecuador,,1,,,,,,1
+2000,Colombia,El Salvador,1,,,,,,,1
+2000,Colombia,Guatemala,,,2,,,,,2
+2000,Colombia,Haiti,8,,,,,,,8
+2000,Colombia,Hungary,30,,,,,,,30
+2000,Colombia,Iran (Islamic Rep. of),13,7,1,,,,,21
+2000,Colombia,Iraq,2,,,,,,,2
+2000,Colombia,Liberia,4,,,,,,,4
+2000,Colombia,Nicaragua,80,,1,,,,,81
+2000,Colombia,Panama,,,253,,,,,253
+2000,Colombia,Peru,19,1,1,,,,,21
+2000,Colombia,Romania,6,,,,,,,6
+2000,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),10,,,,,,,10
+2000,Colombia,Sierra Leone,3,,,,,,,3
+2000,Colombia,South Africa,3,,,,,,,3
+2000,Colombia,Stateless,3,,,,,,,3
+2000,Colombia,Ukraine,1,,,,,,,1
+2000,Colombia,Uruguay,,,1,,,,,1
+2001,Colombia,Angola,3,,,,,,,3
+2001,Colombia,Chile,,,4,,,,,4
+2001,Colombia,China,5,,,,,,,5
+2001,Colombia,Colombia,,,,720000,,,,720000
+2001,Colombia,Cuba,21,6,,,,,,27
+2001,Colombia,El Salvador,1,,,,,,,1
+2001,Colombia,Haiti,8,,,,,,,8
+2001,Colombia,Hungary,29,,,,,,,29
+2001,Colombia,Iran (Islamic Rep. of),14,7,,,,,,21
+2001,Colombia,Iraq,2,3,,,,,,5
+2001,Colombia,Liberia,4,,,,,,,4
+2001,Colombia,Nicaragua,79,,,,,,,79
+2001,Colombia,Peru,16,,7,,,,,23
+2001,Colombia,Romania,6,,,,,,,6
+2001,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),10,,,,,,,10
+2001,Colombia,Sierra Leone,5,1,,,,,,6
+2001,Colombia,South Africa,3,,,,,,,3
+2001,Colombia,Stateless,3,,,,,,,3
+2001,Colombia,Ukraine,1,,,,,,,1
+2002,Colombia,Angola,3,,,,,,,3
+2002,Colombia,China,5,,,,,,,5
+2002,Colombia,Colombia,,,,950000,,,,950000
+2002,Colombia,Cuba,21,1,,,,,,22
+2002,Colombia,Ecuador,1,,,,,,,1
+2002,Colombia,Haiti,8,,,,,,,8
+2002,Colombia,Hungary,28,,,,,,,28
+2002,Colombia,Iran (Islamic Rep. of),12,7,,,,,,19
+2002,Colombia,Iraq,2,1,,,,,,3
+2002,Colombia,Liberia,4,2,,,,,,6
+2002,Colombia,Nicaragua,78,,1,,,,,79
+2002,Colombia,Peru,16,,,,,,,16
+2002,Colombia,Romania,6,,,,,,,6
+2002,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),9,,,,,,,9
+2002,Colombia,Sierra Leone,5,1,,,,,,6
+2002,Colombia,South Africa,3,,,,,,,3
+2002,Colombia,Stateless,3,,,,,,,3
+2002,Colombia,Ukraine,1,,,,,,,1
+2003,Colombia,Angola,3,,,,,,,3
+2003,Colombia,China,1,,,,,,,1
+2003,Colombia,Colombia,,,,1244072,,,,1244072
+2003,Colombia,Cuba,13,3,,,,,,16
+2003,Colombia,Ecuador,1,,,,,,,1
+2003,Colombia,Hungary,28,,,,,,,28
+2003,Colombia,Iran (Islamic Rep. of),10,,,,,,,10
+2003,Colombia,Iraq,2,,,,,,,2
+2003,Colombia,Liberia,5,,,,,,,5
+2003,Colombia,Nicaragua,78,,,,,,,78
+2003,Colombia,Panama,,,120,,,,,120
+2003,Colombia,Peru,16,1,,,,,,17
+2003,Colombia,Romania,6,,,,,,,6
+2003,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),8,,,,,,,8
+2003,Colombia,Sierra Leone,5,1,,,,,,6
+2003,Colombia,South Africa,3,,,,,,,3
+2003,Colombia,Stateless,3,,,,,,,3
+2003,Colombia,Ukraine,1,,,,,,,1
+2003,Colombia,Uzbekistan,,3,,,,,,3
+2003,Colombia,Venezuela (Bolivarian Republic of),3,5,,,,,,8
+2004,Colombia,Angola,3,,,,,,,3
+2004,Colombia,Benin,,1,,,,,,1
+2004,Colombia,Bolivia (Plurinational State of),1,1,,,,,,2
+2004,Colombia,China,1,,,,,,,1
+2004,Colombia,Colombia,,,,2000000,,,,2000000
+2004,Colombia,Congo,,1,,,,,,1
+2004,Colombia,Cuba,23,12,,,,,,35
+2004,Colombia,Ecuador,1,,,,,,,1
+2004,Colombia,Hungary,23,,,,,,,23
+2004,Colombia,Iran (Islamic Rep. of),3,,,,,,,3
+2004,Colombia,Iraq,2,,,,,,,2
+2004,Colombia,Liberia,3,,,,,,,3
+2004,Colombia,Nicaragua,31,,,,,,,31
+2004,Colombia,Peru,17,5,,,,,,22
+2004,Colombia,Romania,6,,,,,,,6
+2004,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2004,Colombia,Sierra Leone,5,1,,,,,,6
+2004,Colombia,Stateless,3,,,,,,,3
+2004,Colombia,Sudan,,1,,,,,,1
+2004,Colombia,Uzbekistan,3,,,,,,,3
+2004,Colombia,Venezuela (Bolivarian Republic of),9,13,,,,,,22
+2004,Colombia,Zimbabwe,,1,,,,,,1
+2005,Colombia,Angola,4,,,,,,,4
+2005,Colombia,Benin,1,,,,,,,1
+2005,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2005,Colombia,China,1,,,,,,,1
+2005,Colombia,Colombia,,,,2000000,,,,2000000
+2005,Colombia,Congo,2,,,,,,,2
+2005,Colombia,Cuba,38,25,,,,,,63
+2005,Colombia,Cote d'Ivoire,,1,,,,,,1
+2005,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2005,Colombia,Ecuador,2,1,,,,,,3
+2005,Colombia,Egypt,,1,,,,,,1
+2005,Colombia,Guinea-Bissau,,3,,,,,,3
+2005,Colombia,Hungary,10,,,,,,,10
+2005,Colombia,Iran (Islamic Rep. of),4,,,,,,,4
+2005,Colombia,Iraq,2,1,,,,,,3
+2005,Colombia,Liberia,3,,,,,,,3
+2005,Colombia,Nicaragua,29,,,,,,,29
+2005,Colombia,Peru,14,,,,,,,14
+2005,Colombia,Romania,7,,,,,,,7
+2005,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2005,Colombia,Sierra Leone,5,1,,,,,,6
+2005,Colombia,Stateless,3,,,,,9,,12
+2005,Colombia,Sudan,1,,,,,,,1
+2005,Colombia,Uzbekistan,3,,,,,,,3
+2005,Colombia,Venezuela (Bolivarian Republic of),17,8,,,,,,25
+2006,Colombia,Angola,4,,,,,,,4
+2006,Colombia,Benin,1,,,,,,,1
+2006,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2006,Colombia,China,1,,,,,,,1
+2006,Colombia,Colombia,,,,3000000,,,,3000000
+2006,Colombia,Congo,2,,,,,,,2
+2006,Colombia,Cuba,40,62,,,,,,102
+2006,Colombia,Cote d'Ivoire,,1,,,,,,1
+2006,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2006,Colombia,Ecuador,2,,,,,,,2
+2006,Colombia,Egypt,,1,,,,,,1
+2006,Colombia,Ethiopia,,5,,,,,,5
+2006,Colombia,Hungary,10,,,,,,,10
+2006,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2006,Colombia,Iraq,2,2,,,,,,4
+2006,Colombia,Liberia,3,,,,,,,3
+2006,Colombia,Mauritania,,1,,,,,,1
+2006,Colombia,Nicaragua,20,,6,,,,,26
+2006,Colombia,Peru,14,,,,,,,14
+2006,Colombia,Romania,7,,,,,,,7
+2006,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2006,Colombia,Sierra Leone,5,,,,,,,5
+2006,Colombia,Stateless,3,,,,,9,,12
+2006,Colombia,Sudan,1,,,,,,,1
+2006,Colombia,Uzbekistan,3,,,,,,,3
+2006,Colombia,Venezuela (Bolivarian Republic of),14,5,,,,,,19
+2007,Colombia,Angola,4,,,,,,,4
+2007,Colombia,Benin,1,,,,,,,1
+2007,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2007,Colombia,Bosnia and Herzegovina,,,1,,,,,1
+2007,Colombia,Brazil,,,,,,,,0
+2007,Colombia,China,1,,,,,,,1
+2007,Colombia,Colombia,,,,3000000,,,,3000000
+2007,Colombia,Congo,2,,,,,,,2
+2007,Colombia,Cuba,50,50,,,,,,100
+2007,Colombia,Cote d'Ivoire,1,,,,,,,1
+2007,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2007,Colombia,Ecuador,2,,,,,,,2
+2007,Colombia,Egypt,,1,,,,,,1
+2007,Colombia,Eritrea,,5,,,,,,5
+2007,Colombia,Ethiopia,3,8,,,,,,11
+2007,Colombia,Guinea,,1,,,,,,1
+2007,Colombia,Hungary,10,,,,,,,10
+2007,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2007,Colombia,Iraq,3,,,,,,,3
+2007,Colombia,Jamaica,,,,,,,,0
+2007,Colombia,Liberia,3,,,,,,,3
+2007,Colombia,Mauritania,1,,,,,,,1
+2007,Colombia,Nepal,,2,,,,,,2
+2007,Colombia,Nicaragua,24,,,,,,,24
+2007,Colombia,Palestinian,1,,,,,,,1
+2007,Colombia,Peru,14,,,,,,,14
+2007,Colombia,Romania,7,,,,,,,7
+2007,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2007,Colombia,Sierra Leone,5,,,,,,,5
+2007,Colombia,Somalia,1,15,,,,,,16
+2007,Colombia,Sri Lanka,,1,,,,,,1
+2007,Colombia,Stateless,3,,,,,11,,14
+2007,Colombia,Sudan,1,,,,,,,1
+2007,Colombia,Uzbekistan,3,,,,,,,3
+2007,Colombia,Venezuela (Bolivarian Republic of),17,5,5,,,,,27
+2008,Colombia,Angola,4,,,,,,,4
+2008,Colombia,Benin,1,,,,,,,1
+2008,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2008,Colombia,China,1,,,,,,,1
+2008,Colombia,Colombia,,,,3000000,,,,3000000
+2008,Colombia,Congo,2,,,,,,,2
+2008,Colombia,Cuba,50,18,,,,,,68
+2008,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2008,Colombia,Ecuador,2,,,,,,,2
+2008,Colombia,Egypt,,,,,,,,0
+2008,Colombia,Eritrea,,17,,,,,,17
+2008,Colombia,Ethiopia,5,15,,,,,,20
+2008,Colombia,Ghana,,1,,,,,,1
+2008,Colombia,Guinea,,1,,,,,,1
+2008,Colombia,Hungary,9,,,,,,,9
+2008,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2008,Colombia,Iraq,3,1,,,,,,4
+2008,Colombia,Liberia,3,,,,,,,3
+2008,Colombia,Mauritania,1,,,,,,,1
+2008,Colombia,Nepal,,2,,,,,,2
+2008,Colombia,Nicaragua,24,,,,,,,24
+2008,Colombia,Palestinian,1,,,,,,,1
+2008,Colombia,Peru,14,,,,,,,14
+2008,Colombia,Romania,7,,,,,,,7
+2008,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2008,Colombia,Sierra Leone,5,,,,,,,5
+2008,Colombia,Somalia,1,15,,,,,,16
+2008,Colombia,Sri Lanka,,1,,,,,,1
+2008,Colombia,Stateless,3,,,,,11,,14
+2008,Colombia,Sudan,1,1,,,,,,2
+2008,Colombia,Turkey,,1,,,,,,1
+2008,Colombia,Uzbekistan,3,,,,,,,3
+2008,Colombia,Venezuela (Bolivarian Republic of),19,9,,,,,,28
+2009,Colombia,Angola,5,,,,,,,5
+2009,Colombia,Benin,1,,,,,,,1
+2009,Colombia,Bolivia (Plurinational State of),1,3,,,,,,4
+2009,Colombia,China,1,,,,,,,1
+2009,Colombia,Colombia,,,,3303979,,,,3303979
+2009,Colombia,Congo,2,,,,,,,2
+2009,Colombia,Cuba,50,29,,,,,,79
+2009,Colombia,Cote d'Ivoire,,,,,,,,0
+2009,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2009,Colombia,Ecuador,2,,,,,,,2
+2009,Colombia,El Salvador,,7,,,,,,7
+2009,Colombia,Eritrea,3,28,,,,,,31
+2009,Colombia,Ethiopia,16,4,,,,,,20
+2009,Colombia,Ghana,1,,,,,,,1
+2009,Colombia,Guinea,,1,,,,,,1
+2009,Colombia,Hungary,7,,,,,,,7
+2009,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2009,Colombia,Iraq,4,,,,,,,4
+2009,Colombia,Liberia,3,,,,,,,3
+2009,Colombia,Mauritania,1,,,,,,,1
+2009,Colombia,Nepal,2,6,,,,,,8
+2009,Colombia,Nicaragua,24,,,,,,,24
+2009,Colombia,Palestinian,1,,,,,,,1
+2009,Colombia,Peru,14,,,,,,,14
+2009,Colombia,Romania,7,,,,,,,7
+2009,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2009,Colombia,Sierra Leone,5,,,,,,,5
+2009,Colombia,Somalia,11,33,,,,,,44
+2009,Colombia,Sri Lanka,2,3,,,,,,5
+2009,Colombia,Stateless,3,,,,,11,,14
+2009,Colombia,Sudan,1,,,,,,,1
+2009,Colombia,Turkey,1,,,,,,,1
+2009,Colombia,Venezuela (Bolivarian Republic of),18,2,,,,,,20
+2009,Colombia,Zimbabwe,,,,,,,,0
+2010,Colombia,Afghanistan,,5,,,,,,5
+2010,Colombia,Angola,5,,,,,,,5
+2010,Colombia,Bangladesh,,,,,,,,0
+2010,Colombia,Benin,1,,,,,,,1
+2010,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2010,Colombia,China,1,,,,,,,1
+2010,Colombia,Colombia,,,,3672054,,,,3672054
+2010,Colombia,Congo,2,,,,,,,2
+2010,Colombia,Cuba,58,68,,,,,,126
+2010,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2010,Colombia,Ecuador,2,,,,,,,2
+2010,Colombia,El Salvador,7,,,,,,,7
+2010,Colombia,Eritrea,4,31,,,,,,35
+2010,Colombia,Ethiopia,16,5,,,,,,21
+2010,Colombia,Ghana,1,,,,,,,1
+2010,Colombia,Guinea,,1,,,,,,1
+2010,Colombia,Hungary,7,,,,,,,7
+2010,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2010,Colombia,Iraq,4,,,,,,,4
+2010,Colombia,Liberia,3,,,,,,,3
+2010,Colombia,Mauritania,1,,,,,,,1
+2010,Colombia,Nepal,2,6,,,,,,8
+2010,Colombia,Nicaragua,24,,,,,,,24
+2010,Colombia,Pakistan,,,,,,,,0
+2010,Colombia,Palestinian,1,,,,,,,1
+2010,Colombia,Peru,14,5,,,,,,19
+2010,Colombia,Romania,7,,,,,,,7
+2010,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2010,Colombia,Sierra Leone,5,,,,,,,5
+2010,Colombia,Somalia,11,33,,,,,,44
+2010,Colombia,Sri Lanka,2,5,,,,,,7
+2010,Colombia,Stateless,3,,,,,11,,14
+2010,Colombia,Sudan,1,,,,,,,1
+2010,Colombia,Turkey,2,,,,,,,2
+2010,Colombia,United States of America,,1,,,,,,1
+2010,Colombia,Venezuela (Bolivarian Republic of),17,7,,,,,,24
+2011,Colombia,Afghanistan,,7,,,,,,7
+2011,Colombia,Angola,5,,,,,,,5
+2011,Colombia,Benin,1,,,,,,,1
+2011,Colombia,Bolivia (Plurinational State of),3,,,,,,,3
+2011,Colombia,Chile,,,,,,,,0
+2011,Colombia,China,1,,,,,,,1
+2011,Colombia,Colombia,,,,3888309,,,,3888309
+2011,Colombia,Congo,2,,,,,,,2
+2011,Colombia,Cuba,58,45,,,,,,103
+2011,Colombia,Cote d'Ivoire,,1,,,,,,1
+2011,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2011,Colombia,Dominican Rep.,1,,,,,,,1
+2011,Colombia,Ecuador,2,3,,,,,,5
+2011,Colombia,Egypt,,,,,,,,0
+2011,Colombia,El Salvador,7,,,,,,,7
+2011,Colombia,Eritrea,4,31,,,,,,35
+2011,Colombia,Ethiopia,16,6,,,,,,22
+2011,Colombia,Ghana,1,,,,,,,1
+2011,Colombia,Guinea,,,,,,,,0
+2011,Colombia,Haiti,1,,,,,,,1
+2011,Colombia,Hungary,7,,,,,,,7
+2011,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2011,Colombia,Iraq,4,,,,,,,4
+2011,Colombia,Liberia,3,,,,,,,3
+2011,Colombia,Mauritania,1,,,,,,,1
+2011,Colombia,Mozambique,,1,,,,,,1
+2011,Colombia,Nepal,2,6,,,,,,8
+2011,Colombia,Nicaragua,24,,,,,,,24
+2011,Colombia,Palestinian,1,,,,,,,1
+2011,Colombia,Peru,14,,,,,,,14
+2011,Colombia,Romania,7,,,,,,,7
+2011,Colombia,Russian Federation,3,,,,,,,3
+2011,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2011,Colombia,Sierra Leone,5,,,,,,,5
+2011,Colombia,Somalia,11,11,,,,,,22
+2011,Colombia,Sri Lanka,2,2,,,,,,4
+2011,Colombia,Stateless,3,,,,,12,,15
+2011,Colombia,Sudan,1,,,,,,,1
+2011,Colombia,Turkey,2,,,,,,,2
+2011,Colombia,United States of America,,2,,,,,,2
+2011,Colombia,Venezuela (Bolivarian Republic of),17,5,,,,,,22
+2012,Colombia,Afghanistan,2,,,,,,,2
+2012,Colombia,Albania,,,,,,,,0
+2012,Colombia,Angola,5,,,,,,,5
+2012,Colombia,Benin,1,,,,,,,1
+2012,Colombia,Bolivia (Plurinational State of),1,,,,,,,1
+2012,Colombia,China,1,1,,,,,,2
+2012,Colombia,Colombia,,,,3943509,,,,3943509
+2012,Colombia,Congo,2,,,,,,,2
+2012,Colombia,Costa Rica,,,,,,,,0
+2012,Colombia,Cuba,60,56,,,,,,116
+2012,Colombia,Cote d'Ivoire,,2,,,,,,2
+2012,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2012,Colombia,Dominican Rep.,1,,,,,,,1
+2012,Colombia,Ecuador,5,3,,,,,,8
+2012,Colombia,Egypt,,1,,,,,,1
+2012,Colombia,El Salvador,7,,,,,,,7
+2012,Colombia,Eritrea,4,,,,,,,4
+2012,Colombia,Ethiopia,16,,,,,,,16
+2012,Colombia,Ghana,1,,,,,,,1
+2012,Colombia,Haiti,1,,,,,,,1
+2012,Colombia,Hungary,7,,,,,,,7
+2012,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2012,Colombia,Iraq,4,,,,,,,4
+2012,Colombia,Liberia,3,,,,,,,3
+2012,Colombia,Mauritania,1,,,,,,,1
+2012,Colombia,Morocco,,1,,,,,,1
+2012,Colombia,Mozambique,,1,,,,,,1
+2012,Colombia,Nepal,2,,,,,,,2
+2012,Colombia,Nicaragua,24,,,,,,,24
+2012,Colombia,Pakistan,,1,,,,,,1
+2012,Colombia,Palestinian,1,,,,,,,1
+2012,Colombia,Peru,8,,,,,,,8
+2012,Colombia,Romania,7,,,,,,,7
+2012,Colombia,Russian Federation,3,,,,,,,3
+2012,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2012,Colombia,Sierra Leone,5,,,,,,,5
+2012,Colombia,Somalia,11,,,,,,,11
+2012,Colombia,Sri Lanka,2,,,,,,,2
+2012,Colombia,Stateless,3,,,,,12,,15
+2012,Colombia,Sudan,1,,,,,,,1
+2012,Colombia,Syrian Arab Rep.,1,2,,,,,,3
+2012,Colombia,Turkey,2,,,,,,,2
+2012,Colombia,United States of America,,,,,,,,0
+2012,Colombia,Venezuela (Bolivarian Republic of),17,9,,,,,,26
+2013,Colombia,Afghanistan,2,,,,,,,2
+2013,Colombia,Angola,5,,,,,,,5
+2013,Colombia,Bangladesh,,2,,,,,,2
+2013,Colombia,Benin,1,,,,,,,1
+2013,Colombia,Bolivia (Plurinational State of),1,3,,,,,,4
+2013,Colombia,Brazil,,,,,,,,0
+2013,Colombia,China,1,,,,,,,1
+2013,Colombia,Colombia,,,,5368138,,,,5368138
+2013,Colombia,Congo,2,,,,,,,2
+2013,Colombia,Cuba,62,37,,,,,,99
+2013,Colombia,Cote d'Ivoire,,,,,,,,0
+2013,Colombia,Dem. Rep. of the Congo,1,,,,,,,1
+2013,Colombia,Dominican Rep.,1,,,,,,,1
+2013,Colombia,Ecuador,8,5,,,,,,13
+2013,Colombia,Egypt,,,,,,,,0
+2013,Colombia,El Salvador,7,,,,,,,7
+2013,Colombia,Eritrea,4,,,,,,,4
+2013,Colombia,Ethiopia,16,,,,,,,16
+2013,Colombia,Ghana,1,,,,,,,1
+2013,Colombia,Haiti,1,1,,,,,,2
+2013,Colombia,Honduras,,,,,,,,0
+2013,Colombia,Hungary,7,,,,,,,7
+2013,Colombia,Iran (Islamic Rep. of),2,,,,,,,2
+2013,Colombia,Iraq,4,,,,,,,4
+2013,Colombia,Liberia,3,,,,,,,3
+2013,Colombia,Mali,,1,,,,,,1
+2013,Colombia,Mauritania,1,,,,,,,1
+2013,Colombia,Morocco,,,,,,,,0
+2013,Colombia,Mozambique,,,,,,,,0
+2013,Colombia,Nepal,2,,,,,,,2
+2013,Colombia,Nicaragua,24,,,,,,,24
+2013,Colombia,Nigeria,,,,,,,,0
+2013,Colombia,Pakistan,1,1,,,,,,2
+2013,Colombia,Palestinian,1,,,,,,,1
+2013,Colombia,Paraguay,,1,,,,,,1
+2013,Colombia,Peru,8,,,,,,,8
+2013,Colombia,Romania,7,,,,,,,7
+2013,Colombia,Russian Federation,3,1,,,,,,4
+2013,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2013,Colombia,Sierra Leone,5,1,,,,,,6
+2013,Colombia,Somalia,11,,,,,,,11
+2013,Colombia,Sri Lanka,2,,,,,,,2
+2013,Colombia,Stateless,3,,,,,12,,15
+2013,Colombia,Sudan,1,,,,,,,1
+2013,Colombia,Syrian Arab Rep.,2,1,,,,,,3
+2013,Colombia,Turkey,2,,,,,,,2
+2013,Colombia,United States of America,,1,,,,,,1
+2013,Colombia,Venezuela (Bolivarian Republic of),15,16,,,,,,31
+2014,Colombia,Afghanistan,2,,,,,,,2
+2014,Colombia,Angola,2,,,,,,,2
+2014,Colombia,Bangladesh,,,,,,,,0
+2014,Colombia,Benin,1,,,,,,,1
+2014,Colombia,Bhutan,,,,,,,,0
+2014,Colombia,Bolivia (Plurinational State of),3,1,,,,,,4
+2014,Colombia,Brazil,,,,,,,,0
+2014,Colombia,China,1,,,,,,,1
+2014,Colombia,Colombia,,,,6044151,,,,6044151
+2014,Colombia,Congo,1,,,,,,,1
+2014,Colombia,Cuba,62,84,,,,,,146
+2014,Colombia,Dem. Rep. of the Congo,,,,,,,,0
+2014,Colombia,Dominican Rep.,,,,,,,,0
+2014,Colombia,Ecuador,9,,,,,,,9
+2014,Colombia,El Salvador,7,,,,,,,7
+2014,Colombia,Eritrea,4,7,,,,,,11
+2014,Colombia,Ethiopia,16,1,,,,,,17
+2014,Colombia,Ghana,1,1,,,,,,2
+2014,Colombia,Haiti,1,,,,,,,1
+2014,Colombia,Honduras,,1,,,,,,1
+2014,Colombia,Hungary,7,,,,,,,7
+2014,Colombia,India,,1,,,,,,1
+2014,Colombia,Iran (Islamic Rep. of),1,,,,,,,1
+2014,Colombia,Iraq,3,,,,,,,3
+2014,Colombia,Liberia,2,,,,,,,2
+2014,Colombia,Mali,,,,,,,,0
+2014,Colombia,Mauritania,1,,,,,,,1
+2014,Colombia,Nepal,2,10,,,,,,12
+2014,Colombia,Nicaragua,14,,,,,,,14
+2014,Colombia,Nigeria,,1,,,,,,1
+2014,Colombia,Pakistan,1,10,,,,,,11
+2014,Colombia,Palestinian,1,,,,,,,1
+2014,Colombia,Paraguay,,,,,,,,0
+2014,Colombia,Peru,6,,,,,,,6
+2014,Colombia,Romania,7,,,,,,,7
+2014,Colombia,Russian Federation,,1,,,,,,1
+2014,Colombia,Rwanda,,1,,,,,,1
+2014,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2014,Colombia,Sierra Leone,3,,,,,,,3
+2014,Colombia,Somalia,11,2,,,,,,13
+2014,Colombia,Sri Lanka,2,2,,,,,,4
+2014,Colombia,Stateless,2,1,,,,12,,15
+2014,Colombia,Sudan,1,1,,,,,,2
+2014,Colombia,Syrian Arab Rep.,4,2,,,,,,6
+2014,Colombia,Tibetan,,1,,,,,,1
+2014,Colombia,Turkey,1,,,,,,,1
+2014,Colombia,United States of America,,1,,,,,,1
+2014,Colombia,Venezuela (Bolivarian Republic of),27,41,,,,,,68
+2015,Colombia,Afghanistan,3,5,,,,,,8
+2015,Colombia,Angola,2,,,,,,,2
+2015,Colombia,Benin,1,,,,,,,1
+2015,Colombia,Bolivia (Plurinational State of),3,1,,,,,,4
+2015,Colombia,China,1,,,,,,,1
+2015,Colombia,Colombia,,,,6939067,,,,6939067
+2015,Colombia,Congo,1,,,,,,,1
+2015,Colombia,Cuba,62,13,,,,,,75
+2015,Colombia,Ecuador,9,1,,,,,,10
+2015,Colombia,El Salvador,7,5,,,,,,12
+2015,Colombia,Eritrea,4,,,,,,,4
+2015,Colombia,Ethiopia,17,,,,,,,17
+2015,Colombia,Ghana,1,1,,,,,,2
+2015,Colombia,Guinea-Bissau,,1,,,,,,1
+2015,Colombia,Haiti,1,,,,,,,1
+2015,Colombia,Honduras,,4,,,,,,4
+2015,Colombia,Hungary,7,,,,,,,7
+2015,Colombia,Iran (Islamic Rep. of),1,,,,,,,1
+2015,Colombia,Iraq,3,6,,,,,,9
+2015,Colombia,Liberia,2,,,,,,,2
+2015,Colombia,Mauritania,1,,,,,,,1
+2015,Colombia,Nepal,2,2,,,,,,4
+2015,Colombia,Nicaragua,14,,,,,,,14
+2015,Colombia,Pakistan,1,,,,,,,1
+2015,Colombia,Palestinian,1,1,,,,,,2
+2015,Colombia,Peru,1,,,,,,,1
+2015,Colombia,Romania,7,,,,,,,7
+2015,Colombia,Rwanda,1,,,,,,,1
+2015,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2015,Colombia,Sierra Leone,3,,,,,,,3
+2015,Colombia,Somalia,11,,,,,,,11
+2015,Colombia,Spain,,1,,,,,,1
+2015,Colombia,Sri Lanka,2,,,,,,,2
+2015,Colombia,Stateless,2,,,,,12,,14
+2015,Colombia,Sudan,1,,,,,,,1
+2015,Colombia,Syrian Arab Rep.,7,,,,,,,7
+2015,Colombia,Turkey,1,,,,,,,1
+2015,Colombia,Ukraine,,1,,,,,,1
+2015,Colombia,Venezuela (Bolivarian Republic of),39,73,,,,,,112
+2016,Colombia,Afghanistan,8,,,,,,,8
+2016,Colombia,Angola,2,,,,,,,2
+2016,Colombia,Benin,1,,,,,,,1
+2016,Colombia,Bolivia (Plurinational State of),3,3,,,,,,6
+2016,Colombia,Brazil,,1,,,,,,1
+2016,Colombia,China,1,,,,,,,1
+2016,Colombia,Colombia,,,,7410816,,,,7410816
+2016,Colombia,Congo,1,,,,,,,1
+2016,Colombia,Cuba,71,15,,,,,,86
+2016,Colombia,Ecuador,9,2,,,,,,11
+2016,Colombia,Egypt,,1,,,,,,1
+2016,Colombia,El Salvador,11,1,,,,,,12
+2016,Colombia,Eritrea,4,,,,,,,4
+2016,Colombia,Ethiopia,17,,,,,,,17
+2016,Colombia,Ghana,1,2,,,,,,3
+2016,Colombia,Guinea-Bissau,,1,,,,,,1
+2016,Colombia,Haiti,1,,,,,,,1
+2016,Colombia,Honduras,3,,,,,,,3
+2016,Colombia,Hungary,7,,,,,,,7
+2016,Colombia,Iran (Islamic Rep. of),1,,,,,,,1
+2016,Colombia,Iraq,8,1,,,,,,9
+2016,Colombia,Liberia,2,,,,,,,2
+2016,Colombia,Mauritania,1,,,,,,,1
+2016,Colombia,Nepal,2,2,,,,,,4
+2016,Colombia,Nicaragua,14,,,,,,,14
+2016,Colombia,Pakistan,1,5,,,,,,6
+2016,Colombia,Palestinian,2,,,,,,,2
+2016,Colombia,Peru,1,1,,,,,,2
+2016,Colombia,Romania,7,,,,,,,7
+2016,Colombia,Rwanda,1,,,,,,,1
+2016,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2016,Colombia,Sierra Leone,3,,,,,,,3
+2016,Colombia,Somalia,11,,,,,,,11
+2016,Colombia,Spain,,2,,,,,,2
+2016,Colombia,Sri Lanka,2,,,,,,,2
+2016,Colombia,Stateless,2,,,,,11,,13
+2016,Colombia,Sudan,1,,,,,,,1
+2016,Colombia,Syrian Arab Rep.,8,4,,,,,,12
+2016,Colombia,Turkey,1,19,,,,,,20
+2016,Colombia,Ukraine,,1,,,,,,1
+2016,Colombia,Venezuela (Bolivarian Republic of),43,324,,,,,,367
+2016,Colombia,Yemen,,1,,,,,,1
+2017,Colombia,Afghanistan,8,*,,,,,,10
+2017,Colombia,Angola,*,,,,,,,*
+2017,Colombia,Benin,*,,,,,,,*
+2017,Colombia,Bolivia (Plurinational State of),*,*,,,,,,4
+2017,Colombia,Cameroon,,*,,,,,,*
+2017,Colombia,China,*,,,,,,,*
+2017,Colombia,Colombia,,,194,7677609,,,,7677803
+2017,Colombia,Congo,*,,,,,,,*
+2017,Colombia,Cuba,71,25,,,,,,96
+2017,Colombia,Ecuador,9,*,,,,,,10
+2017,Colombia,Egypt,,*,,,,,,*
+2017,Colombia,El Salvador,11,*,,,,,,12
+2017,Colombia,Eritrea,4,,,,,,,4
+2017,Colombia,Ethiopia,17,,,,,,,17
+2017,Colombia,Gambia,,*,,,,,,*
+2017,Colombia,Ghana,*,,,,,,,*
+2017,Colombia,Haiti,*,,,,,,,*
+2017,Colombia,Honduras,*,,,,,,,*
+2017,Colombia,Hungary,7,,,,,,,7
+2017,Colombia,Iran (Islamic Rep. of),*,*,,,,,,*
+2017,Colombia,Iraq,9,*,,,,,,11
+2017,Colombia,Liberia,*,,,,,,,*
+2017,Colombia,Libya,,*,,,,,,*
+2017,Colombia,Mauritania,*,,,,,,,*
+2017,Colombia,Nepal,*,,,,,,,*
+2017,Colombia,Nicaragua,14,,,,,,,14
+2017,Colombia,Pakistan,*,5,,,,,,6
+2017,Colombia,Palestinian,*,*,,,,,,*
+2017,Colombia,Peru,*,*,,,,,,*
+2017,Colombia,Romania,7,,,,,,,7
+2017,Colombia,Rwanda,*,,,,,,,*
+2017,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2017,Colombia,Sierra Leone,*,,,,,,,*
+2017,Colombia,Somalia,11,,,,,,,11
+2017,Colombia,Spain,,*,,,,,,*
+2017,Colombia,Sri Lanka,*,,,,,,,*
+2017,Colombia,Stateless,*,,,,,11,,13
+2017,Colombia,Sudan,*,,,,,,,*
+2017,Colombia,Syrian Arab Rep.,8,4,,,,,,12
+2017,Colombia,Turkey,*,14,,,,,,15
+2017,Colombia,Ukraine,,*,,,,,,*
+2017,Colombia,Venezuela (Bolivarian Republic of),61,469,,,,,68734,69264
+2017,Colombia,Yemen,,7,,,,,,7
+2018,Colombia,Afghanistan,9,*,,,,,,10
+2018,Colombia,Angola,*,,,,,,,*
+2018,Colombia,Benin,*,,,,,,,*
+2018,Colombia,Bolivia (Plurinational State of),*,,,,,,,*
+2018,Colombia,Chile,,*,,,,,,*
+2018,Colombia,China,*,,,,,,,*
+2018,Colombia,Cameroon,,*,,,,,,*
+2018,Colombia,Dem. Rep. of the Congo,*,,,,,,,*
+2018,Colombia,Colombia,,,23897,7816472,,,,7840369
+2018,Colombia,Costa Rica,,*,,,,,,*
+2018,Colombia,Cuba,73,61,,,,,,134
+2018,Colombia,Germany,,*,,,,,,*
+2018,Colombia,Ecuador,8,*,,,,,,9
+2018,Colombia,Eritrea,*,,,,,,,*
+2018,Colombia,Spain,,*,,,,,,*
+2018,Colombia,Ethiopia,17,,,,,,,17
+2018,Colombia,Ghana,*,*,,,,,,*
+2018,Colombia,Greece,,*,,,,,,*
+2018,Colombia,Honduras,*,*,,,,,,5
+2018,Colombia,Haiti,*,,,,,,,*
+2018,Colombia,Hungary,6,,,,,,,6
+2018,Colombia,Iran (Islamic Rep. of),*,*,,,,,,*
+2018,Colombia,Iraq,9,*,,,,,,11
+2018,Colombia,Liberia,*,*,,,,,,*
+2018,Colombia,Libya,,*,,,,,,*
+2018,Colombia,Sri Lanka,*,,,,,,,*
+2018,Colombia,Mexico,,*,,,,,,*
+2018,Colombia,Mauritania,*,,,,,,,*
+2018,Colombia,Nigeria,,*,,,,,,*
+2018,Colombia,Nicaragua,14,*,,,,,,15
+2018,Colombia,Nepal,*,,,,,,,*
+2018,Colombia,Pakistan,*,,,,,,,*
+2018,Colombia,Peru,*,*,,,,,,*
+2018,Colombia,Poland,,*,,,,,,*
+2018,Colombia,Portugal,,*,,,,,,*
+2018,Colombia,Palestinian,*,5,,,,,,7
+2018,Colombia,Romania,7,,,,,,,7
+2018,Colombia,Russian Federation,,*,,,,,,*
+2018,Colombia,Rwanda,*,,,,,,,*
+2018,Colombia,Sudan,*,,,,,,,*
+2018,Colombia,Sierra Leone,*,,,,,,,*
+2018,Colombia,El Salvador,11,*,,,,,,13
+2018,Colombia,Somalia,11,*,,,,,,12
+2018,Colombia,Serbia and Kosovo (S/RES/1244 (1999)),7,,,,,,,7
+2018,Colombia,Syrian Arab Rep.,8,8,,,,,,16
+2018,Colombia,Turkey,,36,,,,,,36
+2018,Colombia,Uganda,,*,,,,,,*
+2018,Colombia,Ukraine,,*,,,,,,*
+2018,Colombia,Uruguay,,*,,,,,,*
+2018,Colombia,Venezuela (Bolivarian Republic of),94,2729,,,,,1171552,1174375
+2018,Colombia,Stateless,*,*,,,,11,,14
+2018,Colombia,Yemen,,7,,,,,,7
