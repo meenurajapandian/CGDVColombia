@@ -1,7 +1,7 @@
 $(document).scroll(function() {
     var scrollTop = $(this).scrollTop();
     var headerToDisplay = false;
-    $('.header[data-visible-range]').each(function() {
+    $('.container[data-visible-range]').each(function() {
         var range = $(this).data('visible-range').split('-');
         range[0] = range[0] ? parseInt(range[0], 10) : 0;
         range[1] = range[1] ? parseInt(range[1], 10) : $(document).height();
@@ -11,7 +11,7 @@ $(document).scroll(function() {
         }
     });
     if(headerToDisplay && !headerToDisplay.is(':visible')) {
-        $('.header[data-visible-range]').hide();
+        $('.container[data-visible-range]').hide();
         headerToDisplay.show();
     }
 });
