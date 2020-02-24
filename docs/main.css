@@ -25,32 +25,4 @@ table { border-collapse: collapse; border-spacing: 0;}
   width: 100%;
   display: block;
   background-color: #ababab;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 11;
-}
-
-.container-1 {
-  flex: 1 1 800px;
-  min-height: 100vh;
-  width: 100%;
-  display: none;
-  background-color: #ababab;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-}
-
-.container-2 {
-  flex: 1 1 800px;
-  min-height: 100vh;
-  width: 100%;
-  display: none;
-  background-color: #ababab;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9;
 }
