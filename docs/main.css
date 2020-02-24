@@ -1,6 +1,16 @@
 .wrapper {
+  display: flex;
+  overflow: scroll;
   height: 100vh;
-  margin: 15px;
   background-color: #ababab;
   color: "red";
+}
+
+.container {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
 }
