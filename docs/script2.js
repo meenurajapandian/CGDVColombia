@@ -37,10 +37,6 @@ function checkScrollDirection(event) {
         behavior: 'smooth'
       });
     }
-    canWheel = false;
-    setTimeout(() => {
-      canWheel = true;
-    }, 1000);
   }
 }
 

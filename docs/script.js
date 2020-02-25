@@ -1,7 +1,7 @@
 var windowHeight = $(window).height();
 var canWheel = true;
 var slide = 0;
-var maxslide = 2;
+var maxslide = 10;
 var topPosition =  window.pageYOffset || window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
 console.log(windowHeight);
 console.log(topPosition);
@@ -31,6 +31,25 @@ function checkScrollDirection(event) {
         slide = maxslide;
       }
       console.log(slide)
+      window.scrollTo({
+        top: slide * windowHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+    canWheel = false;
+    setTimeout(() => {
+      canWheel = true;
+    }, 900);
+  }
+  else {
+    if (checkScrollDirectionIsUp(event)) {
+      window.scrollTo({
+        top: slide * windowHeight,
+        left: 0,
+        behavior: 'smooth'
+      });
+    } else {
       window.scrollTo({
         top: slide * windowHeight,
         left: 0,
