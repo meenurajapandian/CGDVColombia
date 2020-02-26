@@ -7,6 +7,42 @@
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-1.4.0.min.js"></script>
+  <script type="text/javascript">
+    (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+
+                var docs_json = '{"cc4b2469-cfa4-4be7-a182-1ed98649ee2d":{"roots":{"references":[{"attributes":{"callback":null,"end":9,"start":0},"id":"1007","type":"DataRange1d"},{"attributes":{"overlay":{"id":"1048","type":"BoxAnnotation"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{},"id":"1057","type":"Selection"},{"attributes":{},"id":"1009","type":"CategoricalScale"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{"factors":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"],"palette":["#3288bd","#99d594","#e6f598","#fee08b","#fc8d59","#d53e4f"]},"id":"1037","type":"CategoricalColorMapper"},{"attributes":{},"id":"1058","type":"UnionRenderers"},{"attributes":{"callback":null,"factors":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]},"id":"1005","type":"FactorRange"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1039","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1040","type":"VBar"},"selection_glyph":null,"view":{"id":"1042","type":"CDSView"}},"id":"1041","type":"GlyphRenderer"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{},"id":"1011","type":"LinearScale"},{"attributes":{"formatter":{"id":"1044","type":"CategoricalTickFormatter"},"ticker":{"id":"1014","type":"CategoricalTicker"}},"id":"1013","type":"CategoricalAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1022","type":"PanTool"},{"id":"1023","type":"WheelZoomTool"},{"id":"1024","type":"BoxZoomTool"},{"id":"1025","type":"SaveTool"},{"id":"1026","type":"ResetTool"},{"id":"1027","type":"HelpTool"},{"id":"1028","type":"HoverTool"}]},"id":"1029","type":"Toolbar"},{"attributes":{},"id":"1018","type":"BasicTicker"},{"attributes":{},"id":"1014","type":"CategoricalTicker"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1014","type":"CategoricalTicker"}},"id":"1016","type":"Grid"},{"attributes":{"callback":null,"tooltips":[["index","@fruits"],["counts","@counts"]]},"id":"1028","type":"HoverTool"},{"attributes":{"dimension":1,"ticker":{"id":"1018","type":"BasicTicker"}},"id":"1021","type":"Grid"},{"attributes":{},"id":"1046","type":"BasicTickFormatter"},{"attributes":{"formatter":{"id":"1046","type":"BasicTickFormatter"},"ticker":{"id":"1018","type":"BasicTicker"}},"id":"1017","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1048","type":"BoxAnnotation"},{"attributes":{"below":[{"id":"1013","type":"CategoricalAxis"}],"center":[{"id":"1016","type":"Grid"},{"id":"1021","type":"Grid"},{"id":"1049","type":"Legend"}],"left":[{"id":"1017","type":"LinearAxis"}],"plot_height":350,"renderers":[{"id":"1041","type":"GlyphRenderer"}],"title":{"id":"1003","type":"Title"},"toolbar":{"id":"1029","type":"Toolbar"},"x_range":{"id":"1005","type":"FactorRange"},"x_scale":{"id":"1009","type":"CategoricalScale"},"y_range":{"id":"1007","type":"DataRange1d"},"y_scale":{"id":"1011","type":"LinearScale"}},"id":"1002","subtype":"Figure","type":"Plot"},{"attributes":{"items":[{"id":"1050","type":"LegendItem"}],"location":"top_center","orientation":"horizontal"},"id":"1049","type":"Legend"},{"attributes":{"callback":null,"data":{"counts":[5,3,4,2,4,6],"fruits":["Apples","Pears","Nectarines","Plums","Grapes","Strawberries"]},"selected":{"id":"1057","type":"Selection"},"selection_policy":{"id":"1058","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{},"id":"1044","type":"CategoricalTickFormatter"},{"attributes":{"label":{"field":"fruits"},"renderers":[{"id":"1041","type":"GlyphRenderer"}]},"id":"1050","type":"LegendItem"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1042","type":"CDSView"},{"attributes":{"fill_color":{"field":"fruits","transform":{"id":"1037","type":"CategoricalColorMapper"}},"line_color":{"value":"white"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"fruits"}},"id":"1039","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"counts"},"width":{"value":0.9},"x":{"field":"fruits"}},"id":"1040","type":"VBar"},{"attributes":{"text":"Fruit Counts"},"id":"1003","type":"Title"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{},"id":"1023","type":"WheelZoomTool"}],"root_ids":["1002"]},"title":"Bokeh Application","version":"1.4.0"}}';
+                var render_items = [{"docid":"cc4b2469-cfa4-4be7-a182-1ed98649ee2d","roots":{"1002":"2b3a5443-e0ac-4122-8fa9-79ff11e6368f"}}];
+                root.Bokeh.embed.embed_items(docs_json, render_items);
+
+                }
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      clearInterval(timer);
+                      embed_document(root);
+                    } else {
+                      attempts++;
+                      if (attempts > 100) {
+                        clearInterval(timer);
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                      }
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+</script>
 </head>
 
 <div class="wrapper">
@@ -21,6 +57,7 @@
   </div>
 
   <div id="2" class="container">
+    <div class="bk-root" id="2b3a5443-e0ac-4122-8fa9-79ff11e6368f" data-root-id="1002"></div>
     Same country then split
   </div>
 
