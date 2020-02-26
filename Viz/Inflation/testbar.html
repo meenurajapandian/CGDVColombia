@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="https://d3js.org/d3.v3.js"></script>
+<style type="text/css">
+.axis, .axis text {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.tick text {
+    font-family: sans-serif;
+    fill: black;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+
+var xSize = 900,
+ySize = 500;
+
+var data = [10000, 3000, 100, 40, 10, 5, 1];
+
+var margin = {top:40, right: 40, bottom:60, left: 60};
+var width = xSize - margin.left - margin.right;
+var height = ySize - margin.top - margin.bottom;
+
+var barwidth = width / data.length;
+var xscale = d3.scale.linear().domain([0, data.length]).range([0, width]);
+var maxData = d3.max(data);
+var yscale = d3.scale.linear().domain([0, maxData]).range([height, 0]);
+
+var xAxis = d3.svg.axis().scale(xscale).orient("bottom");
+var yAxis = d3.svg.axis().scale(yscale).orient("left");
+
+var fieldView = d3.select("body")
+    .append("svg")
+    .attr("width", xSize)
+    .attr("height", ySize)
+    .on("click", update)
+;
+var chart = fieldView
+    .append("g")
+    .attr("id", "clip")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+;
+var bar = chart.selectAll("g")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("x", function(d, i) {return xscale(i);})
+    .attr("y", function(d) { return yscale(d);})
+    .attr("height", function(d) { return height - yscale(d);})
+    .attr("width", barwidth)
+    .attr("fill", "steelblue")
+    .attr("clip-path", "url(#clip)")
+;
+
+chart.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis)
+;
+
+chart.append("g")
+    .attr("class", "y axis")
+    .call(yAxis)
+;
+
+var transitionScale = 1;
+var transitionMultiplier = 5;
+var transitionYscale = d3.scale.linear().domain([0, maxData])
+    .range([height, 0]);
+function update() {
+    // new multiplier for data
+    transitionScale *= transitionMultiplier;
+    // update to y axis domain
+    yscale.domain([0, maxData / transitionScale]);
+    // transition the bars
+    bar
+        .transition()
+        .attr("y", function(d) {return yscale(d);})
+        .attr("height", function(d) {return height - yscale(d);})
+        .duration(2000)
+        .ease("linear")
+    ;
+    // transition the y-axis
+    chart
+        .selectAll(".y.axis")
+        .transition()
+        .call(yAxis)
+    ;
+}
+</script>
+</body>
+</html>
