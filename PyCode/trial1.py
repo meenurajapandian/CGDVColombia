@@ -12,7 +12,7 @@ counts = [5, 3, 4, 2, 4, 6]
 
 source = ColumnDataSource(data=dict(fruits=fruits, counts=counts))
 
-TOOL = [
+TOOL= [
     ("index", "@fruits"),
     ("counts", "@counts"),
 ]
