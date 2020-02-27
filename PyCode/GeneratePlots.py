@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import numpy as np
 from bokeh.models import ColumnDataSource
@@ -80,7 +81,7 @@ from bokeh.io import show #To be removed later
 
 # PLOT 2 : Colombia demographics
 
-with open(r'Colombia.geojson') as f:
+with open(r'PyCode/Colombia.geojson') as f:
     geo_src = GeoJSONDataSource(geojson=f.read())
 
 p21 = figure(title='France Département', x_axis_location=None, y_axis_location=None, width=500, height=500)
@@ -98,3 +99,5 @@ show(p21)
 # script, div = components(plots)
 # print(script)
 # print(div)
+
+#%%
