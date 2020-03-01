@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.line {
+    stroke: blue;
+    stroke-width: 1.5px;
+    fill: white;
+}
+
+circle {
+    fill: red;
+}
+
+#marker {
+    stroke: black;
+    fill: black;
+}
+
+</style>
+<body>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/datamaps.none.js"></script>
+<div id="canada" style="height: 600px; width: 900px;"></div>
+
+<script>
+"use strict"
+
+var line = d3.svg.line()
+    .x(function (point) {
+        return point.lx;
+    })
+    .y(function (point) {
+        return point.ly;
+    });
+
+function lineData(d) {
+    // i'm assuming here that supplied datum 
+    // is a link between 'source' and 'target'
+    var points = [{
+        lx: d.source.x,
+        ly: d.source.y
+    },
+    {
+        lx: d.target.x,
+        ly: d.target.y
+    }
+    ];
+    return line(points);
+}
+
+// Returns an attrTween for translating along the specified path element.
+function translateAlong(path) {
+    var l = path.getTotalLength();
+    var ps = path.getPointAtLength(0);
+    var pe = path.getPointAtLength(l);
+    var angl = Math.atan2(pe.y - ps.y, pe.x - ps.x) * (180 / Math.PI) - 90;
+    var rot_tran = "rotate(" + angl + ")";
+    return function (d, i, a) {
+        //console.log(d);
+
+        return function (t) {
+            var p = path.getPointAtLength(t * l);
+            return "translate(" + p.x + "," + p.y + ") " + rot_tran;
+        };
+    };
+}
+console.log(document)
+var bubble_map = new Datamap({
+    element: document.getElementById('canada'),
+    scope: 'canada',
+    geographyConfig: {
+        popupOnHover: true,
+        highlightOnHover: true,
+        borderColor: '#444',
+        borderWidth: 0.5,
+        dataUrl: 'https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/canada.topo.json'
+        //dataJson: topoJsonData
+    },
+    fills: {
+        'MAJOR': '#306596',
+        'MEDIUM': '#0fa0fa',
+        'MINOR': '#bada55',
+        defaultFill: '#dddddd'
+    },
+    data: {
+        'JH': {
+            fillKey: 'MINOR'
+        },
+        'MH': {
+            fillKey: 'MINOR'
+        }
+    },
+    setProjection: function (element) {
+        var projection = d3.geo.mercator()
+            .center([-106.3468, 68.1304]) // always in [East Latitude, North Longitude]
+            .scale(250)
+            .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+
+        var path = d3.geo.path().projection(projection);
+        return {
+            path: path,
+            projection: projection 
+        };
+    }
+});
+
+let bubbles = [{
+    centered: "MB",
+    fillKey: "MAJOR",
+    radius: 8,
+    state: "Manitoba",
+    arrowDirectionAngle: 90,
+    arrowLineLength: 120
+},
+{
+    centered: "AB",
+    fillKey: "MAJOR",
+    radius: 8,
+    state: "Alberta",
+    arrowDirectionAngle: 90,
+    arrowLineLength: 100
+},
+{
+    centered: "NT",
+    fillKey: "MAJOR",
+    radius: 8,
+    state: "Northwest Territories",
+    arrowDirectionAngle: 180,
+    arrowLineLength: 130
+},
+{
+    centered: "NU",
+    fillKey: "MEDIUM",
+    radius: 8,
+    state: "Nunavut",
+    arrowDirectionAngle: -25,
+    arrowLineLength: 80
+},
+{
+    centered: "BC   ",
+    fillKey: "MEDIUM",
+    radius: 8,
+    state: "British Columbia",
+    arrowDirectionAngle: 125,
+    arrowLineLength: 65
+},
+{
+    centered: "QC",
+    fillKey: "MINOR",
+    radius: 8,
+    state: "Québec",
+    arrowDirectionAngle: -25,
+    arrowLineLength: 70
+},
+{
+    centered: "NB",
+    fillKey: "MINOR",
+    radius: 8,
+    state: "New Brunswick",
+    arrowDirectionAngle: 65,
+    arrowLineLength: 50
+}
+
+]
+
+function renderArrows(targetElementId) {
+    let svgRoot = d3.select("#" + targetElementId).select("svg");
+
+    svgRoot.append("svg:defs")
+        .append("svg:marker")
+        .attr("id", "arrow")
+        .attr("refX", 2)
+        .attr("refY", 6)
+        .attr("markerWidth", 13)
+        .attr("markerHeight", 13)
+        .attr("orient", "auto")
+        .append("svg:path")
+        .attr("d", "M2,2 L2,11 L10,6 L2,2");
+
+    let linesGroup = svgRoot.append("g");
+
+    linesGroup.attr("class", "lines");
+
+    let bubbleElements = svgRoot.selectAll(".datamaps-bubble")[0];
+
+    bubbleElements.forEach(function (bubbleElement) {
+        let xPosition = bubbleElement.cx.baseVal.value;
+        let yPosition = bubbleElement.cy.baseVal.value;
+        let datum = d3.select(bubbleElement).datum();
+
+        let degree = datum.arrowDirectionAngle;
+        let radius = datum.arrowLineLength;
+        let theta = degree * Math.PI / 180;
+
+        let path = linesGroup.append("path")
+            .data([{
+                source: {
+                    x: xPosition,
+                    y: yPosition
+                },
+                target: {
+                    x: xPosition + radius * Math.cos(theta),
+                    y: yPosition + radius * Math.sin(theta)
+                }
+            }])
+            .style("stroke", "blue")
+            .style("stroke-width", "1.5px")
+            .style("fill", "white")
+            //.style("marker-end", "url(#arrow)")
+            .attr("d", lineData);
+
+
+        let arrow = svgRoot.append("svg:path")
+            .attr("d", d3.svg.symbol().type("triangle-down")(10, 1));
+
+
+        arrow.transition()
+            .duration(2000)
+            .ease("linear")
+            .attrTween("transform", translateAlong(path.node()))
+
+        var totalLength = path.node().getTotalLength();
+
+        path
+            .attr("stroke-dasharray", totalLength + " " + totalLength)
+            .attr("stroke-dashoffset", totalLength)
+            .transition()
+            .duration(2000)
+            .ease("linear")
+            .attr("stroke-dashoffset", 0);
+
+    });
+}
+
+// // ISO ID code for city or <state></state>
+setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
+    bubble_map.bubbles(bubbles, {
+        popupTemplate: function (geo, data) {
+            return `<div class="hoverinfo">city: ${data.state}, Slums: ${data.radius}%</div>`;
+        }
+    });
+
+    renderArrows("canada");
+
+}, 1000);
+</script>

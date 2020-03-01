@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import numpy as np
 import json
@@ -81,6 +82,7 @@ from bokeh.io import show #To be removed later
 
 # PLOT 2 : Colombia demographics
 
+
 df = pd.read_csv("c_demo_colombia.csv",dtype=str)
 
 
@@ -131,3 +133,4 @@ show(p21)
 # script, div = components(plots)
 # print(script)
 # print(div)
+
