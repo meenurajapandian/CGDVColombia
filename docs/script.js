@@ -40,7 +40,7 @@ function checkScrollDirection(event) {
     canWheel = false;
     setTimeout(() => {
       canWheel = true;
-    }, 900);
+    }, 1500);
   }
   else {
     if (checkScrollDirectionIsUp(event)) {
