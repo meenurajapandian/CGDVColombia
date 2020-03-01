@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import json
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure
 from bokeh.embed import components
@@ -80,16 +81,48 @@ from bokeh.io import show #To be removed later
 
 # PLOT 2 : Colombia demographics
 
-with open(r'Colombia.geojson') as f:
+df = pd.read_csv("c_demo_colombia.csv",dtype=str)
+
+
+dataToAdd = df.set_index('DPTO').T.to_dict('list')
+
+with open('Colombia.geojson', 'r') as f:
+    data = json.load(f)
+
+
+for feat in data['features']:
+    ToAdd = dataToAdd[feat['properties']['DPTO']]
+    feat['properties']['Refugees'] = ToAdd[1]
+    feat['properties']['Area'] = ToAdd[2]
+    feat['properties']['Population'] = ToAdd[3]
+    feat['properties']['Unemployment'] = ToAdd[4]
+    feat['properties']['Poverty'] = ToAdd[5]
+    feat['properties']['Illiteracy'] = ToAdd[6]
+
+
+
+with open('new.geojson', 'w') as f:
+    json.dump(data, f)
+
+
+with open(r'new.geojson') as f:
     geo_src = GeoJSONDataSource(geojson=f.read())
 
-p21 = figure(title='France Département', x_axis_location=None, y_axis_location=None, width=500, height=500)
+
+
+p21 = figure(x_axis_location=None, y_axis_location=None, width=500, height=500)
 p21.grid.grid_line_color = None
 
-p21.patches('xs', 'ys', fill_alpha=0.7,
-         line_color='black', line_width=0.5, source=geo_src)
+p21.patches('xs', 'ys', fill_alpha=0.5, line_color='white', line_width=0.5, source=geo_src)
 
-
+callback2 = CustomJS(args=dict(s1=geo_src), code=
+"""
+var inds = cb_data.source.selected['1d'].indices
+console.log(cb_data.source.selected)
+var d1 = s1.data
+console.log(d1['NOMBRE_DPT'][inds])
+""")
+p21.add_tools(TapTool(callback=callback2))
 show(p21)
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
