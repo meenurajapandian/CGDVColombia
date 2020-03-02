@@ -65,3 +65,8 @@ function checkScrollDirectionIsUp(event) {
   }
   return event.deltaY < 0;
 }
+
+
+function popUpOnClick() {
+    $(".pop-up-overlay, .popup").fadeToggle();
+}
