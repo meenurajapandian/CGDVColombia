@@ -9,6 +9,7 @@ window.addEventListener('wheel', checkScrollDirection);
 
 function checkScrollDirection(event) {
   if (canWheel){
+    canWheel = false;
     if (checkScrollDirectionIsUp(event)) {
       console.log('Up');
       console.log(topPosition);
@@ -37,10 +38,9 @@ function checkScrollDirection(event) {
         behavior: 'smooth'
       });
     }
-    canWheel = false;
     setTimeout(() => {
       canWheel = true;
-    }, 1500);
+    }, 1000);
   }
   else {
     if (checkScrollDirectionIsUp(event)) {
