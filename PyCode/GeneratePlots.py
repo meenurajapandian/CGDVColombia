@@ -7,7 +7,7 @@ from bokeh.plotting import figure
 from bokeh.embed import components
 from bokeh.models import TapTool, GeoJSONDataSource, NumeralTickFormatter
 from bokeh.models.callbacks import CustomJS
-from bokeh.layouts import column
+from bokeh.layouts import column, row
 
 from bokeh.palettes import brewer
 from bokeh.io import show #To be removed later
@@ -26,7 +26,7 @@ years = [str(year) for year in years]
 y = np.zeros(len(years)).tolist()
 s12 = ColumnDataSource(data=dict(x=years, y=y))
 
-p12 = figure(plot_width=500, plot_height=400, title="Select a country to see more", toolbar_location=None)
+p12 = figure(plot_width=500, plot_height=280, title="Select a country to see more", toolbar_location=None)
 p12.line(x='x', y='y', source=s12, line_width=2)
 
 p12.outline_line_alpha = 0
@@ -50,7 +50,7 @@ Country = filtered['Country'].tolist()
 Country.reverse()
 s11 = ColumnDataSource(filtered)
 
-p11 = figure(y_range=Country, plot_width=500, plot_height=300, title="Refugee Intake", toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
+p11 = figure(y_range=Country, plot_width=500, plot_height=280, title="Refugee Intake", toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
 p11.hbar(right='2018', y='Country', height=0.70, source=s11)
 
 p11.outline_line_alpha = 0
@@ -64,6 +64,7 @@ p11.x_range.start = 0
 p11.xaxis.axis_line_color = None
 p11.xaxis.minor_tick_line_color = None
 p11.xaxis.major_tick_line_color = "#878787"
+p11.xaxis.major_tick_out = 1
 p11.xaxis.formatter = NumeralTickFormatter(format="0.0a")
 
 #p11.hover.tooltips=["Click to find out more"]
@@ -106,7 +107,7 @@ p11.add_tools(TapTool(callback=callback1))
 # p1.legend.orientation = "vertical"
 
 
-#show(column(p11, p12))
+# show(row(p11, p12))
 
 
 # PLOT 2 : Colombia demographics
@@ -157,9 +158,9 @@ p11.add_tools(TapTool(callback=callback1))
 # show(p21)
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
-plots = {'plot1': p11, 'plot2': p12}
+# plots = {'plot1': p11, 'plot2': p12}
 
-script, div = components(plots)
+script, div = components(row(p11, p12))
 print(script)
 print(div)
 
