@@ -159,7 +159,15 @@ h6 {
     margin-top: -75px;
 }
 
-.slide7-container {
+.slide7-left {
   width: 30%;
   margin: 5% auto;
+}
+.slide7-right {
+  margin: 5% auto;
+  width: 68%;
+}
+.slide7-container {
+  margin: 5vh auto;
+  width: 100%;
 }
