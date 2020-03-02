@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Shadows+Into+Light&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <script src = "script.js" ></script>
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
@@ -12,11 +13,13 @@
 <div class="wrapper">
 
   <div id="1" class="container c1">
-    <img src="pictures/bridge.png" alt="portrait" class="img-content">
+    <img src="pictures/Cover.jpg" alt="portrait" class="img-content img-content-2">
     <div class="cover-title">
     <h1>A Tale of Two Countries</h1>
-    <h4> An ode to frienship </h4>
-    <h6> by Ashwin Padmanabhan and Meenusree Rajapandian </h6>
+    <h4 style="margin-top:1vh"> An ode to friendship and brotherhood</h4>
+    </div>
+    <div style = "text-align: center; margin-top: 2vh">
+      by Ashwin Padmanabhan and Meenusree Rajapandian
     </div>
   </div>
 
@@ -55,6 +58,11 @@
     <div class="right">
       <img src="pictures/banner.jpg" alt="portrait" class="img-content img-content-2">
     </div>
+    <div class="explore" onclick="popUpOnClick()">
+      Explore
+    </div>
+    <div class="pop-up-overlay" onclick="popUpOnClick()"></div>
+    <div class="popup">Some popup text</div>
     <div class="bottom-right">
       Venezuelans fled
       Estimated 2019 fleding to colombia
