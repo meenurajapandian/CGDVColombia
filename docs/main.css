@@ -7,6 +7,7 @@ footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
 h1, h2, h3, h4, h5, h6 { font-family: 'Shadows Into Light' !important; margin: 0.1em;}
 body { line-height: 1; color: #3F3F3F;}
+p { line-height: 1.2;}
 ol,ul { list-style: none;}
 blockquote,q { quotes: none;}
 blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
@@ -57,6 +58,8 @@ h6 {
   height: auto;
 }
 
+/*Slide 1*/
+
 .cover-title {
   margin: 30vh auto auto auto;
   width: 100%;
@@ -67,12 +70,25 @@ h6 {
 
 /* Slide 2 */
 
-.right {
+.slide2-content {
   position: absolute;
-  right: 0;
-  margin: 14vh 12vw 12vh auto;
-  min-height: 50px;
-  min-width: 30%;
+  margin: 12% 15% 10% 15%;
+  width: 70%;
+  height: 50%;
+}
+
+.slide2-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 auto auto 0;
+  max-width: 40%;
+  min-width: 40%;
+}
+
+.slide2-text {
+  margin: 12% 10% auto 42%;
+  min-width: 25%;
 }
 
 /* Slide 6 */
