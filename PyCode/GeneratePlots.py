@@ -5,7 +5,7 @@ import json
 from bokeh.models import ColumnDataSource
 from bokeh.plotting import figure
 from bokeh.embed import components
-from bokeh.models import TapTool, GeoJSONDataSource, NumeralTickFormatter
+from bokeh.models import TapTool, GeoJSONDataSource, NumeralTickFormatter, LinearColorMapper, LogColorMapper
 from bokeh.models.callbacks import CustomJS
 from bokeh.layouts import column, row
 
@@ -112,55 +112,64 @@ p11.add_tools(TapTool(callback=callback1))
 
 # PLOT 2 : Colombia demographics
 
-#
-# df = pd.read_csv("c_demo_colombia.csv",dtype=str)
-#
-#
-# dataToAdd = df.set_index('DPTO').T.to_dict('list')
-#
-# with open('Colombia.geojson', 'r') as f:
-#     data = json.load(f)
-#
-#
-# for feat in data['features']:
-#     ToAdd = dataToAdd[feat['properties']['DPTO']]
-#     feat['properties']['Refugees'] = ToAdd[1]
-#     feat['properties']['Area'] = ToAdd[2]
-#     feat['properties']['Population'] = ToAdd[3]
-#     feat['properties']['Unemployment'] = ToAdd[4]
-#     feat['properties']['Poverty'] = ToAdd[5]
-#     feat['properties']['Illiteracy'] = ToAdd[6]
-#
-#
-#
-# with open('new.geojson', 'w') as f:
-#     json.dump(data, f)
-#
-#
-# with open(r'new.geojson') as f:
-#     geo_src = GeoJSONDataSource(geojson=f.read())
-#
-#
-#
-# p21 = figure(x_axis_location=None, y_axis_location=None, width=500, height=500)
-# p21.grid.grid_line_color = None
-#
-# p21.patches('xs', 'ys', fill_alpha=0.5, line_color='white', line_width=0.5, source=geo_src)
-#
-# callback2 = CustomJS(args=dict(s1=geo_src), code=
-# """
-# var inds = cb_data.source.selected['1d'].indices
-# console.log(cb_data.source.selected)
-# var d1 = s1.data
-# console.log(d1['NOMBRE_DPT'][inds])
-# """)
-# p21.add_tools(TapTool(callback=callback2))
-# show(p21)
+df = pd.read_csv("c_demo_colombia.csv",dtype=str)
+
+dataToAdd = df.set_index('DPTO').T.to_dict('list')
+
+with open('Colombia.geojson', 'r') as f:
+    data = json.load(f)
+
+
+for feat in data['features']:
+    ToAdd = dataToAdd[feat['properties']['DPTO']]
+    feat['properties']['Refugees'] = ToAdd[1]
+    feat['properties']['Area'] = ToAdd[2]
+    feat['properties']['Population'] = ToAdd[3]
+    feat['properties']['Unemployment'] = ToAdd[4]
+    feat['properties']['Poverty'] = ToAdd[5]
+    feat['properties']['Illiteracy'] = ToAdd[6]
+
+
+with open('new.geojson', 'w') as f:
+    json.dump(data, f)
+
+
+with open(r'new.geojson') as f:
+    geo_src = GeoJSONDataSource(geojson=f.read())
+
+palette = brewer['OrRd'][9]
+palette.reverse()
+color_mapper = LogColorMapper(palette=brewer['OrRd'][9])
+
+p21 = figure(x_axis_location=None, y_axis_location=None, width=580, height=680)
+p21.grid.grid_line_color = None
+
+p21.patches('xs', 'ys', fill_color={'field': 'Refugees', 'transform': color_mapper}, fill_alpha=0.8, line_color='black',
+            line_width=0.5, line_alpha=0.8, source=geo_src, legend_field='Refugees')
+
+callback2 = CustomJS(args=dict(s1=geo_src), code=
+    """
+    var inds = cb_data.source.selected['1d'].indices
+    console.log(cb_data.source.selected)
+    var d1 = s1.data
+    console.log(d1['NOMBRE_DPT'][inds])
+    """)
+p21.add_tools(TapTool(callback=callback2))
+
+
+p21.x_range.start = -80
+p21.x_range.end = -66
+
+p21.y_range.start = -5
+p21.y_range.end = 13
+
+
+show(p21)
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
 # plots = {'plot1': p11, 'plot2': p12}
-
-script, div = components(row(p11, p12))
-print(script)
-print(div)
+#
+# script, div = components(row(p11, p12))
+# print(script)
+# print(div)
 
