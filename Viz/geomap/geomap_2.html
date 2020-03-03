@@ -97,7 +97,7 @@ var bubble_map = new Datamap({
     setProjection: function (element) {
         //element is the div box. This is moving the div box center and position. 
         var projection = d3.geo.mercator()
-            .center([0, 0]) // always in [East Latitude, North Longitude]
+            .center([-70, 0]) // always in [East Latitude, North Longitude]
             .scale(120)
             .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
 
