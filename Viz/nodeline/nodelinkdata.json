@@ -1,0 +1,198 @@
+{
+"name": "World",
+"value": 3078198,
+"children": [
+    {
+    "name": "South America",
+    "value": 3078198,
+    "children":[
+        {
+            "name": "Argentina",
+            "value": 128182
+        },
+        {
+            "name":"Aruba",
+            "value": 16000 
+        },
+        {
+            "name":"Brazil",
+            "value":120807
+        },
+        {
+            "name":"Chile",
+            "value": 288233
+        },
+        {
+            "name":"Colombia",
+            "value":1174375
+        },
+        {
+            "name":"Ecuador",
+            "value":262572
+        },
+        {
+            "name":"Guyana",
+            "value":36400
+        },
+        {
+            "name":"Paraguay",
+            "value": 916
+        }, 
+        {
+            "name": "Peru",
+            "value": 656274
+        }, 
+        {
+            "name":"Suriname",
+            "value": 40
+        },
+        {
+            "name": "Trinidad and Tobago",
+            "value": 40000
+        },
+        {
+            "name": "Uruguay",
+            "value": 11673
+        } ]},
+    
+    {
+    "name": "Oceania",
+    "value": 181,
+    "children":[
+        {
+        "name":"Australia", 
+        "value": 181
+        } ]},
+    {
+    "name": "Europe",
+    "value": 35817,
+    "children":[
+        {
+        "name":"Austria",
+        "value":29
+        },
+        { 
+        "name":"Belgium",
+        "value": 391
+        }, 
+        {
+        "name": "Czech Rep.",
+        "value": 7
+        },
+        {
+        "name": "Denmark",
+        "value": 21
+        },
+        {
+        "name":"Finland",
+        "value":12
+        },
+        {
+        "name":"France",
+        "value": 707
+        }, 
+        {
+        "name":"Germany",
+        "value": 652
+        },
+        {
+        "name":"Greece",
+        "value": 40
+        },
+        {
+        "name":"Iceland",
+        "value": 14},
+        {
+        "name":"Ireland", 
+        "value": 90}, 
+        {
+        "name":"Italy", 
+        "value": 1667
+        }, 
+        {
+        "name":"Luxembourg", 
+        "value": 10
+        },
+        {
+        "name":"Malta",
+        "value":66
+        },
+        {
+        "name":"Netherlands",
+        "value": 128
+        }, 
+        {
+        "name":"Norway",
+        "value":30
+        }, 
+        {
+        "name":"Spain",
+        "value": 31692
+        }, 
+        {
+        "name":"Sweden",
+        "value": 154
+        }, 
+        {
+        "name":"Switzerland", 
+        "value": 45
+        }, 
+        {
+        "name":"United Kingdom", 
+        "value": 62} ]},
+        
+    {
+    "name": "North America",
+    "value": 306702,
+    "children":[
+        {
+        "name":"Canada",
+        "value": 3550},
+        {
+        "name":"Costa Rica",
+        "value": 5709
+        },
+        {
+        "name":"Curacao", "value":26000
+        },
+        {
+        "name":"Dominican Rep.",
+        "value": 26500
+        }, 
+        {
+        "name":"Guatemala",
+        "value": 34
+        },
+        {
+        "name":"Honduras",
+        "value": 6
+        },
+        {
+        "name": "Mexico",
+        "value": 52348
+        }, 
+        {
+        "name":"Panama", 
+        "value":99514
+        }, 
+        {
+        "name":"United States of America", 
+        "value": 93059
+        } ]},
+    {
+    "name": "Asia",
+    "value": 8,
+    "children":[ 
+        {
+        "name": "Rep. of Korea",
+        "value": 8
+        } ]}
+    ]
+}
+
+    
+
+
+
+
+
