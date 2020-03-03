@@ -62,7 +62,7 @@ h6 {
 /*Slide 1*/
 
 .cover-title {
-  margin: 30vh auto auto auto;
+  margin: 18vh auto auto auto;
   min-width: 100%;
   text-align: center;
   display: inline-block;
@@ -107,22 +107,25 @@ h6 {
   overflow: hidden;
 }
 
-.inflat-plot {
+.slide6-container {
+  background-color: rgba(232,250,248, 0.7);
+  padding: 5vh 5vw;
+  border-radius: 20px;
   position: absolute;
-  top: 0;
-  right: 0;
-  margin: 12vh 8vw auto auto;
-  min-height: 10px;
-  max-width: 30%;
+  left: 0;
+  margin: 13vh auto 12vh 8vw;
+  width: 35%;
+  height: 65%;
 }
 
-.bottom-right {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: auto 8vw 12vh auto;
+.inflat-plot {
+  margin: 2vh auto;
   min-height: 10px;
-  max-width: 30%;
+}
+
+.bottom-left {
+  margin: 2vh auto;
+  min-height: 10px;
 }
 
 
