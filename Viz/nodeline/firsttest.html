@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<title> Refugees by continent and country </title>
+<html>
+    <head>
+        <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <!-- Add a slider -->
+         <div class="Inputs">
+            Tree Depth Control:<br><input type="range" name="mySlider" id=mySlider min="0" max="9" value="3" >
+         </div>
+        <!-- Add toggle option -->
+         <form>
+            <label><input type="radio" name="mode"  value="horizontaltree">Horizontal Tree</label>
+            <label><input type="radio" name="mode"  value="radialtree">Radial Tree</label>
+            <label><input type="radio" name="mode" checked value="None">None</label>
+        </form>
+        <style>
+        .node {
+            cursor: pointer;
+        }
+        .node circle {
+          fill: white;
+          stroke: steelblue;
+          stroke-width: 3px;
+        }
+        .node text {
+          font: 12px sans-serif;
+        }
+        .link {
+          fill: none;
+          stroke: #ccc;
+          stroke-width: 2px;
+        }
+        </style>
+    
+    </head>
+  <body>
+    <script type="text/javascript">
+
+    d3.json('nodelinkdata.json', function(treeData){
+
+    function getDepth(obj) {
+            var depth = 0;
+            if (obj.children) {
+                obj.children.forEach(function (d) {
+                    var tmpDepth = getDepth(d)
+                    if (tmpDepth > depth) {
+                        depth = tmpDepth
+                    }
+                })
+            }
+            return 1 + depth
+        }
+    var treedepth = getDepth(treeData) //11
+
+    d3.selectAll("input").on("change", change);
+
+    function tohorizontal() {
+            var margin = {top: 20, right: 120, bottom: 20, left: 120},
+                width = 2000 - margin.right - margin.left,
+                height = 3200 - margin.top - margin.bottom;
+
+            var i = 0,
+            duration = 750,
+            root;
+
+            d3.select("svg").remove();
+
+            var tree = d3.layout.tree()
+                .size([height, width]);
+
+            var diagonal = d3.svg.diagonal()
+                .projection(function(d) { return [d.y, d.x]; });
+
+            var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.right + margin.left)
+                .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+            root = treeData;
+            root.x0 = height / 2;
+            root.y0 = 0;
+            var nodes = tree.nodes(root);
+
+            //#region 
+            var value = nodes.map(d=> d.value)
+            var multiplier= (d3.max(value)- d3.min(value))/5;
+            //var color_scale = d3.scale.linear().domain([d3.min(value),(d3.min(value)+(multiplier * 0.01)),(d3.min(value)+(multiplier * 0.02)),(d3.min(value)+(multiplier * 0.3)),d3.max(value)]).range(["","#afc8e0",'#9eb6d7',"#97aad1","#4d004b"]);
+            var color_scale = d3.scale.linear().domain([d3.min(value),((d3.min(value)+d3.max(value))/1000),d3.max(value)]).range(["white","black", "red"]);
+            //#endregion
+        
+            var mydepth = 3
+            function collapseLevel(d) {
+                if (d.children && d.depth > mydepth) {
+                    d._children = d.children;
+                    d._children.forEach(collapseLevel);
+                    d.children = null;
+                } else if (d.children){
+                    d.children.forEach(collapseLevel);
+                    }
+	        }
+            root.children.forEach(collapseLevel); //iterate each node and collapse excluding node zero
+	
+        update(root);
+
+        d3.select(self.frameElement).style("height", "500px");
+
+        d3.select("#mySlider").on("change", function(d){
+            selectedValue = this.value
+            depthcontrol(selectedValue)
+        })
+
+        //Legend 
+        height1 = 500;
+        width1 = 150;
+
+        //Inside Legend creating gradient to append graphical unit using defs (x,y show direction of gradient)
+        var gradient = svg.append('defs')
+            .append('linearGradient')
+            .attr('id', 'gradient')
+            .attr('x1', '0%') // bottom
+            .attr('y1', '100%')
+            .attr('x2', '0%') // to top
+            .attr('y2', '0%');
+            // .attr('spreadMethod', 'pad');
+        
+        //setting color over the axis 
+        gradient.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", "white")
+            .attr("stop-opacity", 1);
+        
+        gradient.append("stop")
+            .attr("offset", "99.05%")
+            .attr("stop-color", "black")
+            .attr("stop-opacity", 1);
+
+        gradient.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", "red")
+            .attr("stop-opacity", 1);
+        
+        //Create a rectagle to show the legend scale. 
+        var legend = svg.append("rect")
+            .attr("width", 20)
+            .attr("height", height1 - 250)
+            .style("fill", "url(#gradient)")
+            .attr('stroke', 'black')
+            .attr("transform", "translate("+ -37 +","+20+")");
+        
+        //Create a colour legend scale. 
+        var legendScale = d3.scale.linear()
+            .range([0,(height1 - 250)])
+            .domain([d3.max(value), d3.min(value)]);
+
+        
+        var legendaxis = d3.svg.axis()
+                            .scale(legendScale)    
+                            .orient("right")
+                            .ticks(4)
+                            .tickSize(1);
+        
+        svg.append("g")
+                .attr("class", "y axis")
+                .attr("transform", "translate("+ -40 +","+ 20 +")")
+                .attr("id", "legendaxis")
+                //.attr("transform", "translate(10," + height + ")")
+                .call(legendaxis)
+                .selectAll("text")
+                .attr("y", 0)
+                .attr("x", -80);
+        
+        svg.append("text")
+                .attr("class", "legendTitle")
+                .attr('id','ylegend')
+                .attr("x", -45)
+                .attr("y", 12)
+                .style("text-decoration", "underline")
+                .text("Node Values");
+
+
+        function update(source) {
+            // Compute the new tree layout.
+            var nodes = tree.nodes(root).reverse(),
+                links = tree.links(nodes);
+            
+            // Normalize for fixed-depth.
+            nodes.forEach(function(d) { d.y = d.depth * 180; });
+            
+            // Update the nodes…
+            var node = svg.selectAll("g.node")
+                .data(nodes, function(d) { return d.id || (d.id = ++i); });
+            
+            // Enter any new nodes at the parent's previous position.
+            var nodeEnter = node.enter().append("g")
+                .attr("class", "node")
+                .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+                .on("click", click);
+            
+            nodeEnter.append("circle")
+                    .attr("r", 1e-6)
+                    .style("stroke", function(d) { return d._children ? "red" : "green"; });
+                
+            nodeEnter.append("text")
+                    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+                    .attr("dy", ".35em")
+                    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+                    .text(function(d) { return d.name; })
+                    .style("fill-opacity", 1e-6);
+                
+            // Transition nodes to their new position.
+            var nodeUpdate = node.transition()
+                .duration(duration)
+                .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+            
+            nodeUpdate.select("circle")
+                .attr("r", 10)
+                .style("fill", function(d) { return String(color_scale(d.value)); })
+                .style("stroke", function(d) { return d._children ? "red" : "green"; });
+            
+            nodeUpdate.select("text")
+                .style("fill-opacity", 1);
+            
+            // Transition exiting nodes to the parent's new position.
+            var nodeExit = node.exit().transition()
+                .duration(duration)
+                .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+                .remove();
+                        
+            nodeExit.select("circle")
+                .attr("r", 1e-6);
+
+            nodeExit.select("text")
+                .style("fill-opacity", 1e-6);
+            
+            // Update the links…
+            var link = svg.selectAll("path.link")
+                .data(links, function(d) { return d.target.id; });
+            
+            // Enter any new links at the parent's previous position.
+            link.enter().insert("path", "g")
+                .attr("class", "link")
+                .attr("d", function(d) {
+                    var o = {x: source.x0, y: source.y0};
+                    return diagonal({source: o, target: o});
+                });
+
+            // Transition links to their new position.
+            link.transition()
+                .duration(duration)
+                .attr("d", diagonal);
+            
+            // Transition exiting nodes to the parent's new position.
+            link.exit().transition()
+                .duration(duration)
+                .attr("d", function(d) {
+                    var o = {x: source.x, y: source.y};
+                    return diagonal({source: o, target: o});
+                })
+                .remove();
+            
+            // Stash the old positions for transition.
+            nodes.forEach(function(d) {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+
+            // Toggle children on click.
+            function click(d) {
+            if (d.children) {
+                d._children = d.children;
+                d.children = null;
+            } else {
+                d.children = d._children;
+                d._children = null;
+            }
+            update(d);
+            }
+        }
+        function depthcontrol(selectedValue){
+            mydepth = selectedValue
+            d3.json('nodelinkdata.json', function(treeData){
+            root = treeData;
+            nodes = tree.nodes(root);
+            root.children.forEach(collapseLevel); 
+            update(root);
+            d3.select(self.frameElement).style("height", "500px");
+            })
+        }
+    }
+    
+    function toradial(){
+        var diameter = 1800;
+        var margin = {top: 800, right: 120, bottom: 50, left: 700},
+            width = diameter,
+            height = diameter;
+        var i = 0,
+            duration = 250,
+            root;
+        d3.select("svg").remove();
+        var tree = d3.layout.tree()
+            .size([360, diameter / 2 - 80])
+            // .separation(function(a, b) { return (a.parent == b.parent ? 5 : 1000) / (a.depth); });
+
+        var diagonal = d3.svg.diagonal.radial()
+            .projection(function(d) { return [d.y, d.x / 180 * Math.PI]; });
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width )
+            .attr("height", height )
+        .append("g")
+            .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
+
+        root = treeData;
+        root.x0 = height / 2;
+        root.y0 = 0;
+        var nodes = tree.nodes(root);
+
+        //#region 
+        var value = nodes.map(d=> d.value)
+        var multiplier= (d3.max(value)- d3.min(value))/5;
+        //var color_scale = d3.scale.linear().domain([d3.min(value),(d3.min(value)+(multiplier * 0.01)),(d3.min(value)+(multiplier * 0.02)),(d3.min(value)+(multiplier * 0.3)),d3.max(value)]).range(["","#afc8e0",'#9eb6d7',"#97aad1","#4d004b"]);
+        var color_scale = d3.scale.linear().domain([d3.min(value),((d3.min(value)+d3.max(value))/1000),d3.max(value)]).range(["white","black", "red"]);
+        //#endregion
+
+        var mydepth = 3
+
+        function collapseLevel1(d) {
+            if (d.children && d.depth > mydepth) {
+                d._children = d.children;
+                d._children.forEach(collapseLevel1);
+                d.children = null;
+            } else if (d.children){
+                d.children.forEach(collapseLevel1);
+                }
+	    }
+        root.children.forEach(collapseLevel1);
+        update1(root);
+        d3.select(self.frameElement).style("height", "800px");
+
+        d3.select("#mySlider").on("change", function(d){
+            selectedValue = this.value
+            depthcontrol(selectedValue)
+        })
+
+        function depthcontrol(selectedValue){
+            mydepth = selectedValue
+            d3.json('nodelinkdata.json', function(treeData){
+            root = treeData;
+            nodes = tree.nodes(root);
+            root.children.forEach(collapseLevel1); 
+            update1(root);
+            d3.select(self.frameElement).style("height", "500px");
+            })
+        }
+
+        //Legend 
+        height1 = 500;
+        width1 = 150;
+
+        //Inside Legend creating gradient to append graphical unit using defs (x,y show direction of gradient)
+        var gradient = svg.append('defs')
+            .append('linearGradient')
+            .attr('id', 'gradient1')
+            .attr('x1', '0%') // bottom
+            .attr('y1', '100%')
+            .attr('x2', '0%') // to top
+            .attr('y2', '0%');
+            // .attr('spreadMethod', 'pad');
+        
+        //setting color over the axis 
+        gradient.append("stop")
+            .attr("offset", "0%")
+            .attr("stop-color", "white")
+            .attr("stop-opacity", 1);
+        
+        gradient.append("stop")
+            .attr("offset", "99.05%")
+            .attr("stop-color", "black")
+            .attr("stop-opacity", 1);
+
+        gradient.append("stop")
+            .attr("offset", "100%")
+            .attr("stop-color", "red")
+            .attr("stop-opacity", 1);
+        
+        //Create a rectagle to show the legend scale. 
+        var legend = svg.append("rect")
+            .attr("width", 20)
+            .attr("height", height1 - 250)
+            .style("fill", "url(#gradient1)")
+            .attr('stroke', 'black')
+            .attr("transform", "translate("+ -850 +","+-500+")");
+        
+        //Create a colour legend scale. 
+        var legendScale = d3.scale.linear()
+            .range([0,(height1 - 250)])
+            .domain([d3.max(value), d3.min(value)]);
+
+        var legendaxis1 = d3.svg.axis()
+                            .scale(legendScale)    
+                            .orient("right")
+                            .ticks(4)
+                            .tickSize(1);
+        
+        svg.append("g")
+                .attr("class", "y axis")
+                .attr("transform", "translate("+ -850 +","+ 100 +")")
+                .attr("id", "legendaxis1")
+                .attr("transform", "translate(10," + height + ")")
+                .call(legendaxis1)
+                .selectAll("text")
+                .attr("y", -2300)
+                .attr("x", -830);
+        
+        svg.append("text")
+                .attr("class", "legendTitle")
+                .attr('id','ylegend')
+                .attr("x", -850)
+                .attr("y", -520)
+                .style("text-decoration", "underline")
+                .text("Node Values");
+
+        function update1(source) {
+            // Compute the new tree layout.
+            var nodes = tree.nodes(root).reverse(),
+                links = tree.links(nodes);
+            // Normalize for fixed-depth.
+            nodes.forEach(function(d) { d.y = d.depth * 80; });
+            // Update the nodes…
+            var node = svg.selectAll("g.node")
+                .data(nodes, function(d) { return d.id || (d.id = ++i); });
+            // Enter any new nodes at the parent's previous position.
+            var nodeEnter = node.enter().append("g")
+                .attr("class", "node")
+                //.attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+                .on("click", click);
+            nodeEnter.append("circle")
+                .attr("r", 1e-6)
+                .style("stroke", function(d) { return d._children ? "red" : "green"; });
+            
+            nodeEnter.append("text")
+                .attr("x", -10)
+                .attr("dy", ".15em")
+                .attr("text-anchor","start")
+                //.attr("transform", function(d) { return d.x < 180 ? "translate(0)" : "rotate(180)translate(-" + (d.name.length * 8.5)  + ")"; })
+                .text(function(d) { return d.name; })
+                .style("fill-opacity", 1e-6);
+
+            // Transition nodes to their new position.
+            var nodeUpdate = node.transition()
+                .duration(duration)
+                .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"; })
+            
+            nodeUpdate.select("circle")
+                .attr("r", 4.5)
+                .style("fill", function(d) { return String(color_scale(d.value)); })
+                .style("stroke", function(d) { return d._children ? "red" : "green"; });
+
+            nodeUpdate.select("text")
+                .style("fill-opacity", 1)
+                .attr("transform", function(d) { return d.x < 180 ? "translate(0)" : "rotate(180)translate(-" + (d.name.length + 50)  + ")"; });
+            
+            var nodeExit = node.exit().transition()
+                .duration(duration)
+                //.attr("transform", function(d) { return "diagonal(" + source.y + "," + source.x + ")"; })
+                .remove();
+        
+            nodeExit.select("circle")
+                .attr("r", 1e-6);
+                
+            nodeExit.select("text")
+                .style("fill-opacity", 1e-6);
+
+            // Update the links…
+            var link = svg.selectAll("path.link")
+                .data(links, function(d) { return d.target.id; });
+            
+            // Enter any new links at the parent's previous position.
+            link.enter().insert("path", "g")
+                .attr("class", "link")
+                .attr("d", function(d) {
+                    var o = {x: source.x0, y: source.y0};
+                    return diagonal({source: o, target: o});
+                });
+            // Transition links to their new position.
+            link.transition()
+                .duration(duration)
+                .attr("d", diagonal);
+            
+            // Transition exiting nodes to the parent's new position.
+            link.exit().transition()
+                .duration(duration)
+                .attr("d", function(d) {
+                    var o = {x: source.x, y: source.y};
+                    return diagonal({source: o, target: o});
+                })
+                .remove();
+            
+            // Stash the old positions for transition.
+            nodes.forEach(function(d) {
+                d.x0 = d.x;
+                d.y0 = d.y;
+            });
+
+            // Toggle children on click.
+            function click(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d.children = null;
+                } else {
+                    d.children = d._children;
+                    d._children = null;
+                }
+                update1(d);
+            }
+        }
+    }
+    
+    function change() {
+        if (this.value === "horizontaltree")
+                tohorizontal()
+        else if(this.value=="radialtree")
+                toradial()
+        else 
+            d3.select("svg").remove();
+            console.log("None Selected")
+        };
+    })
+    </script>
+  </body>
+</html>
