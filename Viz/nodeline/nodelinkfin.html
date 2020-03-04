@@ -27,7 +27,8 @@
   <body>
     <script type="text/javascript">
 
-    d3.json('nodelinkdata.json', function(treeData){
+    d3.json('https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/master/Viz/nodeline/nodelinkdata.json', 
+        function(treeData){
 
     function getDepth(obj) {
             var depth = 0;
@@ -41,7 +42,7 @@
             }
             return 1 + depth
         }
-    var treedepth = getDepth(treeData) //11
+    var treedepth = getDepth(treeData) //4
 
     function tohorizontal() {
             var margin = {top: 40, right: 0, bottom: 20, left: 120},
