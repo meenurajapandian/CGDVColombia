@@ -43,6 +43,7 @@ h6 {
   justify-content: space-around;
 }
 
+
 /* Slide 1 */
 .img-content {
   display: block;
@@ -93,8 +94,11 @@ h6 {
 }
 
 .slide2-text {
-  margin: 12% 10% auto 42%;
+  margin: 12% 5% auto 42%;
   min-width: 25%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* Slide 6 */
@@ -132,8 +136,11 @@ h6 {
 /*Slide 7*/
 
 .explore {
-  min-width: 10%;
-  min-height: 10%;
+  margin: 2vh auto auto auto;
+  width: 20%;
+  height: 4vh;
+  display: inline-block;
+  padding: auto;
 }
 
 .pop-up-overlay {
@@ -150,27 +157,58 @@ h6 {
 
 .popup {
     position: absolute;
-    width: 300px;
-    height: 150px;
+    width: 70vw;
+    height: 60vh;
     display: none;
     background-color: white;
+    border-radius: 10px;
     text-align: center;
     /* center it ? */
     top: 50%;
     left: 50%;
-    margin-left: -150px;
-    margin-top: -75px;
+    margin-left: -35vw;
+    margin-top: -30vh;
 }
 
 .slide7-left {
   width: 30%;
-  margin: 5% auto;
+  margin: 2% auto;
 }
 .slide7-right {
-  margin: 5% auto;
+  margin: 2% auto;
   width: 68%;
 }
 .slide7-container {
   margin: 5vh auto;
   width: 100%;
+}
+
+.slide7-container-text {
+  padding: 0 2vw 0 2vw;
+  width: 70%;
+}
+
+
+/* Slide 9 */
+.spl {
+  margin: 0;
+  min-height: 200vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.heatmap {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100vh;
+}
+
+.heatmap-extra {
+  margin-left: 40%;
+  height: 100vh;
+  width: 60%;
 }
