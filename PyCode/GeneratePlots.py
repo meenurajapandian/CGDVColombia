@@ -29,9 +29,9 @@ s12 = ColumnDataSource(data=dict(x=years, y=y))
 
 p12 = figure(plot_width=480, plot_height=280, title="Select a country to see more", toolbar_location=None)
 p12.sizing_mode = 'scale_width'
-p12.line(x='x', y='y', source=s12, line_width=2)
-
 p12.outline_line_alpha = 0
+
+p12.line(x='x', y='y', source=s12, line_width=2)
 
 p12.xaxis.axis_line_color = "#575757"
 p12.xaxis.minor_tick_line_color = None
@@ -53,9 +53,10 @@ Country.reverse()
 s11 = ColumnDataSource(filtered)
 
 p11 = figure(y_range=Country, plot_width=490, plot_height=280, title="Refugee Intake", toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
-p11.hbar(right='2018', y='Country', height=0.70, source=s11)
-
+p11.sizing_mode = 'scale_width'
 p11.outline_line_alpha = 0
+
+p11.hbar(right='2018', y='Country', height=0.70, source=s11)
 
 p11.yaxis.axis_line_color = "#575757"
 p11.yaxis.major_tick_line_color = None
@@ -160,6 +161,8 @@ m_line_alpha = 0.8
 
 p21 = figure(title="Venezuelan Refugees", width=550, height=660, x_axis_location=None, y_axis_location=None, toolbar_location="left", tools="pan,wheel_zoom,reset")
 p21.grid.grid_line_color = None
+p21.sizing_mode = 'scale_width'
+p21.outline_line_alpha = 0
 
 p21.patches('xs', 'ys', fill_color={'field': 'Refugees', 'transform': color_mapper}, fill_alpha=m_fill_alpha,
             line_color=m_line_color, line_width=m_line_width, line_alpha=m_line_alpha, source=geo_src,
@@ -179,7 +182,9 @@ p21.add_glyph(s22, display1)
 p22 = figure(title="Population Density (sq.km)", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
+p22.sizing_mode = 'scale_width'
 p22.grid.grid_line_color = None
+p22.outline_line_alpha = 0
 p22.toolbar.logo = None
 p22.min_border_left = 0
 p22.min_border_right = 0
@@ -195,7 +200,9 @@ p22.add_glyph(s23, display2)
 p23 = figure(title="Unemployment", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
+p23.sizing_mode = 'scale_width'
 p23.grid.grid_line_color = None
+p23.outline_line_alpha = 0
 p23.toolbar.logo = None
 p23.min_border_left = 0
 p23.min_border_right = 0
@@ -211,7 +218,9 @@ p23.add_glyph(s24, display3)
 p24 = figure(title="Poverty", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
+p24.sizing_mode = 'scale_width'
 p24.grid.grid_line_color = None
+p24.outline_line_alpha = 0
 p24.toolbar.logo = None
 p24.min_border_left = 0
 p24.min_border_right = 0
@@ -227,7 +236,9 @@ p24.add_glyph(s25, display4)
 p25 = figure(title="Illiteracy", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
+p25.sizing_mode = 'scale_width'
 p25.grid.grid_line_color = None
+p25.outline_line_alpha = 0
 p25.toolbar.logo = None
 p25.min_border_left = 0
 p25.min_border_right = 0
@@ -250,8 +261,6 @@ callback2 = CustomJS(args=dict(s21=geo_src, s22=s22, s23=s23, s24=s24, s25=s25, 
     var d25 = s25.data
     var d26 = s26.data
     
-    console.log(d21)
-    
     d22['text'] = []
     var str1 = "Venezuelan Refugees: "
     var str2 = "Department: "
@@ -261,14 +270,14 @@ callback2 = CustomJS(args=dict(s21=geo_src, s22=s22, s23=s23, s24=s24, s25=s25, 
     var str6 = "Illiteracy: "
     
     var refug = d21['Refugees'][inds]
-    var pop = d21['Density'][inds]
+    var popu = d21['Density'][inds]
     var unem = d21['Unemployment'][inds]
     var pov = d21['Poverty'][inds]
     var illi = d21['Illiteracy'][inds]
     
     d22['text'][0] = str1.concat(refug.toString(10))
     d22['text'][1] = str2.concat(d21['Name'][inds])
-    d23['text'][0] = str3.concat(pop.toString(10))
+    d23['text'][0] = str3.concat(popu.toString(10))
     d24['text'][0] = str4.concat(unem.toString(10), "%")
     d25['text'][0] = str5.concat(pov.toString(10), "%")
     d26['text'][0] = str6.concat(illi.toString(10), "%")
@@ -285,6 +294,11 @@ p21.add_tools(TapTool(callback=callback2))
 hover = HoverTool()
 hover.tooltips = [("Department", "@Name"),("Refugees", "@Refugees")]
 p21.tools.append(hover)
+
+
+# PLOT 3: Asylum applications
+# Pending Asylum applications
+
 
 
 # show(row(p21, column(p23,p22), p24, p25))
