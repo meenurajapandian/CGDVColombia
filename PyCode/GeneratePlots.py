@@ -27,7 +27,7 @@ years = [str(year) for year in years]
 y = np.zeros(len(years)).tolist()
 s12 = ColumnDataSource(data=dict(x=years, y=y))
 
-p12 = figure(plot_width=500, plot_height=280, title="Select a country to see more", toolbar_location=None)
+p12 = figure(plot_width=480, plot_height=280, title="Select a country to see more", toolbar_location=None)
 p12.line(x='x', y='y', source=s12, line_width=2)
 
 p12.outline_line_alpha = 0
@@ -51,7 +51,7 @@ Country = filtered['Country'].tolist()
 Country.reverse()
 s11 = ColumnDataSource(filtered)
 
-p11 = figure(y_range=Country, plot_width=500, plot_height=280, title="Refugee Intake", toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
+p11 = figure(y_range=Country, plot_width=490, plot_height=280, title="Refugee Intake", toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
 p11.hbar(right='2018', y='Country', height=0.70, source=s11)
 
 p11.outline_line_alpha = 0
@@ -294,6 +294,9 @@ plots = {'plot1': p21, 'plot2': row(column(p23,p22),p24,p25)}
 script, div = components(plots)
 
 with open('maps.js', 'w') as f:
-    f.write(script)
+    f.write(script[10:(len(script)-10)])
 
+print(len(script))
+print(script[0:8])
+print(script[(len(script)-9):len(script)])
 print(div)
