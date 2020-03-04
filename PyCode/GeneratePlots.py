@@ -20,7 +20,7 @@ from bokeh.io import show #To be removed later
 df = pd.read_csv("c_people_from_ven.csv")
 df['Total'] = df.sum(axis=1)
 
-years = list(range(2000, 2019))
+years = list(range(2005, 2019))
 years = [str(year) for year in years]
 
 
@@ -28,6 +28,7 @@ y = np.zeros(len(years)).tolist()
 s12 = ColumnDataSource(data=dict(x=years, y=y))
 
 p12 = figure(plot_width=480, plot_height=280, title="Select a country to see more", toolbar_location=None)
+p12.sizing_mode = 'scale_width'
 p12.line(x='x', y='y', source=s12, line_width=2)
 
 p12.outline_line_alpha = 0
