@@ -251,3 +251,38 @@ h6 {
   position: absolute;
   margin: auto 6vw 12vh 45%;
 }
+
+
+/* Slide 10 */
+
+.slide10-left {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.slide10-right {
+  width: 50%;
+  height:100vh;
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.slide10-plt1 {
+  width: 75%;
+  height: 40%;
+  bottom: 15vh;
+  left: 5vw;
+  position: absolute;
+}
+
+.slide10-plt2 {
+  width: 75%;
+  height: 40%;
+  top: 5vh;
+  right: 5vw;
+  position: absolute;
+}
