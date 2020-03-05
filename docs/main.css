@@ -54,6 +54,15 @@ h6 {
   height: auto;
 }
 
+.img-content-3 {
+  display: block;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*Slide 1*/
 
 .cover-title {
@@ -93,6 +102,11 @@ h6 {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.bg-color {
+  background: rgb(121, 211, 226);
+  background: linear-gradient(180deg, rgba(121, 211, 226, 0.865983) 0%, rgba(255, 255, 255, 1) 73%)
 }
 
 /* Slide 6 */
@@ -211,9 +225,9 @@ h6 {
 
 .slide9-banner {
   height: 25vh;
-  width: 100%;
-  top: 10vh;
-  right: 5vw;
+  width: 99%;
+  top: 9vh;
+  right: 1vw;
   position: absolute;
 }
 
