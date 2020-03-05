@@ -17,8 +17,8 @@ from bokeh.io import show #To be removed later
 # PLOT 1 : Bar plot for countries taking in Venezuelans
 # Can try side by side instead of stack
 
-df = pd.read_csv("c_people_from_ven.csv")
-df['Total'] = df.sum(axis=1)
+df1 = pd.read_csv("c_people_from_ven.csv")
+df1['Total'] = df1.sum(axis=1)
 
 years = list(range(2005, 2019))
 years = [str(year) for year in years]
@@ -31,7 +31,7 @@ p12 = figure(plot_width=480, plot_height=280, title="Select a country to see mor
 p12.sizing_mode = 'scale_width'
 p12.outline_line_alpha = 0
 
-p12.line(x='x', y='y', source=s12, line_width=2)
+p12.line(x='x', y='y', source=s12, line_width=4, color="#FF954D")
 
 p12.xaxis.axis_line_color = "#575757"
 p12.xaxis.minor_tick_line_color = None
@@ -47,17 +47,17 @@ p12.yaxis.major_tick_out = 1
 p12.yaxis.formatter = NumeralTickFormatter(format="0.0a")
 
 
-filtered = df.nlargest(5, 'Total')
+filtered = df1.nlargest(5, 'Total')
 Country = filtered['Country'].tolist()
 Country.reverse()
 s11 = ColumnDataSource(filtered)
 
-p11 = figure(y_range=Country, plot_width=490, plot_height=280, title="Refugee Intake",
+p11 = figure(y_range=Country, plot_width=490, plot_height=280, title="Venezuelan Refugees (2018)",
              toolbar_location="above", tools="hover", tooltips="Refugees: @2018")
 p11.sizing_mode = 'scale_width'
 p11.outline_line_alpha = 0
 
-p11.hbar(right='2018', y='Country', height=0.70, source=s11)
+p11.hbar(right='2018', y='Country', height=0.70, source=s11, color="#FF954D")
 
 p11.yaxis.axis_line_color = "#575757"
 p11.yaxis.major_tick_line_color = None
@@ -127,12 +127,16 @@ with open('new.geojson', 'w') as f:
 with open(r'new.geojson') as f:
     geo_src = GeoJSONDataSource(geojson=f.read())
 
-palette = brewer['OrRd'][9]
+#palette = brewer['OrRd'][9]
+#palette.reverse()
+#palette = ["#C12546", "#CB4762", "#D4687F", "#D9798D", "#DE8A9B", "#E29AAA", "#E7ABB8",
+#           "#ECBCC6", "#F3D5DB", "#FAEEF1", "#FFFFFF"]
+palette = ["#181335", "#48276F", "#6C397F", "#8C4D84", "#B5648F", "#DD6F86", "#F68A7B", "#FDAE84", "#FDD6A4", "#FBFCCA"]
 palette.reverse()
 color_mapper = LogColorMapper(palette=palette)
 color_mapper_lin = LinearColorMapper(palette=palette)
 m_fill_alpha = 0.8
-m_line_color = 'black'
+m_line_color = "#140D35"
 m_line_width = 0.5
 m_line_alpha = 0.8
 
@@ -290,14 +294,15 @@ s31 = ColumnDataSource(df3)
 
 p31 = figure(x_range =(1999, 2019), plot_height=380, plot_width=600, title="Asylum Applications",
              toolbar_location=None)
-p31.vbar(x=dodge('Year', -0.15, range=p31.x_range), top='applied', width=0.3, color='blue', source=s31, legend_label="Applications")
-p31.vbar(x=dodge('Year', 0.15, range=p31.x_range), top='pending', width=0.2, color='red', source=s31, legend_label="Pending")
+p31.vbar(x=dodge('Year', -0.16, range=p31.x_range), top='applied', width=0.3, color="#DDCC85", source=s31, legend_label="Applications")
+p31.vbar(x=dodge('Year', 0.16, range=p31.x_range), top='pending', width=0.3, color="#DD8494", source=s31, legend_label="Pending")
 
-p31.line(x='Year', y='rdecisions', source=s31, legend_label="Average Decisions")
+p31.line(x='Year', y='rdecisions', source=s31, legend_label="Average Decisions", line_width=5, color="#2AA089")
 
 p31.outline_line_alpha = 0
 p31.sizing_mode = 'scale_width'
 p31.legend.location = "top_left"
+
 p31.xaxis.axis_line_color = "#575757"
 p31.xaxis.minor_tick_line_color = None
 p31.xaxis.major_tick_line_color = "#878787"
@@ -324,10 +329,12 @@ p41.sizing_mode = 'scale_width'
 p41.outline_line_alpha = 0
 
 
-p41.line(x='Year', y='fromc', color='blue', source=s41, line_width=2, legend_label="From Colombia")
-p41.line(x='Year', y='toc', color='red', source=s41, line_width=2, legend_label="To Colombia")
+p41.line(x='Year', y='fromc', color="#3AB1CC", source=s41, line_width=4, legend_label="From Colombia")
+p41.line(x='Year', y='toc', color="#DD8494", source=s41, line_width=4, legend_label="To Colombia")
 
 p41.legend.location = "top_left"
+
+p41.x_range.start = 2000
 p41.xaxis.axis_line_color = "#575757"
 p41.xaxis.minor_tick_line_color = None
 p41.xaxis.major_tick_line_color = "#878787"
@@ -342,19 +349,25 @@ p41.yaxis.major_tick_out = 1
 p41.yaxis.formatter = NumeralTickFormatter(format="0.0a")
 
 # show(column(row(p11, p12),
-show(column(row(p11, p12),
-            row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
-            row(p31, p41)))
+# show(column(row(p11, p12),
+#             row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
+#             row(p31, p41)))
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
-# plots = {'plot1': p21, 'plot2': row(column(p23,p22),p24,p25)}
-#
-# script, div = components(plots)
-#
-# with open('maps.js', 'w') as f:
-#     f.write(script[10:(len(script)-10)])
-#
-# print(len(script))
-# print(script[0:8])
-# print(script[(len(script)-9):len(script)])
-# print(div)
+plots = {'plot1': row(p11, p12), 'plot2': p21,
+         'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
+         'plot4': p31,
+         'plot5': p41}
+
+script, div = components(plots)
+
+with open('plots.js', 'w') as f:
+    f.write(script[10:(len(script)-10)])
+
+with open('plotsdiv.txt', 'w') as f:
+    f.write(str(div))
+
+print(len(script))
+print(script[0:8])
+print(script[(len(script)-9):len(script)])
+print(div)

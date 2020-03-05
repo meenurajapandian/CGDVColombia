@@ -8,6 +8,7 @@ console.log(topPosition);
 window.addEventListener('wheel', checkScrollDirection);
 
 function checkScrollDirection(event) {
+  console.timeStamp()
   if (canWheel){
     canWheel = false;
     if (checkScrollDirectionIsUp(event)) {
