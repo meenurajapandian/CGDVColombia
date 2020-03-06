@@ -137,7 +137,9 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 .inflat-plot {
   margin: 2vh auto;
   min-height: 10px;
-  background-color: white
+  /* =========================== */
+  /* Meenu to pick color */
+  background-color: lightblue
 }
 
 .bottom-left {
@@ -183,7 +185,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
     margin-top: -30vh;
 }
 
-.slide7-left {
+.world {
   width: 30%;
   margin: 2% auto;
 }
@@ -279,7 +281,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 }
 
 .axis line {
-  fill: black;
+  fill: none;
   stroke: #000;
   shape-rendering: crispEdges;
 }
@@ -292,22 +294,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 }
 
 .line {
-  fill: black;
+  fill: none;
   stroke: steelblue;
   stroke-width: 2px;
-}
-
-.line {
-  stroke: black;
-  stroke-width: 1.5px;
-  fill: white;
-}
-
-circle {
-  fill: red;
-}
-
-#marker {
-  stroke: black;
-  fill: black;
 }
