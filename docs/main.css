@@ -278,3 +278,37 @@ h6 {
   width: 70%;
   min-height: 20%;
 }
+
+.axis line {
+  fill: black;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: inline-block;
+}
+.y.axis path {
+  display: inline-block;
+}
+
+.line {
+  fill: black;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.line {
+  stroke: black;
+  stroke-width: 1.5px;
+  fill: white;
+}
+
+circle {
+  fill: red;
+}
+
+#marker {
+  stroke: black;
+  fill: black;
+}
