@@ -1,6 +1,6 @@
-var margin = {top: 20, right: 20, bottom: 30, left: 150},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+var margin = {top: 10, right: 20, bottom: 30, left: 150},
+    width = 660 - margin.left - margin.right,
+    height = 550 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -9,20 +9,13 @@ var y = d3.scale.linear()
     .range([height, 0]);
 
     
-function getticks(d){
+function getticks_diff(d){
+  console.log(d)
     return d;
 }
 
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .tickFormat(function(d) {return getticks(d) ;});
 
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
-
-
-d3.tsv("differencedata.tsv", function(error, data) {
+d3.tsv("https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/d3-add/Viz/differenceplot/differencedata.tsv", function(error, data) {
   if (error) throw error;
 
   data.forEach(function(d) {
@@ -40,6 +33,18 @@ d3.tsv("differencedata.tsv", function(error, data) {
     d3.max(data, function(d) { return Math.max(d["Colombia"], d["Venezuela"]); })
   ]);
 
+
+var xAxis = d3.svg.axis()
+.scale(x)
+.tickFormat(function(d) {return d ;})
+.innerTickSize(2)
+.outerTickSize(0)
+.orient("bottom");
+
+var yAxis = d3.svg.axis()
+.scale(y)
+.orient("left");
+
   var line = d3.svg.area()
     .interpolate(d3.curveBasis)
     .x(function(d) { console.log(x(d.Year)); return x(d.Year); })
@@ -52,7 +57,7 @@ var area = d3.svg.area()
 
 var svg = d3.select("#differenceplot").append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("height", height + margin.top + margin.bottom +20)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -84,11 +89,11 @@ var svg = d3.select("#differenceplot").append("svg")
 
 
   svg.append("g")
-      .attr("class", "x axis")
+      .attr("class", "x_axis_diff")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis)
     .append("text")
-      .attr("transform", "translate("+width/2+ "," +  (margin.bottom) +")")
+      .attr("transform", "translate("+width/2+ "," +  (margin.bottom +18) +")")
       .style("text-anchor", "end")
       .text("Year");
 
