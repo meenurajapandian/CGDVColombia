@@ -113,6 +113,29 @@ h6 {
 background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgba(196,220,224,1) 100%);
 }
 
+/* Slide 3 */
+
+.slide3-left {
+  margin: 2% auto;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color:lightblue;
+  max-height: 70%
+}
+.slide3-plt1 {
+  margin: 2% auto;
+  width: 30%;
+  min-height: 20%;
+  max-height: 70%;
+  background-color: lightgreen
+}
+
+
 /* Slide 6 */
 .half-image { /* Container for image */
   width: 50%;
