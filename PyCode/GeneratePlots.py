@@ -136,8 +136,10 @@ palette.reverse()
 color_mapper = LogColorMapper(palette=palette)
 color_mapper_lin = LinearColorMapper(palette=palette)
 m_fill_alpha = 0.8
-m_line_color = "#140D35"
-m_line_width = 0.5
+# m_line_color = "#140D35"
+# m_line_color = "#EFEFEF"
+m_line_color = "#FFFFFF"
+m_line_width = 1
 m_line_alpha = 0.8
 
 
@@ -147,7 +149,7 @@ p21.sizing_mode = 'scale_width'
 p21.outline_line_alpha = 0
 
 p21.patches('xs', 'ys', fill_color={'field': 'Refugees', 'transform': color_mapper}, fill_alpha=m_fill_alpha,
-            line_color=m_line_color, line_width=m_line_width, line_alpha=m_line_alpha, source=geo_src,
+            line_color=m_line_color, line_width=m_line_width+1, line_alpha=m_line_alpha, source=geo_src,
             selection_fill_color={'field': 'Refugees', 'transform': color_mapper})
 p21.x_range.start = -80
 p21.x_range.end = -66
@@ -348,26 +350,25 @@ p41.yaxis.major_tick_line_color = "#878787"
 p41.yaxis.major_tick_out = 1
 p41.yaxis.formatter = NumeralTickFormatter(format="0.0a")
 
-# show(column(row(p11, p12),
-# show(column(row(p11, p12),
-#             row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
-#             row(p31, p41)))
+show(column(row(p11, p12),
+            row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
+            row(p31, p41)))
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
-plots = {'plot1': row(p11, p12), 'plot2': p21,
-         'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
-         'plot4': p31,
-         'plot5': p41}
-
-script, div = components(plots)
-
-with open('plots.js', 'w') as f:
-    f.write(script[10:(len(script)-10)])
-
-with open('plotsdiv.txt', 'w') as f:
-    f.write(str(div))
-
-print(len(script))
-print(script[0:8])
-print(script[(len(script)-9):len(script)])
-print(div)
+# plots = {'plot1': row(p11, p12), 'plot2': p21,
+#          'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
+#          'plot4': p31,
+#          'plot5': p41}
+#
+# script, div = components(plots)
+#
+# with open('plots.js', 'w') as f:
+#     f.write(script[10:(len(script)-10)])
+#
+# with open('plotsdiv.txt', 'w') as f:
+#     f.write(str(div))
+#
+# print(len(script))
+# print(script[0:8])
+# print(script[(len(script)-9):len(script)])
+# print(div)
