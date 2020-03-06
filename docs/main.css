@@ -13,6 +13,11 @@ blockquote,q { quotes: none;}
 blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
 table { border-collapse: collapse; border-spacing: 0;}
 
+div {
+  border-color: red;
+  border-width: 0.2px;
+  border-style: solid;
+}
 
 h6 {
   margin: 0.4em 0 0 0;
@@ -227,14 +232,14 @@ h6 {
   height: 25vh;
   width: 99%;
   top: 9vh;
-  right: 1vw;
   position: absolute;
 }
 
 .slide9-text1 {
+  width: 65%
   position: absolute;
   bottom: 0;
-  margin: auto 8vw 20vh 10vw;
+  margin: 40% 8vw 20% 10vw;
 }
 
 .heatmap-extra {
@@ -246,10 +251,12 @@ h6 {
 }
 
 .slide9-text2 {
+  width: 50%;
+  height: 40%;
   bottom: 0;
   right: 0;
   position: absolute;
-  margin: auto 6vw 12vh 45%;
+  margin: auto 10% 5% 40%;
 }
 
 
@@ -258,31 +265,15 @@ h6 {
 .slide10-left {
   width: 50%;
   height: 100vh;
-  position: absolute;
-  top:0;
-  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
 }
 
-.slide10-right {
-  width: 50%;
-  height:100vh;
-  position: absolute;
-  top:0;
-  right: 0;
-}
 
 .slide10-plt1 {
-  width: 75%;
-  height: 40%;
-  bottom: 15vh;
-  left: 5vw;
-  position: absolute;
-}
-
-.slide10-plt2 {
-  width: 75%;
-  height: 40%;
-  top: 5vh;
-  right: 5vw;
-  position: absolute;
+  width: 70%;
+  min-height: 20%;
 }
