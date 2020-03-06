@@ -1,1 +1,0 @@
-{'plot1': Row(id='1455', ...), 'plot2': Figure(id='1080', ...), 'plot3': Column(id='1458', ...), 'plot4': Figure(id='1308', ...), 'plot5': Figure(id='1390', ...)}
