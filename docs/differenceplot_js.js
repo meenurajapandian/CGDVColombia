@@ -1,6 +1,6 @@
-var margin = {top: 10, right: 20, bottom: 30, left: 150},
-    width = 660 - margin.left - margin.right,
-    height = 550 - margin.top - margin.bottom;
+var margin = {top: 10, right: 20, bottom: 10, left: 150},
+    width = 680 - margin.left - margin.right,
+    height = 420 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
@@ -13,7 +13,6 @@ function getticks_diff(d){
   console.log(d)
     return d;
 }
-
 
 d3.tsv("https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/d3-add/Viz/differenceplot/differencedata.tsv", function(error, data) {
   if (error) throw error;
