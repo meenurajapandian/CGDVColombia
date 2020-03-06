@@ -1,5 +1,5 @@
 console.log("differenceplot_js called")
-var margin = {top: 10, right: 20, bottom: 10, left: 150},
+var margin = {top: 10, right: 20, bottom: 10, left: 10},
     width = 380 - margin.left - margin.right,
     height = 320 - margin.top - margin.bottom;
 
