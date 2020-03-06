@@ -113,6 +113,29 @@ h6 {
 background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgba(196,220,224,1) 100%);
 }
 
+/* Slide 3 */
+
+.slide3-left {
+  margin: 2% auto;
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color:lightblue;
+  max-height: 70%
+}
+.slide3-plt1 {
+  margin: 2% auto;
+  width: 50%;
+  min-height: 20%;
+  max-height: 70%;
+  background-color: lightgoldenrodyellow
+}
+
+
 /* Slide 6 */
 .half-image { /* Container for image */
   width: 50%;
@@ -130,13 +153,16 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   position: absolute;
   left: 0;
   margin: 13vh auto 12vh 8vw;
-  width: 35%;
+  width: 48%;
   height: 65%;
 }
 
 .inflat-plot {
   margin: 2vh auto;
   min-height: 10px;
+  /* =========================== */
+  /* Meenu to pick color */
+  background-color: lightgray
 }
 
 .bottom-left {
@@ -170,7 +196,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 .popup {
     position: absolute;
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     display: none;
     background-color: white;
     border-radius: 10px;
@@ -182,14 +208,16 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
     margin-top: -30vh;
 }
 
-.slide7-left {
+.world {
   width: 30%;
   margin: 2% auto;
 }
+
 .slide7-right {
   margin: 2% auto;
   width: 68%;
 }
+
 .slide7-container {
   margin: 5vh auto;
   width: 100%;
@@ -199,7 +227,37 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   padding: 0 2vw 0 2vw;
   width: 70%;
 }
+/* Slide 8 */
 
+.slide8-left  {
+  margin: 0.5vh auto;
+  width: 70%;
+  height: 40%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+}
+
+.slide8-right {
+  margin: 2% auto;
+  width: 68%;
+  background-color: lightgoldenrodyellow
+}
+
+.slide8-container {
+  margin: 5vh auto;
+  width: 100%;
+  background-color: pink
+}
+
+.slide8-container-text {
+  padding: 0 2vw 0 2vw;
+  width: 70%;
+}
+img#refugeetruck {
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  /* You may add things like width, height, background-size... */
+}
 
 /* Slide 9 */
 .container-spl {
@@ -275,4 +333,90 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 .slide10-plt1 {
   width: 70%;
   min-height: 20%;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: inline-block;
+}
+.y.axis path {
+  display: inline-block;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+circle {
+  fill: red;
+}
+
+#marker {
+  stroke: black;
+  fill: black;
+}
+
+.node {
+  cursor: pointer;
+}
+.node circle {
+fill: white;
+stroke: steelblue;
+stroke-width: 3px;
+}
+.node text {
+font: 12px sans-serif;
+}
+.link {
+fill: none;
+stroke: #ccc;
+stroke-width: 2px;
+}
+
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
+.area.above {
+  fill: rgb(252,141,89);
+}
+
+.area.below {
+  fill: rgb(145,207,96);
+}
+.x_axis_diff path{
+  display: inline;
 }
