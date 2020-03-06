@@ -1,5 +1,5 @@
 console.log("inflation response")
-var margin = {top: 20, right: 50, bottom: 30, left: 100},
+var margin = {top: 15, right: 20, bottom: 20, left: 70},
 width = 680 - margin.left - margin.right,
 height = 400 - margin.top - margin.bottom;
 
@@ -104,13 +104,11 @@ svg.append("line")
     });
 
 function loop_tran(){
-
     var economy = svg.selectAll(".economy")
     .data(economies)
     .enter().append("g")
     .attr("class", "economy");
 
-    console.log("Initial Instantiating loop_Tran")
     var path = svg.selectAll(".economy").append("path")
     .attr("class", "line")
     .attr("d", function(d) { console.log((d.values)); return line(d.values); })
@@ -121,8 +119,6 @@ function loop_tran(){
     repeat()
     
     function repeat(){
-        console.log("repeating Instantiating loop_Tran")
-
         d3.select(path[0][0])
             .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0] ) 
             .attr("stroke-dashoffset", totalLength[0])

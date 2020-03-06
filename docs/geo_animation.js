@@ -258,6 +258,11 @@ let bubbles = [
 }
 ]
 
+var refugeescale = d3.scale.ordinal()
+                        .domain(["VEN", "COL", "ARG","BRA", "CHL", "ECU","MEX", "PAN","PER","ESP","USA"])
+                        .range([3078183, 1731789,144182,265586,557414,262572,2176329,2276067, 2932341, 31692,93059])
+
+
 function renderArrows(targetElementId) {
     let svgRoot = d3.select("#" + targetElementId).select("svg");
 
@@ -310,7 +315,6 @@ function renderArrows(targetElementId) {
             let arrow = svgRoot.append("svg:path")
                 .attr("d", d3.svg.symbol().type("triangle-down")(10, 1));
 
-
             arrow.transition()
                 .duration(2000)
                 .ease("linear")
@@ -329,19 +333,17 @@ function renderArrows(targetElementId) {
 
     });
 }
-
-var refugeescale = d3.scale.ordinal()
-                        .domain(["VEN", "COL", "ARG","BRA", "CHL", "ECU","MEX", "PAN","PER","ESP","USA"])
-                        .range([3078183, 1731789,144182,265586,557414,262572,2176329,2276067, 2932341, 31692,93059])
-
 // // ISO ID code for city or <state></state>
-setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
-    bubble_map.bubbles(bubbles, {
-        popupTemplate: function (geo, data) {
-            return `<div class="hoverinfo">Country: ${data.centered}, Refugees: ${refugeescale(data.centered)}</div>`;
-        }
-    });
 
-    renderArrows("world");
 
-}, 1000);
+function repeat(){
+    setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
+        bubble_map.bubbles(bubbles, {
+            //popupTemplate: function (geo, data) {
+                //return `<div class="hoverinfo">Country: ${data.centered}, Refugees: ${refugeescale(data.centered)}</div>`;
+            //}
+        });
+        renderArrows("world")
+    }, 2000);
+}
+repeat()
