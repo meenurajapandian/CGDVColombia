@@ -45,17 +45,11 @@ function checkScrollDirection(event) {
   }
   else {
     if (checkScrollDirectionIsUp(event)) {
-      window.scrollTo({
-        top: slide * windowHeight,
-        left: 0,
-        behavior: 'smooth'
-      });
+      event.preventDefault();
+        return;
     } else {
-      window.scrollTo({
-        top: slide * windowHeight,
-        left: 0,
-        behavior: 'smooth'
-      });
+      event.preventDefault();
+        return;
     }
   }
 }
