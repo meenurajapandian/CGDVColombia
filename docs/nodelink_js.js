@@ -139,7 +139,7 @@
                 .attr("x", -45)
                 .attr("y", 12)
                 .style("text-decoration", "underline")
-                .text("Node Values");
+                .text("Number of Refugees");
 
 
         function update(source) {
