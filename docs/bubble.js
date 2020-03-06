@@ -239,38 +239,42 @@
         var options = this.options.geographyConfig;
 
         if (options.highlightOnHover || options.popupOnHover) {
-             svg.selectAll('.datamaps-subunit')
-            //     .on('mouseover', function (d) {
-            //         var $this = d3.select(this);
-            //         var datum = self.options.data[d.id] || {};
-            //         if (options.highlightOnHover) {
-            //             var previousAttributes = {
-            //                 'fill': $this.style('fill'),
-            //                 'stroke': $this.style('stroke'),
-            //                 'stroke-width': $this.style('stroke-width'),
-            //                 'fill-opacity': $this.style('fill-opacity')
-            //             };
-
-            //             $this
-            //                 .style('fill', val(datum.highlightFillColor, options.highlightFillColor, datum))
-            //                 .style('stroke', val(datum.highlightBorderColor, options.highlightBorderColor, datum))
-            //                 .style('stroke-width', val(datum.highlightBorderWidth, options.highlightBorderWidth, datum))
-            //                 .style('stroke-opacity', val(datum.highlightBorderOpacity, options.highlightBorderOpacity, datum))
-            //                 .style('fill-opacity', val(datum.highlightFillOpacity, options.highlightFillOpacity, datum))
-            //                 .attr('data-previousAttributes', JSON.stringify(previousAttributes));
-
-            //             // As per discussion on https://github.com/markmarkoh/datamaps/issues/19
-            //             if (! /((MSIE)|(Trident))/.test(navigator.userAgent)) {
-            //                 moveToFront.call(this);
-            //             }
-            //         }
-
-            //         if (options.popupOnHover) {
-            //             self.updatePopup($this, d, options, svg);
-            //         }
-            //     })
-                // .on('mouseout', function () {
+            svg.selectAll('.datamaps-subunit')
+                // .on('mouseover', function (d) {
+                //     console.log("mouse over 1 fire. ")
                 //     var $this = d3.select(this);
+                //     console.log(this)
+                //     var datum = self.options.data[d.id] || {};
+                //     if (options.highlightOnHover) {
+                //         var previousAttributes = {
+                //             'fill': $this.style('fill'),
+                //             'stroke': $this.style('stroke'),
+                //             'stroke-width': $this.style('stroke-width'),
+                //             'fill-opacity': $this.style('fill-opacity')
+                //         };
+
+                //         $this
+                //             .style('fill', val(datum.highlightFillColor, options.highlightFillColor, datum))
+                //             .style('stroke', val(datum.highlightBorderColor, options.highlightBorderColor, datum))
+                //             .style('stroke-width', val(datum.highlightBorderWidth, options.highlightBorderWidth, datum))
+                //             .style('stroke-opacity', val(datum.highlightBorderOpacity, options.highlightBorderOpacity, datum))
+                //             .style('fill-opacity', val(datum.highlightFillOpacity, options.highlightFillOpacity, datum))
+                //             .attr('data-previousAttributes', JSON.stringify(previousAttributes));
+
+                //         // As per discussion on https://github.com/markmarkoh/datamaps/issues/19
+                //         if (! /((MSIE)|(Trident))/.test(navigator.userAgent)) {
+                //             moveToFront.call(this);
+                //         }
+                //     }
+
+                //     if (options.popupOnHover) {
+                //         self.updatePopup($this, d, options, svg);
+                //     }
+                // })
+                // .on('mouseout', function () {
+                //     console.log("mouseout 1 fire. ")
+                //     var $this = d3.select(this);
+                //     console.log(this)
 
                 //     if (options.highlightOnHover) {
                 //         // Reapply previous attributes
@@ -454,18 +458,20 @@
             .attr('data-info', function (datum) {
                 return JSON.stringify(datum);
             })
-            // .on('mouseover', function (datum) {
-            //     var $this = d3.select(this);
+            .on('mouseover', function (datum) {
+                console.log("mouseover 2 fire")
+                var $this = d3.select(this);
 
-            //     if (options.popupOnHover) {
-            //         self.updatePopup($this, datum, options, svg);
-            //     }
-            // })
-            // .on('mouseout', function (datum) {
-            //     var $this = d3.select(this);
+                if (options.popupOnHover) {
+                    self.updatePopup($this, datum, options, svg);
+                }
+            })
+            .on('mouseout', function (datum) {
+                console.log("mouseout2 fire")
+                var $this = d3.select(this);
 
-            //     d3.selectAll('.datamaps-hoverover').style('display', 'none');
-            // })
+                d3.selectAll('.datamaps-hoverover').style('display', 'none');
+            })
             .transition()
             .delay(100)
             .style('fill', function (datum) {
@@ -616,7 +622,8 @@
                 return fillColor || fillData.defaultFill;
             })
             // .on('mouseover', function (datum) {
-            //     console.log("mouseoverfire")
+            //     console.log("mouseover3 fire. ")
+            
             //     var $this = d3.select(this);
 
             //     if (options.highlightOnHover) {
@@ -642,6 +649,7 @@
             //     }
             // })
             // .on('mouseout', function (datum) {
+            //     console.log("mouseout 3 fire")
             //     var $this = d3.select(this);
 
             //     if (options.highlightOnHover) {
@@ -1129,9 +1137,10 @@
     };
 
     Datamap.prototype.updatePopup = function (element, d, options) {
-         var self = this;
+        var self = this;
         // element.on('mousemove', null);
         // element.on('mousemove', function () {
+        //     console.log("mousemove 1 fire. ")
         //     var position = d3.mouse(self.options.element);
         //     d3.select(self.svg[0][0].parentNode).select('.datamaps-hoverover')
         //         .style('top', ((position[1] + 30)) + "px")

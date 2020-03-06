@@ -173,7 +173,7 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 .popup {
     position: absolute;
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     display: none;
     background-color: white;
     border-radius: 10px;
@@ -297,4 +297,30 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   fill: none;
   stroke: steelblue;
   stroke-width: 2px;
+}
+
+circle {
+  fill: red;
+}
+
+#marker {
+  stroke: black;
+  fill: black;
+}
+
+.node {
+  cursor: pointer;
+}
+.node circle {
+fill: white;
+stroke: steelblue;
+stroke-width: 3px;
+}
+.node text {
+font: 12px sans-serif;
+}
+.link {
+fill: none;
+stroke: #ccc;
+stroke-width: 2px;
 }
