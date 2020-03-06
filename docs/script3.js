@@ -2,14 +2,15 @@ var windowHeight = $(window).height();
 var canWheel = false;
 var slide = 0;
 var maxslide = 10;
+var topPosition =  window.pageYOffset || window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
 
-
-window.addEventListener('wheel', _.throttle(checkScrollDirection, 1000, {trailing: false, leading: true }));
+window.addEventListener('wheel', _.debounce(checkScrollDirection, 1000, {trailing: false, leading: true }));
 
 
 function checkScrollDirection(event) {
     if (checkScrollDirectionIsUp(event)) {
       console.log('Up');
+      console.log(topPosition);
       slide = slide - 1;
       if (slide < 0){
         slide = 0;
@@ -23,6 +24,7 @@ function checkScrollDirection(event) {
 
     } else {
       console.log('Down');
+      console.log(topPosition);
       slide = slide + 1;
       if (slide > maxslide){
         slide = maxslide;
