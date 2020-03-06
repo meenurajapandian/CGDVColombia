@@ -373,9 +373,14 @@ img#refugeetruck {
 .x.axis path {
   display: inline-block;
 }
+
 .y.axis path {
   display: inline-block;
 }
+
+text {
+  font-size: 10px;
+  }
 
 .line {
   fill: none;
@@ -448,4 +453,5 @@ rect:hover {  fill:blue; }
 }
 .x_axis_diff path{
   display: inline;
+  stroke: black
 }

@@ -24,8 +24,6 @@ d3.tsv("https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/d3-add/V
     d["Venezuela"] = +d["Venezuela"];
   });
 
-  console.log(data)
-
   x.domain(d3.extent(data, function(d) { return d.Year; }));
 
   y.domain([
@@ -39,11 +37,22 @@ var xAxis = d3.svg.axis()
 .tickFormat(function(d) {return d ;})
 .innerTickSize(2)
 .outerTickSize(0)
-.orient("bottom");
+.orient("bottom")
+
+function yaxisformat(d){
+  if (d<1000000){
+    return d/1000 + "K"
+  }
+  else {
+    return d/1000000 + "m"
+  }
+}
 
 var yAxis = d3.svg.axis()
-.scale(y)
-.orient("left");
+              .scale(y)
+              .tickFormat(function(d) { return yaxisformat(d); } )
+              .innerTickSize(1)
+              .orient("left");
 
   var line = d3.svg.area()
     .interpolate(d3.curveBasis)
@@ -87,7 +96,6 @@ var svg = d3.select("#differenceplot").append("svg")
       .attr("class", "line")
       .attr("d", line);
 
-
   svg.append("g")
       .attr("class", "x_axis_diff")
       .attr("transform", "translate(0," + height + ")")
@@ -101,8 +109,9 @@ var svg = d3.select("#differenceplot").append("svg")
       .attr("class", "y axis")
       .call(yAxis)
     .append("text")
-      .attr("transform", "rotate(-90)")
+      .attr("transform", "translate(" + -margin.left + ", 0) " + "rotate(-90)")
       .attr("y", 6)
+      //.style("font", "12px")
       .attr("dy", ".71em")
       .style("text-anchor", "end")
       .text("Number of Refugees");
