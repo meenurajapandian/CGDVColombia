@@ -1,4 +1,4 @@
-console.log("BC!!")
+console.log("checking inflation js!!")
 var margin = {top: 20, right: 50, bottom: 30, left: 100},
 width = 1080 - margin.left - margin.right,
 height = 400 - margin.top - margin.bottom;
