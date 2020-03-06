@@ -95,6 +95,7 @@ p11.add_tools(TapTool(callback=callback1))
 
 df = pd.read_csv("c_demo_colombia.csv",dtype=str)
 df['Density'] = pd.to_numeric(df[' Population']) / pd.to_numeric(df[' Areakm2'])
+df['Density'] = df['Density'].round(2)
 df[' Illiteracy'] = pd.to_numeric(df[' Illiteracy'], errors='coerce')
 df[' Unemployment'] = pd.to_numeric(df[' Unemployment'], errors='coerce')
 df[' Poverty'] = pd.to_numeric(df[' Poverty'], errors='coerce')
@@ -350,25 +351,25 @@ p41.yaxis.major_tick_line_color = "#878787"
 p41.yaxis.major_tick_out = 1
 p41.yaxis.formatter = NumeralTickFormatter(format="0.0a")
 
-show(column(row(p11, p12),
-            row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
-            row(p31, p41)))
+# show(column(row(p11, p12),
+#             row(p21,column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width')),
+#             row(p31, p41)))
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
-# plots = {'plot1': row(p11, p12), 'plot2': p21,
-#          'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
-#          'plot4': p31,
-#          'plot5': p41}
-#
-# script, div = components(plots)
-#
-# with open('plots.js', 'w') as f:
-#     f.write(script[10:(len(script)-10)])
-#
-# with open('plotsdiv.txt', 'w') as f:
-#     f.write(str(div))
-#
-# print(len(script))
-# print(script[0:8])
-# print(script[(len(script)-9):len(script)])
-# print(div)
+plots = {'plot1': row(p11, p12), 'plot2': p21,
+         'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
+         'plot4': p31,
+         'plot5': p41}
+
+script, div = components(plots)
+
+with open('plots.js', 'w') as f:
+    f.write(script[10:(len(script)-10)])
+
+with open('plotsdiv.txt', 'w') as f:
+    f.write(str(div))
+
+print(len(script))
+print(script[0:8])
+print(script[(len(script)-9):len(script)])
+print(div)

@@ -13,11 +13,6 @@ blockquote,q { quotes: none;}
 blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
 table { border-collapse: collapse; border-spacing: 0;}
 
-div {
-  border-color: red;
-  border-width: 0.2px;
-  border-style: solid;
-}
 
 h6 {
   margin: 0.4em 0 0 0;
@@ -87,7 +82,7 @@ h6 {
 .slide2-content {
   position: absolute;
   margin: 12% auto;
-  width: 70%;
+  width: 75%;
   height: 50%;
 }
 
@@ -102,6 +97,10 @@ h6 {
 }
 
 .slide2-text {
+  background-color: rgba(161, 133, 107, 0.8);
+  color: #000000;
+  border-radius: 10px;
+  padding: 1%;
   margin: 12% 5% auto 42%;
   min-width: 25%;
   position: absolute;
@@ -110,8 +109,8 @@ h6 {
 }
 
 .bg-color {
-  background: rgb(121, 211, 226);
-  background: linear-gradient(180deg, rgba(121, 211, 226, 0.865983) 0%, rgba(255, 255, 255, 1) 73%)
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgba(196,220,224,1) 100%);
 }
 
 /* Slide 6 */
