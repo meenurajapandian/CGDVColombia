@@ -189,10 +189,12 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   width: 30%;
   margin: 2% auto;
 }
+
 .slide7-right {
   margin: 2% auto;
   width: 68%;
 }
+
 .slide7-container {
   margin: 5vh auto;
   width: 100%;
@@ -202,7 +204,37 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   padding: 0 2vw 0 2vw;
   width: 70%;
 }
+/* Slide 8 */
 
+.slide8-left  {
+  margin: 0.5vh auto;
+  width: 70%;
+  height: 40%;
+  background-color: whitesmoke;
+  opacity: 0.9;
+}
+
+.slide8-right {
+  margin: 2% auto;
+  width: 68%;
+  background-color: lightgoldenrodyellow
+}
+
+.slide8-container {
+  margin: 5vh auto;
+  width: 100%;
+  background-color: pink
+}
+
+.slide8-container-text {
+  padding: 0 2vw 0 2vw;
+  width: 70%;
+}
+img#refugeetruck {
+  background-color: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  /* You may add things like width, height, background-size... */
+}
 
 /* Slide 9 */
 .container-spl {
@@ -323,4 +355,35 @@ font: 12px sans-serif;
 fill: none;
 stroke: #ccc;
 stroke-width: 2px;
+}
+
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 10px sans-serif; }
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
 }
