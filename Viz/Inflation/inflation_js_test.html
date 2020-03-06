@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 12px Helvetica;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: inline-block;
+}
+.y.axis path {
+  display: inline-block;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 2px;
+}
+
+.histogramchart {
+    position: absolute;
+    text-align: left;
+    background: whitesmoke;
+    color: black;
+    font-size: 20px;
+    left : 1000px;
+    bottom: 740px; 
+    height: 200px;
+    width: 500px;
+}
+
+</style>
+<script src="https://d3js.org/d3.v3.js"></script>
+<body>
+<div class="row">
+    <div id = "hist" class = "histogramchart" ></div> 
+    <script src="inflation_js_test.js"></script>
+</body>
+
+</html>
