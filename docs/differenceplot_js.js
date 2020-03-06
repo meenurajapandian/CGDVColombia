@@ -1,6 +1,7 @@
+console.log("differenceplot_js called")
 var margin = {top: 10, right: 20, bottom: 10, left: 150},
-    width = 680 - margin.left - margin.right,
-    height = 420 - margin.top - margin.bottom;
+    width = 380 - margin.left - margin.right,
+    height = 320 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
     .range([0, width]);
