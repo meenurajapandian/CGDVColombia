@@ -8,7 +8,6 @@ console.log(topPosition);
 window.addEventListener('wheel', checkScrollDirection);
 
 function checkScrollDirection(event) {
-  console.timeStamp()
   if (canWheel){
     canWheel = false;
     if (checkScrollDirectionIsUp(event)) {
@@ -18,7 +17,8 @@ function checkScrollDirection(event) {
       if (slide < 0){
         slide = 0;
       }
-      console.log(slide)
+      console.log(slide);
+      topPosition = slide * windowHeight;
       window.scrollTo({
         top: slide * windowHeight,
         left: 0,
@@ -27,30 +27,29 @@ function checkScrollDirection(event) {
 
     } else {
       console.log('Down');
-      console.log(topPosition);
       slide = slide + 1;
       if (slide > maxslide){
         slide = maxslide;
       }
-      console.log(slide)
+      console.log(slide);
+      topPosition = slide * windowHeight;
       window.scrollTo({
         top: slide * windowHeight,
         left: 0,
         behavior: 'smooth'
       });
+      console.log(topPosition);
     }
     setTimeout(() => {
       canWheel = true;
     }, 1000);
   }
   else {
-    if (checkScrollDirectionIsUp(event)) {
-      event.preventDefault();
-        return;
-    } else {
-      event.preventDefault();
-        return;
-    }
+    window.scrollTo({
+      top: slide * windowHeight,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 }
 
