@@ -33,7 +33,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.inflation); });
 
-var svg = d3.select("#hist").append("svg")
+var svg = d3.select("#infl").append("svg")
 .attr("width", width + margin.left + margin.right)
 .attr("height", height + margin.top + margin.bottom)
 .append("g")
