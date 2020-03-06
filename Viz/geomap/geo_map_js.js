@@ -343,4 +343,4 @@ setTimeout(() => { // only start drawing bubbles on the map when map has rendere
 
     renderArrows("world");
 
-}, 1000);
+}, 2000);
