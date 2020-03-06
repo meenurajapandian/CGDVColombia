@@ -1,4 +1,4 @@
-console.log("Check response!")
+console.log(" response!")
 var margin = {top: 20, right: 50, bottom: 30, left: 100},
 width = 1080 - margin.left - margin.right,
 height = 400 - margin.top - margin.bottom;
@@ -86,9 +86,9 @@ svg.append("line")
         "x2" : width,
         "y1" : y(0),
         "y2" : y(0),
-        "fill" : "none",
+        "fill" : "white",
         "shape-rendering" : "crispEdges",
-        "stroke" : "black",
+        "stroke" : "red",
         "stroke-width" : "1px",
         "stroke-dasharray": ("3, 3")
     });
