@@ -1,5 +1,5 @@
-var margin = {top: 10, right: 20, bottom: 30, left: 150},
-    width = 660 - margin.left - margin.right,
+var margin = {top: 5, right: 5, bottom: 30, left: 150},
+    width = 200 - margin.left - margin.right,
     height = 550 - margin.top - margin.bottom;
 
 var x = d3.scale.linear()
@@ -8,9 +8,8 @@ var x = d3.scale.linear()
 var y = d3.scale.linear()
     .range([height, 0]);
 
-    
+
 function getticks_diff(d){
-  console.log(d)
     return d;
 }
 

@@ -141,14 +141,14 @@ h6 {
 
 .bg-color {
   background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgba(196,220,224,1) 100%);
+  background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgba(196,220,224,1) 100%);
 }
 
 /* Slide 3 */
 
 .slide3-left {
   margin: 2% auto;
-  width: 30%;
+  width: 50%;
   height: 100vh;
   display: flex;
   justify-content: space-around;
@@ -260,12 +260,37 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 }
 /* Slide 8 */
 
-.slide8-left  {
-  margin: 0.5vh auto;
+.slide8{
+  position: relative;
+  background-color: rgb(18, 13, 20, 0.9);
+  border-radius: 20px;
+  margin: 7vh auto;
   width: 70%;
   height: 40%;
-  background-color: whitesmoke;
-  opacity: 0.9;
+  padding-top: 5vh;
+  color: rgb(230, 230, 230);
+}
+
+.slide8-plt {
+  width: 65%;
+  position: absolute;
+  bottom: 5vh;
+  left: 0;
+}
+.slide8-txt {
+  width: 31%;
+  position: absolute;
+  bottom: 5vh;
+  right: 2vh;
+  max-height: 190px;
+}
+
+.legend{
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+    border-collapse: collapse;
+    border-spacing: 0px;
 }
 
 .slide8-right {
@@ -419,8 +444,8 @@ stroke-width: 2px;
 path:hover {  opacity:0.9; }
 rect:hover {  fill:blue; }
 .axis {  font: 10px sans-serif; }
-.legend tr{    border-bottom:1px solid grey; }
-.legend tr:first-child{    border-top:1px solid grey; }
+/*.legend tr{    border-bottom:1px solid grey; }*/
+/*.legend tr:first-child{    border-top:1px solid grey; }*/
 
 .axis path,
 .axis line {
@@ -430,16 +455,10 @@ rect:hover {  fill:blue; }
 }
 
 .x.axis path {  display: none; }
-.legend{
-    margin-bottom:76px;
-    display:inline-block;
-    border-collapse: collapse;
-    border-spacing: 0px;
-}
 
 .legend td{
     padding:4px 5px;
-    vertical-align:bottom;
+    vertical-align:top;
 }
 
 .legendFreq, .legendPerc{
