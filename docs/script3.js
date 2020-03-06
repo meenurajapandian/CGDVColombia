@@ -4,7 +4,7 @@ var slide = 0;
 var maxslide = 10;
 var topPosition =  window.pageYOffset || window.scrollY || window.scrollTop || document.getElementsByTagName("html")[0].scrollTop;
 
-window.addEventListener('wheel', _.debounce(checkScrollDirection, 1000, {trailing: false, leading: true }));
+window.addEventListener('wheel', _.debounce(checkScrollDirection, 1000));
 
 
 function checkScrollDirection(event) {
