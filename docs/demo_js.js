@@ -24,7 +24,7 @@ function dashboard(id, fData){
                 .domain(fD.map(function(d) { return d[0]; }));
 
         // Add x-axis to the histogram svg.
-        hGsvg.append("g").attr("class", "x axis")
+        hGsvg.append("g").attr("class", "axisWhite")
             .attr("transform", "translate(1," + hGDim.h + ")")
             .call(d3.svg.axis().scale(x).orient("bottom"));
 

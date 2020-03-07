@@ -14,7 +14,6 @@
   <script src="https://d3js.org/d3.v3.js"></script>
   <script src="https://d3js.org/topojson.v1.min.js"></script>
   <script src="d3plots/bubble.js"></script>
-  <script src="https://d3js.org/d3.v3.min.js" integrity="sha384-N8EP0Yml0jN7e0DcXlZ6rt+iqKU9Ck6f1ZQ+j2puxatnBq4k9E8Q6vqBcY34LNbn" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" integrity="sha384-FZY+KSLVXVyc1qAlqH9oCx1JEOlQh6iXfw3o2n3Iy32qGjXmUPWT9I0Z9e9wxYe3" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
 
@@ -24,7 +23,6 @@
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-1.4.0.min.js"></script>
   <script src="bokeh/plots.js"></script>
 </head>
-
 
 <div class="wrapper">
 
@@ -92,7 +90,7 @@
     </div>
     <div id = "differenceplot" class="slide3-plt1">
       <!-- <script src="differenceplot_js.js?"></script> -->
-      <script>
+    <script>
     var margin = {top: 10, right: 20, bottom: -100, left: 10},
     width1 = 680 - margin.left - margin.right,
     height1 = 420 - margin.top - margin.bottom;
@@ -207,8 +205,6 @@
           .style("text-anchor", "end")
           .text("Number of Refugees");
     });
-      
-      
       </script>
     </div>
   </div>
@@ -272,46 +268,53 @@
 
   <div id="8" class="container-8">
     <div class="slide8">
-    <div id = "dashboard" class="slide8-plt"> <script src = "demo_js.js"></script> </div>
-    <div class="slide8-txt">
-      Something Something
-    </div>
+      <div id = "dashboard" class="slide8-plt"> <script src = "demo_js.js"></script> </div>
+      <div class="slide8-txt">
+        <p>
+            An interative plot that illustrates the ratio of Men and Women Venezuelan Refugees in Colombia. The Pie Chart gives
+            a distribution of the refugees by age. It is evident that a more than half the the people affected are infact lesser 
+            than the age of 30. This emphasises the impact of this humanatarial crisis on young, productive individuals. 
+        </p>
+        <p>
+          The graph belows is an interative, modular Grouped/Stacked Bar Toggle chart which evidences the fraction of age groups affected by 
+          this crisis in proportion to the total number of Venezualans overall. 
+          That is, for each age-group considered, a ratio of refugees belonging to this age group and the number 
+          of individuals in the overall Venezualan demographic is computed and plotted. This showcases fraction of age classes 
+          and how heavily they are affected. Again it is infered that individuals below the age of 30 are severaly affected 
+          by this crisis, and that it has affected men and women more-or-less equally.   
+        </p>
+
+      </div>
     </div>
 
-    <div id="secret" class="secret" data-visible-range="4000-5000">
-    <div class="slide8-txt">
-        <form class="controls">
-            <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
-            <label><input type="radio" name="mode" value="grouped">Grouped</label>
-        </form>
-
-        <div class="stacked-chart-container js-stacked-chart-container">
-            <form class="controls">
-                <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
-                <label><input type="radio" name="mode" value="grouped">Grouped</label>
-            </form>
-            <svg class="stacked-chart js-stacked-chart"></svg>
-            <div class="tooltip js-tooltip">
-                <div class="tooltip-wrapper">
-                    <table class="tooltip-table js-tooltip-table"></table>
-                </div>
-            </div>
-        </div>
-        
-        <script type="text/x-underscore" class="js-tooltip-table-content">
-          <table>
-              <% _.each(bars, function (bar) { %>
-                  <tr>
-                      <td><%= bar.name %></td>
-                      <td><%= bar.value %></td>
-                  </tr>
-              <% }); %>
-          </table>
-        </script>
-        
-
-      Something Something
+  <div id="secret" class="secret" data-visible-range="4000-5000">
+      <div id = "groupstackbar">
+          <div class="stacked-chart-container js-stacked-chart-container">
+              <form class="controls">
+                  <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
+                  <label><input type="radio" name="mode" value="grouped">Grouped</label>
+              </form>
+              <svg class="stacked-chart js-stacked-chart"></svg>
+              <div class="tooltip js-tooltip">
+                  <div class="tooltip-wrapper">
+                      <table class="tooltip-table js-tooltip-table"></table>
+                  </div>
+              </div>
+          </div>
+          
+          <script type="text/x-underscore" class="js-tooltip-table-content">
+            <table>
+                <% _.each(bars, function (bar) { %>
+                    <tr>
+                        <td><%= bar.name %></td>
+                        <td><%= bar.value %></td>
+                    </tr>
+                <% }); %>
+            </table>
+          </script>
+          <script type="text/javascript" src= "group_stack_bar.js"></script>
     </div>
+
     <div class="slide8-spacer">
     </div>
     </div>

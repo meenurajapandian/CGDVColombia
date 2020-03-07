@@ -2,7 +2,7 @@
 
 /*global $, d3, _ */
 
-d3.csv("data.csv", function(error, mydata) {
+d3.csv("https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/master/datasets/data_groupedbar.csv", function(error, mydata) {
   if (error) throw error;
     console.log(mydata)
     var findata = new Array(mydata.length)
@@ -152,12 +152,12 @@ layers.selectAll("rect").data(function (d) { return d.values; })
         .call(transitionStackedBars);
 
 mainArea.append("g")
-    .attr("class", "x axis")
+    .attr("class", "axisWhite")
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis);
 
 mainArea.append("g")
-    .attr("class", "y axis")
+    .attr("class", "axisWhite")
     .call(yAxis);
 
 svg.append("rect")
