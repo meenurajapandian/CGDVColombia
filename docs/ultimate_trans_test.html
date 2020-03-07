@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.stacked-chart-container {
+    position: relative;
+}
+
+.stacked-chart-container .controls {
+    position: absolute;
+    top: 24px;
+    left: 18px;
+}
+
+.stacked-chart .clickable {
+    cursor: pointer;
+}
+
+.stacked-chart-container .tooltip {
+    position: absolute;
+    font-size: 13px;
+    white-space: nowrap;
+    border: 1px solid black;
+    background-color: white;
+    pointer-events: none;
+    border-radius: 5px;
+    display: none;
+}
+
+.stacked-chart-container .tooltip-wrapper {
+    position: relative;
+    padding: 6px;
+}
+
+.stacked-chart-container .tooltip-wrapper:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -20px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 10px solid;
+      border-color: black transparent transparent transparent;
+}
+
+.stacked-chart-container .tooltip-wrapper:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      bottom: -19px;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 10px solid;
+      border-color: white transparent transparent transparent;
+}
+
+.stacked-chart-container .tooltip-table {
+    text-align: right;
+}
+
+.stacked-chart path,
+.stacked-chart line,
+.stacked-chart rect {
+    shape-rendering: crispEdges;
+}
+
+.stacked-chart text {
+    font: 10px sans-serif;
+}
+
+.stacked-chart .axis path,
+.stacked-chart .axis line {
+    fill: none;
+    stroke: #000;
+}
+
+.stacked-chart .series-below_17 {
+    fill: #98abc5;
+}
+
+.stacked-chart .series-below_29 {
+    fill: #8a89a6;
+}
+
+.stacked-chart .series-below_39 {
+    fill: #7b6888;
+}
+
+.stacked-chart .series-below_49  {
+    fill: #6b486b";
+}
+
+.stacked-chart .series-below_59  {
+    fill: #a05d56;
+}
+.stacked-chart .series-below_69  {
+    fill: #d0743c;
+}
+.stacked-chart .series-over_70 {
+    fill: #ff8c00;
+}
+
+.stacked-chart .grid-lines {
+    fill: none;
+    stroke: lightgrey;
+}
+
+.stacked-chart .layer rect {
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+.stacked-chart .layer rect.highlighted {
+    opacity: 1;
+}
+
+.stacked-chart .overlay {
+    opacity: 0;
+}
+
+.stacked-chart .series-box {
+    stroke-width: 2px;
+}
+.stacked-chart .series-below_17 .series-box {
+    stroke: #98abc5;
+}
+
+.stacked-chart .series-below_29 .series-box {
+    stroke: #8a89a6;
+}
+
+.stacked-chart .series-below_39 .series-box {
+    stroke: #7b6888;
+}
+
+.stacked-chart .series-below_49 .series-box {
+    stroke: #6b486b";
+}
+
+.stacked-chart .series-below_59 .series-box {
+    stroke: #a05d56;
+}
+.stacked-chart .series-below_69 .series-box {
+    stroke: #d0743c;
+}
+.stacked-chart .series-over_70 .series-box {
+    stroke: #ff8c00;
+}
+
+
+.stacked-chart .disabled .series-box {
+    fill-opacity: 0;
+}
+
+.stacked-chart .series-label {
+    fill: black;
+    text-anchor: end;
+    alignment-baseline: central;
+}
+</style>
+<body>
+
+<div class="stacked-chart-container js-stacked-chart-container">
+    <form class="controls">
+        <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
+        <label><input type="radio" name="mode" value="grouped">Grouped</label>
+    </form>
+    <svg class="stacked-chart js-stacked-chart"></svg>
+    <div class="tooltip js-tooltip">
+        <div class="tooltip-wrapper">
+            <table class="tooltip-table js-tooltip-table"></table>
+        </div>
+    </div>
+</div>
+
+<script type="text/x-underscore" class="js-tooltip-table-content">
+<table>
+    <% _.each(bars, function (bar) { %>
+        <tr>
+            <td><%= bar.name %></td>
+            <td><%= bar.value %></td>
+        </tr>
+    <% }); %>
+</table>
+</script>
+
+<script src="https://d3js.org/d3.v3.min.js" integrity="sha384-N8EP0Yml0jN7e0DcXlZ6rt+iqKU9Ck6f1ZQ+j2puxatnBq4k9E8Q6vqBcY34LNbn" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" integrity="sha384-FZY+KSLVXVyc1qAlqH9oCx1JEOlQh6iXfw3o2n3Iy32qGjXmUPWT9I0Z9e9wxYe3" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
+<script type="text/javascript" src= "group_stack_bar.js">
+</script>
+</body>

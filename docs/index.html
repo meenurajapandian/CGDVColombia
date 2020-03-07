@@ -9,10 +9,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script src = "other/noscrollscript.js" ></script>
+  
   <!--D3 Stuff -->
   <script src="https://d3js.org/d3.v3.js"></script>
   <script src="https://d3js.org/topojson.v1.min.js"></script>
   <script src="d3plots/bubble.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js" integrity="sha384-N8EP0Yml0jN7e0DcXlZ6rt+iqKU9Ck6f1ZQ+j2puxatnBq4k9E8Q6vqBcY34LNbn" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js" integrity="sha384-FZY+KSLVXVyc1qAlqH9oCx1JEOlQh6iXfw3o2n3Iy32qGjXmUPWT9I0Z9e9wxYe3" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
+
   <!-- Bokeh -->
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
   <script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script> <!-- Most Likely will not need it-->
@@ -272,6 +277,36 @@
 
     <div id="secret" class="secret" data-visible-range="4000-5000">
     <div class="slide8-txt">
+        <form class="controls">
+            <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
+            <label><input type="radio" name="mode" value="grouped">Grouped</label>
+        </form>
+
+        <div class="stacked-chart-container js-stacked-chart-container">
+            <form class="controls">
+                <label><input type="radio" name="mode" value="stacked" checked>Stacked</label>
+                <label><input type="radio" name="mode" value="grouped">Grouped</label>
+            </form>
+            <svg class="stacked-chart js-stacked-chart"></svg>
+            <div class="tooltip js-tooltip">
+                <div class="tooltip-wrapper">
+                    <table class="tooltip-table js-tooltip-table"></table>
+                </div>
+            </div>
+        </div>
+        
+        <script type="text/x-underscore" class="js-tooltip-table-content">
+          <table>
+              <% _.each(bars, function (bar) { %>
+                  <tr>
+                      <td><%= bar.name %></td>
+                      <td><%= bar.value %></td>
+                  </tr>
+              <% }); %>
+          </table>
+        </script>
+        
+
       Something Something
     </div>
     <div class="slide8-spacer">
