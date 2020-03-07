@@ -16,9 +16,9 @@
     var treedepth = getDepth(treeData) //4
 
     function tohorizontal() {
-            var margin = {top: 40, right: 0, bottom: 20, left: 120},
+            var margin = {top: 40, right: 60, bottom: 20, left: 90},
                 width = 700 - margin.right - margin.left,
-                height = 700 - margin.top - margin.bottom;
+                height = 500 - margin.top - margin.bottom;
 
             var i = 0,
             duration = 750,
@@ -31,7 +31,7 @@
                 .projection(function(d) { return [d.y, d.x]; });
 
             var svg = d3.select("#idexplore").append("svg")
-                .attr("width", width + margin.right + margin.left)
+                .attr("width", width + 2*margin.right + 2*margin.left)
                 .attr("height", height + margin.top + margin.bottom)
             .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -72,10 +72,9 @@
 
         d3.select(self.frameElement).style("height", "500px");
 
-
         //Legend 
         height1 = 500;
-        width1 = 150;
+        width1 = 60;
 
         //Inside Legend creating gradient to append graphical unit using defs (x,y show direction of gradient)
         var gradient = svg.append('defs')
@@ -105,42 +104,42 @@
         
         //Create a rectagle to show the legend scale. 
         var legend = svg.append("rect")
-            .attr("width", 20)
+            .attr("width", 10)
             .attr("height", height1 - 250)
             .style("fill", "url(#gradient)")
             .attr('stroke', 'black')
-            .attr("transform", "translate("+ -37 +","+20+")");
+            .attr("transform", "translate("+ (-margin.left + 20) +","+20+")");
         
         //Create a colour legend scale. 
         var legendScale = d3.scale.linear()
             .range([0,(height1 - 250)])
             .domain([d3.max(value), d3.min(value)]);
-
-        
+            
         var legendaxis = d3.svg.axis()
                             .scale(legendScale)    
-                            .orient("right")
+                            .orient("left")
+                            .tickFormat(function(d) {return d/1000000+"m" ;})
                             .ticks(4)
                             .tickSize(1);
         
         svg.append("g")
                 .attr("class", "y axis")
-                .attr("transform", "translate("+ -40 +","+ 20 +")")
+                .attr("transform", "translate("+ (margin.left-150) +","+ 20 +")")
                 .attr("id", "legendaxis")
+                .attr('stroke', 'none')
                 //.attr("transform", "translate(10," + height + ")")
                 .call(legendaxis)
                 .selectAll("text")
                 .attr("y", 0)
-                .attr("x", -80);
+                .attr("x", -15);
         
         svg.append("text")
                 .attr("class", "legendTitle")
                 .attr('id','ylegend')
-                .attr("x", -45)
+                .attr("x", -75)
                 .attr("y", 12)
                 .style("text-decoration", "underline")
                 .text("Number of Refugees");
-
 
         function update(source) {
             // Compute the new tree layout.

@@ -162,8 +162,8 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
   margin: 2% auto;
   width: 50%;
   min-height: 20%;
-  max-height: 40%;
-  background-color: lightgoldenrodyellow
+  max-height: 55%;
+  background-color: whitesmoke
 }
 
 
@@ -191,6 +191,9 @@ background: linear-gradient(0deg, rgba(255,255,255,0.34079569327731096) 49%, rgb
 .inflat-plot {
   margin: 2vh auto;
   min-height: 10px;
+  max-height: 500px;
+  min-width: 55%;
+  max-width: 70%;
   /* =========================== */
   /* Meenu to pick color */
   background-color: lightgray
@@ -402,14 +405,17 @@ circle {
 .node {
   cursor: pointer;
 }
+
 .node circle {
 fill: white;
 stroke: steelblue;
 stroke-width: 3px;
 }
+
 .node text {
 font: 12px sans-serif;
 }
+
 .link {
 fill: none;
 stroke: #ccc;
@@ -430,6 +436,7 @@ rect:hover {  fill:blue; }
 }
 
 .x.axis path {  display: none; }
+
 .legend{
     margin-bottom:76px;
     display:inline-block;

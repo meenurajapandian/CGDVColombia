@@ -1,7 +1,7 @@
 console.log("inflation response")
-var margin = {top: 15, right: 20, bottom: 20, left: 70},
-width = 680 - margin.left - margin.right,
-height = 400 - margin.top - margin.bottom;
+var margin = {top: 15, right: 20, bottom: 40, left: 70},
+width = 480 - margin.left - margin.right,
+height = 250 - margin.top - margin.bottom;
 
 // var parseDate = d3.time.format("%Y-%m-%d").parse;
 
@@ -24,7 +24,7 @@ function getticks(d){
 
 var xAxis = d3.svg.axis()
 .scale(x)
-.tickFormat(function(d) {return getticks(d) ;})
+.tickFormat(function(d) {return "'" + getticks(d) ;})
 .ticks(15)
 .innerTickSize(5)
 .outerTickSize(0)
@@ -47,7 +47,7 @@ var svg = d3.select("#infl").append("svg")
 d3.csv("https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/master/Viz/Inflation/inflation_data.csv", 
     function(error, data) {
 color.domain(d3.keys(data[0]).filter(function(key) { return key !== "year"; }));
-console.log(data)
+//console.log(data)
 data.forEach(function(d) {
     d.year = +d.year;
     d.value = +d.value;
@@ -81,12 +81,23 @@ y.domain([
 svg.append("g")
     .attr("class", "x axis")
     .attr("transform", "translate(0," + height + ")")
-    .call(xAxis);
+    .call(xAxis)
+    .append("text")
+    .attr("transform", "translate("+width/2+ "," +  (margin.bottom-10) +")")
+    .style("text-anchor", "end")
+    .text("Year");;
 
 svg.append("g")
     .attr("class", "y axis")
     .attr('id','yAxis')
-    .call(yAxis);
+    .call(yAxis)
+    .append("text")
+    .attr("transform", "translate(" + -margin.left + "," +  (height/2 - margin.top) + ") " + "rotate(-90)")
+    .attr("y", 6)
+    //.style("font", "12px")
+    .attr("dy", ".71em")
+    .style("text-anchor", "end")
+    .text("Inflation Rate");;
 
 svg.append("line")
     .attr(

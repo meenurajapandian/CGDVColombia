@@ -284,7 +284,6 @@ function renderArrows(targetElementId) {
 
         let degree = datum.arrowDirectionAngle;
         let radius = datum.arrowLineLength;
-        console.log(radius)
         let theta = degree * Math.PI / 180;
 
         if(radius !== 0 ){
@@ -334,13 +333,31 @@ var refugeescale = d3.scale.ordinal()
                         .range([3078183, 1731789,144182,265586,557414,262572,2176329,2276067, 2932341, 31692,93059])
 
 // // ISO ID code for city or <state></state>
-setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
-    bubble_map.bubbles(bubbles, {
-        popupTemplate: function (geo, data) {
-            return `<div class="hoverinfo">Country: ${data.centered}, Refugees: ${refugeescale(data.centered)}</div>`;
-        }
-    });
+// setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
+//     bubble_map.bubbles(bubbles, {
+//         popupTemplate: function (geo, data) {
+//             return `<div class="hoverinfo">Country: ${data.centered}, Refugees: ${refugeescale(data.centered)}</div>`;
+//         }
+//     });
+//     renderArrows("world");
+// }, 1000);
+ 
 
-    renderArrows("world");
+var svgobj = d3.select("#world")
+                .on("mouseenter",settimeout1)
+                .on("mouseleave",setmouseout );
 
-}, 1000);
+function settimeout1(){
+    setTimeout(() => { // only start drawing bubbles on the map when map has rendered completely.
+        bubble_map.bubbles(bubbles, {
+            popupTemplate: function (geo, data) {
+                return `<div class="hoverinfo">Country: ${data.centered}, Refugees: ${refugeescale(data.centered)}</div>`;
+            }
+        });
+        renderArrows("world");
+    }, 1000);
+}
+function setmouseout(){
+    d3.selectAll("svg:defs").remove()
+}
+
