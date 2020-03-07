@@ -13,6 +13,11 @@ blockquote,q { quotes: none;}
 blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
 table { border-collapse: collapse; border-spacing: 0;}
 
+div {
+  border-color: red;
+  border-width: 0.2px;
+  border-style: solid;
+}
 
 h6 {
   margin: 0.4em 0 0 0;
@@ -158,11 +163,11 @@ h6 {
   width: 1em;
 }
 .color-1 {
-  background-color: #000000;
+  background-color: #B0CCC2;
 }
 
 .color-2 {
-  background-color: #000000;
+  background-color: #B7CB7D;
 }
 
 .slide3{
@@ -290,7 +295,7 @@ h6 {
 .container-8 {
   margin: 0;
   margin: 0;
-  min-height: 180vh;
+  min-height: 220vh;
   width: 100%;
   position: relative;
   background-image:url(./pictures/ven_refugee.jpg);
@@ -305,7 +310,7 @@ h6 {
   border-radius: 20px;
   margin: 7vh auto;
   width: 70%;
-  height: 35vh;
+  height: 38vh;
   padding-top: 5vh;
   color: rgb(230, 230, 230);
 }
@@ -316,7 +321,7 @@ h6 {
   border-radius: 20px;
   margin: 10vh auto;
   width: 70%;
-  height: 50vh;
+  height: 80vh;
   padding-top: 5vh;
   color: rgb(230, 230, 230);
 }
@@ -337,8 +342,9 @@ h6 {
   width: 31%;
   position: absolute;
   bottom: 5vh;
-  right: 2vh;
-  max-height: 190px;
+  right: 5vh;
+  max-height: 240px;
+  height: auto;
 }
 
 .legend{
@@ -568,11 +574,11 @@ rect:hover {  fill:blue; }
     width:50px;
 }
 .area.above {
-  fill: rgb(252,141,89);
+  fill: #B0CCC2;
 }
 
 .area.below {
-  fill: rgb(145,207,96);
+  fill: #B7CB7D;
 }
 .x_axis_diff path{
   display: inline;
@@ -667,7 +673,7 @@ rect:hover {  fill:blue; }
 }
 
 .stacked-chart .series-below_49  {
-  fill: #6b486b";
+  fill: #6b486b;
 }
 
 .stacked-chart .series-below_59  {
@@ -682,7 +688,7 @@ rect:hover {  fill:blue; }
 
 .stacked-chart .grid-lines {
   fill: none;
-  stroke: lightgrey;
+  stroke: rgb(24, 20, 28, 1);
 }
 
 .stacked-chart .layer rect {
@@ -714,7 +720,7 @@ rect:hover {  fill:blue; }
 }
 
 .stacked-chart .series-below_49 .series-box {
-  stroke: #6b486b";
+  stroke: #6b486b;
 }
 
 .stacked-chart .series-below_59 .series-box {
@@ -748,4 +754,4 @@ rect:hover {  fill:blue; }
 
 .axisWhite text{
   fill: white;
-}  
+}
