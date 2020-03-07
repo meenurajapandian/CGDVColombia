@@ -2,11 +2,13 @@ var margin = {top: 10, right: 20, bottom: 10, left: 10},
     width = 380 - margin.left - margin.right,
     height = 320 - margin.top - margin.bottom;
 
+
 var x = d3.scale.linear()
     .range([0, width]);
 
 var y = d3.scale.linear()
     .range([height, 0]);
+
 
 function getticks_diff(d){
     return d;
