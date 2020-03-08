@@ -6,6 +6,7 @@ footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
 { margin: 0; padding: 0; border: 0; font-size: 100%; font-family: 'Raleway', sans-serif !important; vertical-align: baseline; }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
 h1, h2, h3, h4, h5, h6 { font-family: 'Shadows Into Light' !important; margin: 0.1em;}
+.span-high { font-family: 'Shadows Into Light' !important; font-weight: bold;}
 body { line-height: 1; color: #3F3F3F;}
 p { line-height: 1.5; text-align: justify;}
 ol,ul { list-style: none;}
@@ -236,7 +237,19 @@ h6 {
   height: 4vh;
   display: inline-block;
   padding: auto;
+  background-color: rgb(250, 250, 250, 0.7);
+  border-radius: 15px;
+  padding: 0.25% 0.7% 0.15% 0.7%;
 }
+
+.hover-geo {
+  position: absolute;
+  margin-bottom: 50vh;
+  bottom: 8vh;
+  left: 1vw;
+  z-index: 2;
+}
+
 
 .pop-up-overlay {
  	position:absolute;

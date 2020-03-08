@@ -144,7 +144,7 @@ m_line_width = 1
 m_line_alpha = 0.8
 
 
-p21 = figure(title="Venezuelan Refugees", width=550, height=660, x_axis_location=None, y_axis_location=None, toolbar_location="left", tools="pan,wheel_zoom,reset")
+p21 = figure(title="Venezuelan Refugees (Select a Department)", width=550, height=660, x_axis_location=None, y_axis_location=None, toolbar_location="left", tools="pan,wheel_zoom,reset")
 p21.grid.grid_line_color = None
 p21.sizing_mode = 'scale_width'
 p21.outline_line_alpha = 0
