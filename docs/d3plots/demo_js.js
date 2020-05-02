@@ -43,16 +43,19 @@ function dashboard(id, fData){
             .attr("width", x.rangeBand())
             .attr("height", function(d) { return hGDim.h - y(d[1]); })
             .attr('fill',barColor)
-            .on("mouseover",mouseover)// mouseover is defined below.
-            .on("mouseout",mouseout);// mouseout is defined below.
+            .on("mouseover", mouseover)// mouseover is defined below.
+            .on("mouseout", mouseout);// mouseout is defined below.
 
         //Create the frequency labels above the rectangles.
         bars.append("text").text(function(d){ return d3.format(",")(d[1])})
             .attr("x", function(d) { return x(d[0])+x.rangeBand()/2; })
             .attr("y", function(d) { return y(d[1])-5; })
+            .style("fill", "#FFFFFF")
             .attr("text-anchor", "middle");
 
         function mouseover(d){  // utility function to be called on mouseover.
+            d3.select(this).attr("r", 10).style("fill", "#B3343A");
+
             // filter for selected state.
             var st = fData.filter(function(s){ return s.Sex == d[0];})[0],
                 nD = d3.keys(st.freq).map(function(s){ return {type:s, freq:st.freq[s]};});
@@ -63,6 +66,7 @@ function dashboard(id, fData){
         }
 
         function mouseout(d){    // utility function to be called on mouseout.
+            d3.select(this).attr("r", 10).style("fill", "#F68E93");
             // reset the pie-chart and legend.
             pC.update(tF);
             leg.update(tF);

@@ -33,14 +33,14 @@
     <div class="cover-subtitle">
       by Ashwin Padmanabhan and Meenusree Rajapandian
     </div>
-  </div>
-  <div class="footer-left dark">
+    </div>
+    <div class="footer-left dark">
     <i class="fas fa-map-marker-alt"></i> Medell&iacute;n, Colombia
-  </div>
-  <div class="footer-right dark">
+    </div>
+    <div class="footer-right dark">
     <i class="fas fa-map-marker-alt"></i> Caracas, Venezuela
+    </div>
   </div>
- </div>
 
   <div id="2" class="container bg-color">
     <img src="pictures/Boyaca.jpg" alt="portrait" class="img-content img-content-2">
@@ -62,24 +62,24 @@
             the two nations have time and again unified as one and stood firm on their beliefs of humanity.
         </p>
       </div>
+      </div>
     </div>
-  </div>
 
   <div id="4" class="container short">
-  <div class="slide3">
+    <div class="slide3">
     <div class="jg-legend">
       <div class="color-box color-1"> </div> Colombian refugees in Venezuela
       <div class="color-box color-2"> </div> Venezuelan refugees in Colombia
     </div>
-  <div class="slide3-txt">
+    <div class="slide3-txt">
     <p>Prompted by civil strife and violence, Colombians have historically fled to Venezuela in search for a safer
     and better quality of life. The number refugees from Colombia especially saw sudden surge in the mid-2000s, when the
     fossil-fuel rich Venezuela boasted a strong economy due to robust crude-oil prices. <span class="span-high">The Venezuelans were welcoming</span>; the
     Chavez administration granted Colombians residency, the right to vote and other social benefits. The government
     even provided bus services to Colombians, since a lot of families lived across borders.
     In recent years though, the flow of refugees has completely reversed. </p>
-  </div>
-  <div id = "differenceplot" class="slide3-plt">
+    </div>
+    <div id = "differenceplot" class="slide3-plt">
       <!-- <script src="differenceplot_js.js?"></script> -->
     <script>
     var margin = {top: 10, right: 20, bottom: -100, left: 10},
@@ -198,15 +198,16 @@
     });
       </script>
     </div>
+    </div>
   </div>
-</div>
+
 
   <div id="6" class="container">
     <img src="pictures/vennotes3.jpg" alt="portrait" class="img-content img-content-2">
     <div class="slide6-container">
-    <div id = "infl" class="inflat-plot" >
-    <script src="inflation_js_test.js?"></script>
-    </div>
+      <div id = "infl" class="inflat-plot" >
+        <script src="d3plots/inflation_js_test.js?"></script>
+      </div>
     <div class="bottom-left">
         <!-- <p>Reason for inflation. Subsidy etc <br>
         Current USD to Bolivar currency. <br>
@@ -226,7 +227,7 @@
       <div class="hover">
         <h4> Hover to Animate </h4>
       </div>
-      <script src = geo_animation.js></script>
+      <div><script src = d3plots/geo_animation.js></script></div>
     </div>
     <div class="slide7-right">
       <div class="slide7-container slide7-container-text">
@@ -256,9 +257,9 @@
       </div>
     </div>
     <div class="pop-up-overlay" onclick="popUpOnClick()"></div>
-    <div id = "idexploreout" class="popup">
+    <div id = "idexploreout" class="popup popup-scroll">
       <h3> Click Nodes to Explore Tree </h3>
-      <div id = "idexplore" class = popup>
+        <div id = "idexplore" class = popup>
         <script src = "nodelink_js.js"></script>
         </div>
     </div>
@@ -267,7 +268,7 @@
 
   <div id="8" class="container-8">
     <div class="slide8">
-      <div id = "dashboard" class="slide8-plt"> <script src = "demo_js.js"></script> </div>
+      <div id = "dashboard" class="slide8-plt"> <script src = "d3plots/demo_js.js"></script> </div>
       <div class="slide8-txt">
         <p>
             An interative plot that illustrates the demographics of Refugees in Colombia. It is evident that a more than half the people affected are infact lesser
@@ -286,7 +287,7 @@
       </div>
     </div>
 
-  <div id="secret" class="secret" data-visible-range="4000-5000">
+    <div id="secret" class="secret" data-visible-range="4000-5000">
       <div id = "groupstackbar">
           <div class="stacked-chart-container js-stacked-chart-container">
               <form class="controls">
@@ -311,11 +312,11 @@
                 <% }); %>
             </table>
           </script>
-          <script type="text/javascript" src= "group_stack_bar.js"></script>
-    </div>
+          <script type="text/javascript" src= "d3plots/group_stack_bar.js"></script>
+        </div>
 
-    <div class="slide8-spacer">
-    </div>
+      <div class="slide8-spacer">
+      </div>
     </div>
 
   </div>
@@ -366,12 +367,12 @@
         and aid Colombia in it's efforts.
 
       </p>
-    </div>
-    <div class="slide10-plt1">
+      </div>
+      <div class="slide10-plt1">
       <div class="bk-root" id="f7d13be9-78f6-4a72-9c2e-83fa5cc869c5" data-root-id="1308"></div>
+      </div>
     </div>
-  </div>
-  <div class="slide10-left">
+    <div class="slide10-left">
     <div class="slide10-plt1">
       <div class="bk-root" id="eaa0dfb6-ef4b-49a2-8a5f-1f4200dd2c33" data-root-id="1390"></div>
     </div>
@@ -381,9 +382,8 @@
       not faced such a challenge before and must be aided in terms of technology and resources to continue their efforts
       to help the Venezuelans.
     </p>
-  </div>
-  </div>
-
+    </div>
+    </div>
   </div>
 
   <div id="11" class="container bg">
@@ -400,14 +400,13 @@
             crisis we face and be proof that we are united as a single human race. There are lessons to be learnt from the
             events in Venezuela, but first we must extend our support to the people affected in any small way we can. Perhaps
             this Visualization tool amounts to a very tiny effort towards this cause. The amount may be little, but our support is sincere.
-<br>
+            <br>
             Data Sources : UNHCR, UNDESA, DANE, Migracion Colombia
             </p>
         </div>
       </div>
-    </div>
   </div>
-
 </div>
+
 
 </html>

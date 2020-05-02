@@ -1,6 +1,6 @@
 "use strict"
 
-//given a point, creates x and y coordinates.  
+//given a point, creates x and y coordinates.
 var line = d3.svg.line()
     .x(function (point) {
         return point.lx;
@@ -48,14 +48,13 @@ var bubble_map = new Datamap({
     geographyConfig: {
         popupOnHover: true,
         highlightOnHover: true,
-        borderColor: '#444',
-        borderWidth: 0.5,
+        borderWidth: 2,
         dataUrl: 'https://raw.githubusercontent.com/meenurajapandian/CGDVColombia/master/Viz/geomap/world.topo.json'
     },
     fills: {
-        'MAJOR': '#306596',
+        'MAJOR': '#66229D',
         'MEDIUM': '#0fa0fa',
-        'MINOR': '#bada55',
+        'MINOR': '#E585C8',
         defaultFill: '#dddddd'
     },
     data: {
@@ -67,16 +66,16 @@ var bubble_map = new Datamap({
         }
     },
     setProjection: function (element) {
-        //element is the div box. This is moving the div box center and position. 
+        //element is the div box. This is moving the div box center and position.
         var projection = d3.geo.mercator()
-            .center([-70, 0]) // always in [East Latitude, North Longitude]
-            .scale(120)
+            .center([-55, 0]) // always in [East Latitude, North Longitude]
+            .scale(160)
             .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
 
         var path = d3.geo.path().projection(projection);
         return {
             path: path,
-            projection: projection 
+            projection: projection
         };
     }
 });
@@ -86,7 +85,7 @@ let bubbles = [
 {
     centered: "COL",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -94,7 +93,7 @@ let bubbles = [
 {
     centered: "ARG",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -102,7 +101,7 @@ let bubbles = [
 {
     centered: "BRA",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -110,7 +109,7 @@ let bubbles = [
 {
     centered: "CHL",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -118,7 +117,7 @@ let bubbles = [
 {
     centered: "ECU",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -126,7 +125,7 @@ let bubbles = [
 {
     centered: "MEX",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -134,7 +133,7 @@ let bubbles = [
 {
     centered: "PAN",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -142,7 +141,7 @@ let bubbles = [
 {
     centered: "PER",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -150,7 +149,7 @@ let bubbles = [
 {
     centered: "ESP",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -158,7 +157,7 @@ let bubbles = [
 {
     centered: "USA",
     fillKey: "MINOR",
-    radius: 5,
+    radius: 7,
     state: "CA",
     arrowDirectionAngle: 0,
     arrowLineLength: 0
@@ -169,91 +168,91 @@ let bubbles = [
 //To Colombia.
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 150,
-    arrowLineLength: 10
+    arrowLineLength: 13
 },
 {
 //TO Argentina
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 90,
-    arrowLineLength: 90
+    arrowLineLength: 120
 },
 {
 //To Brazil
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 55,
-    arrowLineLength: 40
+    arrowLineLength: 53
 },
 {
 //To Chile
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 96,
-    arrowLineLength: 105
+    arrowLineLength: 140
 },
 {
 //To Ecuador
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 145,
-    arrowLineLength: 25
+    arrowLineLength: 33
 },
 {
 //To Mexico
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 206,
-    arrowLineLength: 78
+    arrowLineLength: 104
 },
 {
 //To Panama
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 188,
-    arrowLineLength: 22
+    arrowLineLength: 29
 },
 {
 //To Peru
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 115,
-    arrowLineLength: 30
+    arrowLineLength: 40
 },
 {
 //To Spain
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 329,
-    arrowLineLength: 142
+    arrowLineLength: 191
 },
 {
 //TO USA
     centered: "VEN",
     fillKey: "MAJOR",
-    radius: 10,
+    radius: 12,
     state: "CA",
     arrowDirectionAngle: 228,
-    arrowLineLength: 95
+    arrowLineLength: 127
 }
 ]
 
@@ -265,8 +264,8 @@ function renderArrows(targetElementId) {
         .attr("id", "arrow")
         .attr("refX", 2)
         .attr("refY", 6)
-        .attr("markerWidth", 13)
-        .attr("markerHeight", 13)
+        .attr("markerWidth", 1)
+        .attr("markerHeight", 1)
         .attr("orient", "auto")
         .append("svg:path")
         .attr("d", "M2,2 L2,11 L10,6 L2,2");
@@ -298,15 +297,16 @@ function renderArrows(targetElementId) {
                         y: yPosition + radius * Math.sin(theta)
                     }
                 }])
-                .style("stroke", "blue")
+                .style("stroke", "#66229D")
                 .style("stroke-width", "1.5px")
-                .style("fill", "white")
+                .style("fill", "#C49EE3")
                 //.style("marker-end", "url(#arrow)")
                 .attr("d", lineData);
 
 
             let arrow = svgRoot.append("svg:path")
-                .attr("d", d3.svg.symbol().type("triangle-down")(10, 1));
+                .attr("d", d3.svg.symbol().type("triangle-down")(5, 1))
+                .attr("fill", "#66229D");
 
 
             arrow.transition()
@@ -341,7 +341,7 @@ var refugeescale = d3.scale.ordinal()
 //     });
 //     renderArrows("world");
 // }, 1000);
- 
+
 
 var svgobj = d3.select("#world")
                 .on("mouseenter",settimeout1)
@@ -360,4 +360,3 @@ function settimeout1(){
 function setmouseout(){
     d3.selectAll("svg:defs").remove()
 }
-
