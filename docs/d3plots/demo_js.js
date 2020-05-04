@@ -54,7 +54,6 @@ function dashboard(id, fData){
             .attr("text-anchor", "middle");
 
         function mouseover(d){  // utility function to be called on mouseover.
-            d3.select(this).attr("r", 10).style("fill", "#B3343A");
 
             // filter for selected state.
             var st = fData.filter(function(s){ return s.Sex == d[0];})[0],
@@ -66,7 +65,6 @@ function dashboard(id, fData){
         }
 
         function mouseout(d){    // utility function to be called on mouseout.
-            d3.select(this).attr("r", 10).style("fill", "#F68E93");
             // reset the pie-chart and legend.
             pC.update(tF);
             leg.update(tF);

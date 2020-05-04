@@ -167,7 +167,7 @@ p21.add_glyph(s22, display1)
 p22 = figure(title="Population Density (sq.km)", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
-#p22.sizing_mode = 'scale_width'
+p22.sizing_mode = 'scale_both'
 p22.grid.grid_line_color = None
 p22.outline_line_alpha = 0
 p22.toolbar.logo = None
@@ -185,7 +185,7 @@ p22.add_glyph(s23, display2)
 p23 = figure(title="Unemployment", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
-#p23.sizing_mode = 'scale_width'
+p23.sizing_mode = 'scale_both'
 p23.grid.grid_line_color = None
 p23.outline_line_alpha = 0
 p23.toolbar.logo = None
@@ -203,7 +203,7 @@ p23.add_glyph(s24, display3)
 p24 = figure(title="Poverty", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
-#p24.sizing_mode = 'scale_width'
+p24.sizing_mode = 'scale_both'
 p24.grid.grid_line_color = None
 p24.outline_line_alpha = 0
 p24.toolbar.logo = None
@@ -221,7 +221,7 @@ p24.add_glyph(s25, display4)
 p25 = figure(title="Illiteracy", width=275, height=330, x_axis_location=None, y_axis_location=None,
              toolbar_location="left", tools=[],
              x_range=p21.x_range, y_range=p21.y_range)
-#p25.sizing_mode = 'scale_width'
+p25.sizing_mode = 'scale_both'
 p25.grid.grid_line_color = None
 p25.outline_line_alpha = 0
 p25.toolbar.logo = None
@@ -242,7 +242,7 @@ p27.outline_line_alpha = 0
 
 callback2 = CustomJS(args=dict(s21=geo_src, s22=s22, s23=s23, s24=s24, s25=s25, s26=s26), code=
     """
-    var inds = cb_data.source.selected['1d'].indices
+    var inds = cb_data.source.selected.indices
     var d21 = s21.data
     var d22 = s22.data
     var d23 = s23.data
@@ -357,7 +357,7 @@ p41.yaxis.formatter = NumeralTickFormatter(format="0.0a")
 
 # Once done list all plots in a dictionary and generate script and div boxes to be added in the html file.
 plots = {'plot1': row(p11, p12), 'plot2': p21,
-         'plot3': column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
+         'plot31': p23, 'plot32': p24, 'plot33': p25, 'plot34': p22, #column(row(p23,p24,p25),row(p22,p26,p27), sizing_mode='scale_width'),
          'plot4': p31,
          'plot5': p41}
 
@@ -370,6 +370,6 @@ with open('plotsdiv.txt', 'w') as f:
     f.write(str(div))
 
 print(len(script))
-print(script[0:8])
+print(script[0:9])
 print(script[(len(script)-9):len(script)])
 print(div)

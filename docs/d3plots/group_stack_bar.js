@@ -23,7 +23,7 @@ var seriesNames = ["Below_17", "Below_29", "Below_39", "Below_49", "Below_59", "
     data = findata,
     stack = d3.layout.stack().values(function (d) { return d.values; });
 
-console.log(data)
+//console.log(data)
 
 stack(data);
 
@@ -31,9 +31,9 @@ var chartMode = "stacked",
     numEnabledSeries = numSeries,
     lastHoveredBarIndex,
     containerWidth = document.querySelector(".js-stacked-chart-container").clientWidth,
-    containerHeight = 500,
+    containerHeight = 450,
     margin = {top: 80, right: 30, bottom: 20, left: 30},
-    width = containerWidth - margin.left - margin.right,
+    width = containerWidth - margin.left - margin.right - 200,
     height = containerHeight - margin.top - margin.bottom,
     widthPerStack = width / numSamples,
     animationDuration = 400,
@@ -49,7 +49,7 @@ var chartMode = "stacked",
     legendSeriesLabelX = -5,
     legendSeriesLabelY = legendSeriesBoxHeight / 2,
     legendMargin = 20,
-    legendX = containerWidth - legendSeriesBoxWidth - legendMargin,
+    legendX = containerWidth - legendSeriesBoxWidth - legendMargin - 80,
     legendY = legendMargin,
     tooltipTemplate = _.template(document.querySelector(".js-tooltip-table-content").innerHTML),
     overlayTopPadding = 20,
